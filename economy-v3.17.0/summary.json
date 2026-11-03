@@ -1,0 +1,312 @@
+{
+  "version": "3.17.0",
+  "runs": 18,
+  "daysPerRun": 60,
+  "totalDays": 1080,
+  "seeds": [
+    17,
+    2026,
+    731
+  ],
+  "startingCash": 5000000,
+  "startingGiftInventoryCost": 2160000,
+  "moneyOrSalesInjected": false,
+  "gameFilesUnmodified": true,
+  "noAdsOrDiscountDecor": true,
+  "summary": [
+    {
+      "mode": "manual",
+      "label": "수동 보충",
+      "runs": 3,
+      "finalCashMean": 223845833.33333334,
+      "finalCashMin": 179058000,
+      "finalCashMax": 262844500,
+      "finalInventoryMean": 90358500,
+      "stage6Days": [
+        33,
+        35,
+        34
+      ],
+      "endingDays": [
+        52,
+        null,
+        54
+      ],
+      "negativeCashDays": 0,
+      "zeroSaleDays": 0,
+      "minimumObservedCash": 325000,
+      "stockoutNonpurchaseDeparturesMean": 10.666666666666666,
+      "partialAutoCashBlockedSecondsMean": 0,
+      "manualOrderTransactionsMean": 1113.6666666666667,
+      "expressFeesMean": 0,
+      "last10DayOperatingSurplusMean": 10806100,
+      "last10DayRevenueMean": 39190500,
+      "last10DayFixedCostsMean": 280000
+    },
+    {
+      "mode": "automatic",
+      "label": "기본 자동 위임",
+      "runs": 3,
+      "finalCashMean": 138171166.66666666,
+      "finalCashMin": 126366500,
+      "finalCashMax": 157426500,
+      "finalInventoryMean": 114122833.33333333,
+      "stage6Days": [
+        41,
+        42,
+        41
+      ],
+      "endingDays": [
+        null,
+        null,
+        null
+      ],
+      "negativeCashDays": 0,
+      "zeroSaleDays": 0,
+      "minimumObservedCash": 325000,
+      "stockoutNonpurchaseDeparturesMean": 9.666666666666666,
+      "partialAutoCashBlockedSecondsMean": 1448.6666666666667,
+      "manualOrderTransactionsMean": 101.33333333333333,
+      "expressFeesMean": 0,
+      "last10DayOperatingSurplusMean": 9549833.333333334,
+      "last10DayRevenueMean": 34996700,
+      "last10DayFixedCostsMean": 400000
+    },
+    {
+      "mode": "express",
+      "label": "기본 자동+긴급 개입",
+      "runs": 3,
+      "finalCashMean": 132251666.66666667,
+      "finalCashMin": 124836500,
+      "finalCashMax": 139894500,
+      "finalInventoryMean": 123411500,
+      "stage6Days": [
+        43,
+        42,
+        41
+      ],
+      "endingDays": [
+        null,
+        null,
+        null
+      ],
+      "negativeCashDays": 0,
+      "zeroSaleDays": 0,
+      "minimumObservedCash": 325000,
+      "stockoutNonpurchaseDeparturesMean": 8,
+      "partialAutoCashBlockedSecondsMean": 1616,
+      "manualOrderTransactionsMean": 107.33333333333333,
+      "expressFeesMean": 3650000,
+      "last10DayOperatingSurplusMean": 9703066.666666666,
+      "last10DayRevenueMean": 35908500,
+      "last10DayFixedCostsMean": 400000
+    },
+    {
+      "mode": "tuned",
+      "label": "예약 수량3개",
+      "runs": 3,
+      "finalCashMean": 48470166.666666664,
+      "finalCashMin": 42692500,
+      "finalCashMax": 54294000,
+      "finalInventoryMean": 158869833.33333334,
+      "stage6Days": [
+        48,
+        46,
+        49
+      ],
+      "endingDays": [
+        null,
+        null,
+        null
+      ],
+      "negativeCashDays": 0,
+      "zeroSaleDays": 0,
+      "minimumObservedCash": 325000,
+      "stockoutNonpurchaseDeparturesMean": 15.666666666666666,
+      "partialAutoCashBlockedSecondsMean": 3022,
+      "manualOrderTransactionsMean": 101.33333333333333,
+      "expressFeesMean": 0,
+      "last10DayOperatingSurplusMean": 8783950,
+      "last10DayRevenueMean": 31950000,
+      "last10DayFixedCostsMean": 400000
+    },
+    {
+      "mode": "lean",
+      "label": "예약 기준1개·수량1개",
+      "runs": 3,
+      "finalCashMean": 191882500,
+      "finalCashMin": 188068000,
+      "finalCashMax": 199050000,
+      "finalInventoryMean": 74940166.66666667,
+      "stage6Days": [
+        39,
+        36,
+        37
+      ],
+      "endingDays": [
+        null,
+        59,
+        59
+      ],
+      "negativeCashDays": 0,
+      "zeroSaleDays": 0,
+      "minimumObservedCash": 325000,
+      "stockoutNonpurchaseDeparturesMean": 15,
+      "partialAutoCashBlockedSecondsMean": 693.6666666666666,
+      "manualOrderTransactionsMean": 101.33333333333333,
+      "expressFeesMean": 0,
+      "last10DayOperatingSurplusMean": 9503016.666666666,
+      "last10DayRevenueMean": 34792700,
+      "last10DayFixedCostsMean": 400000
+    },
+    {
+      "mode": "rush",
+      "label": "빠른 확장·적은 예비금",
+      "runs": 3,
+      "finalCashMean": 148730166.66666666,
+      "finalCashMin": 136710000,
+      "finalCashMax": 168461000,
+      "finalInventoryMean": 125960333.33333333,
+      "stage6Days": [
+        38,
+        39,
+        38
+      ],
+      "endingDays": [
+        60,
+        59,
+        null
+      ],
+      "negativeCashDays": 0,
+      "zeroSaleDays": 0,
+      "minimumObservedCash": 42500,
+      "stockoutNonpurchaseDeparturesMean": 51,
+      "partialAutoCashBlockedSecondsMean": 3409.3333333333335,
+      "manualOrderTransactionsMean": 92.66666666666667,
+      "expressFeesMean": 0,
+      "last10DayOperatingSurplusMean": 9339533.333333334,
+      "last10DayRevenueMean": 34109566.666666664,
+      "last10DayFixedCostsMean": 400000
+    }
+  ],
+  "accountingAudits": [
+    {
+      "run": "rush-17",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 907570000
+    },
+    {
+      "run": "tuned-17",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 781175000
+    },
+    {
+      "run": "automatic-17",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 844320000
+    },
+    {
+      "run": "express-17",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 826340000
+    },
+    {
+      "run": "manual-17",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 0
+    },
+    {
+      "run": "tuned-2026",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 760635000
+    },
+    {
+      "run": "rush-2026",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 929455000
+    },
+    {
+      "run": "automatic-2026",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 837042500
+    },
+    {
+      "run": "express-2026",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 831052500
+    },
+    {
+      "run": "tuned-731",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 764822500
+    },
+    {
+      "run": "automatic-731",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 877195000
+    },
+    {
+      "run": "rush-731",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 926880000
+    },
+    {
+      "run": "express-731",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 927282500
+    },
+    {
+      "run": "manual-2026",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 0
+    },
+    {
+      "run": "manual-731",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 0
+    },
+    {
+      "run": "lean-17",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 831742500
+    },
+    {
+      "run": "lean-2026",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 833542500
+    },
+    {
+      "run": "lean-731",
+      "cashIdentityDifference": 0,
+      "cashAndInventoryIdentityDifference": 0,
+      "trueAutomaticInventorySpend": 893987500
+    }
+  ],
+  "limits": [
+    "Three seeds per policy, not a player-population or statistical guarantee.",
+    "Bot checks inventory every 10 simulation seconds; manual mode is unusually attentive.",
+    "All policies hire cashiers when queues grow, if affordable. Manual mode means no inventory employee.",
+    "Assortment expansion, mission rewards, hiring and customer story gifts use normal game actions only.",
+    "No optional ads, catalogue, amp, plant, poster or rug; one normal demo seat and unlocked drum demo are used.",
+    "Stockout nonpurchase count does not prove those visitors would have bought with stock available.",
+    "Cash net includes inventory and capital spending; operating surplus excludes capital spending and values sold units at purchase price. Express surcharges are expensed when ordered.",
+    "Opening staff purchases are reconciled from actual cash ledgers; tick-sampled auto-order counts are not used for conclusions."
+  ]
+}
