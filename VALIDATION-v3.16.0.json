@@ -1,0 +1,1051 @@
+{
+  "version": "3.16.0",
+  "simulation": {
+    "days": 99,
+    "sales": 2515,
+    "saveRoundTrips": 132,
+    "findings": [],
+    "runtimeErrors": [],
+    "scope": "45 starting-condition days, 54 later-stage fixture days with injected funds/mission history"
+  },
+  "regression": {
+    "checks": [
+      "natural low-cash last-rack scenario protected without state mutation",
+      "quick menu and management both disable last-rack sale",
+      "expand",
+      "hire first staff",
+      "basic threshold3 quantity5",
+      "reserved threshold3 quantity1",
+      "covered funded basic alert hidden",
+      "first employee cannot hide uncovered reserved product",
+      "basic alerts hidden even when globally disabled",
+      "basic alerts hidden even when product disabled",
+      "basic alerts hidden even when cash insufficient",
+      "exact reserve plus order hides alert",
+      "non-last rack sale allowed",
+      "remaining reserved rack permits opening",
+      "later expansion",
+      "later expansion",
+      "later expansion",
+      "hire second inventory employee",
+      "second employee covers reserved product",
+      "automatic reserved order",
+      "one unit next-day order",
+      "paid incoming order hides alert even with low cash",
+      "pending order blocks automatic duplicate",
+      "manual express allowed while normal delivery pending",
+      "express keeps pending order and charges exact fee",
+      "disabled automation remains visible with incoming",
+      "custom rules save restores",
+      "manual threshold and quantity persist",
+      "operations revenue and sold count update while panel remains open",
+      "actual sales crossing stock2 and stock0 suppress covered shortage toasts",
+      "operations menu pause/play/speed actual clicks",
+      "operations to mission transition pause/play/speed actual clicks",
+      "mission dialog pause/play/speed actual clicks",
+      "staff management pause/play/speed actual clicks",
+      "staff order settings pause/play/speed actual clicks",
+      "staff order settings still freeze simulation",
+      "320x568 stock menu pause/play/speed actual clicks",
+      "320x568 mission dialog pause/play/speed actual clicks",
+      "360x640 stock menu pause/play/speed actual clicks",
+      "360x640 mission dialog pause/play/speed actual clicks",
+      "390x844 stock menu pause/play/speed actual clicks",
+      "390x844 mission dialog pause/play/speed actual clicks",
+      "650x900 stock menu pause/play/speed actual clicks",
+      "650x900 mission dialog pause/play/speed actual clicks",
+      "651x900 stock menu pause/play/speed actual clicks",
+      "651x900 mission dialog pause/play/speed actual clicks",
+      "844x390 stock menu pause/play/speed actual clicks",
+      "844x390 mission dialog pause/play/speed actual clicks",
+      "1024x768 stock menu pause/play/speed actual clicks",
+      "1024x768 mission dialog pause/play/speed actual clicks",
+      "1440x900 stock menu pause/play/speed actual clicks",
+      "1440x900 mission dialog pause/play/speed actual clicks",
+      "next-stage mission explanation visible",
+      "settlement closes employee menu and next day cannot revive stale controls"
+    ],
+    "guard": {
+      "money": 70000,
+      "stock": 22,
+      "ready": true
+    },
+    "live": {
+      "sold": 17,
+      "label": "17",
+      "revenue": 7020000
+    },
+    "toastCheck": {
+      "transitions": [
+        2,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ],
+      "notes": [
+        "학생 밴드부원 첫 방문! 밴드부원 도하",
+        "인디밴드 연주자 첫 방문! 인디 연주자 나래",
+        "전문 세션 연주자 첫 방문! 세션 연주자 현우",
+        "악기 수집가 첫 방문! 수집가 선영",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고"
+      ]
+    },
+    "layouts": [
+      {
+        "width": 320,
+        "height": 568,
+        "day": {
+          "x": 22,
+          "y": 73.5,
+          "w": 46.203125,
+          "h": 16,
+          "right": 68.203125,
+          "bottom": 89.5
+        },
+        "clock": {
+          "x": 74.203125,
+          "y": 73.5,
+          "w": 27.5,
+          "h": 16,
+          "right": 101.703125,
+          "bottom": 89.5
+        },
+        "pause": {
+          "x": 204,
+          "y": 69,
+          "w": 44,
+          "h": 44,
+          "right": 248,
+          "bottom": 113
+        },
+        "hud": {
+          "x": 10,
+          "y": 10,
+          "w": 300,
+          "h": 114,
+          "right": 310,
+          "bottom": 124
+        },
+        "overflow": false
+      },
+      {
+        "width": 360,
+        "height": 640,
+        "day": {
+          "x": 22,
+          "y": 73.5,
+          "w": 46.203125,
+          "h": 16,
+          "right": 68.203125,
+          "bottom": 89.5
+        },
+        "clock": {
+          "x": 74.203125,
+          "y": 73.5,
+          "w": 27.5,
+          "h": 16,
+          "right": 101.703125,
+          "bottom": 89.5
+        },
+        "pause": {
+          "x": 244,
+          "y": 69,
+          "w": 44,
+          "h": 44,
+          "right": 288,
+          "bottom": 113
+        },
+        "hud": {
+          "x": 10,
+          "y": 10,
+          "w": 340,
+          "h": 114,
+          "right": 350,
+          "bottom": 124
+        },
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "day": {
+          "x": 22,
+          "y": 73.5,
+          "w": 46.203125,
+          "h": 16,
+          "right": 68.203125,
+          "bottom": 89.5
+        },
+        "clock": {
+          "x": 74.203125,
+          "y": 73.5,
+          "w": 27.5,
+          "h": 16,
+          "right": 101.703125,
+          "bottom": 89.5
+        },
+        "pause": {
+          "x": 274,
+          "y": 69,
+          "w": 44,
+          "h": 44,
+          "right": 318,
+          "bottom": 113
+        },
+        "hud": {
+          "x": 10,
+          "y": 10,
+          "w": 370,
+          "h": 114,
+          "right": 380,
+          "bottom": 124
+        },
+        "overflow": false
+      },
+      {
+        "width": 650,
+        "height": 900,
+        "day": {
+          "x": 22,
+          "y": 73.5,
+          "w": 46.203125,
+          "h": 16,
+          "right": 68.203125,
+          "bottom": 89.5
+        },
+        "clock": {
+          "x": 74.203125,
+          "y": 73.5,
+          "w": 27.5,
+          "h": 16,
+          "right": 101.703125,
+          "bottom": 89.5
+        },
+        "pause": {
+          "x": 534,
+          "y": 69,
+          "w": 44,
+          "h": 44,
+          "right": 578,
+          "bottom": 113
+        },
+        "hud": {
+          "x": 10,
+          "y": 10,
+          "w": 630,
+          "h": 114,
+          "right": 640,
+          "bottom": 124
+        },
+        "overflow": false
+      },
+      {
+        "width": 651,
+        "height": 900,
+        "day": {
+          "x": 22,
+          "y": 74,
+          "w": 46.203125,
+          "h": 16,
+          "right": 68.203125,
+          "bottom": 90
+        },
+        "clock": {
+          "x": 74.203125,
+          "y": 74,
+          "w": 27.5,
+          "h": 16,
+          "right": 101.703125,
+          "bottom": 90
+        },
+        "pause": {
+          "x": 535,
+          "y": 69,
+          "w": 44,
+          "h": 44,
+          "right": 579,
+          "bottom": 113
+        },
+        "hud": {
+          "x": 10,
+          "y": 10,
+          "w": 631,
+          "h": 114,
+          "right": 641,
+          "bottom": 124
+        },
+        "overflow": false
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "day": {
+          "x": 22,
+          "y": 74,
+          "w": 46.203125,
+          "h": 16,
+          "right": 68.203125,
+          "bottom": 90
+        },
+        "clock": {
+          "x": 74.203125,
+          "y": 74,
+          "w": 27.5,
+          "h": 16,
+          "right": 101.703125,
+          "bottom": 90
+        },
+        "pause": {
+          "x": 728,
+          "y": 69,
+          "w": 44,
+          "h": 44,
+          "right": 772,
+          "bottom": 113
+        },
+        "hud": {
+          "x": 10,
+          "y": 10,
+          "w": 824,
+          "h": 114,
+          "right": 834,
+          "bottom": 124
+        },
+        "overflow": false
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "day": {
+          "x": 470.046875,
+          "y": 46.5,
+          "w": 58.8125,
+          "h": 20,
+          "right": 528.859375,
+          "bottom": 66.5
+        },
+        "clock": {
+          "x": 536.859375,
+          "y": 46.5,
+          "w": 35,
+          "h": 20,
+          "right": 571.859375,
+          "bottom": 66.5
+        },
+        "pause": {
+          "x": 832,
+          "y": 34.5,
+          "w": 44,
+          "h": 44,
+          "right": 876,
+          "bottom": 78.5
+        },
+        "hud": {
+          "x": 22,
+          "y": 18,
+          "w": 980,
+          "h": 77,
+          "right": 1002,
+          "bottom": 95
+        },
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "day": {
+          "x": 886.046875,
+          "y": 46.5,
+          "w": 58.8125,
+          "h": 20,
+          "right": 944.859375,
+          "bottom": 66.5
+        },
+        "clock": {
+          "x": 952.859375,
+          "y": 46.5,
+          "w": 35,
+          "h": 20,
+          "right": 987.859375,
+          "bottom": 66.5
+        },
+        "pause": {
+          "x": 1248,
+          "y": 34.5,
+          "w": 44,
+          "h": 44,
+          "right": 1292,
+          "bottom": 78.5
+        },
+        "hud": {
+          "x": 22,
+          "y": 18,
+          "w": 1396,
+          "h": 77,
+          "right": 1418,
+          "bottom": 95
+        },
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  "alertPolicy": {
+    "checks": [
+      "all 3 basic instruments and 8 consumables alert with no inventory employee; cashier does not mute",
+      "hiring first employee removes basics immediately from decoration warning; reserved alert remains",
+      "basics remain hidden at stock0/1/2, global on/off, product off, quantity999, threshold0 and zero funds",
+      "left HUD and operation warning contain only reserved product",
+      "left HUD and operation warning disappear immediately when only basic products remain",
+      "auto toggle clears reserved HUD and decoration warnings during preparation",
+      "paid reserved restock removes stale decoration list and HUD immediately",
+      "mute policy survives save import with zero stock and disabled product rules",
+      "22 checkout sales cross stock2/0 for all 11 basics with automation off and emit no shortage toasts",
+      "dismissing all inventory employees restores ordinary low-stock alerts"
+    ],
+    "initial": {
+      "basic": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        19,
+        20
+      ],
+      "low": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        19,
+        20,
+        9
+      ],
+      "staff": 0,
+      "cashier": 1
+    },
+    "hired": {
+      "staff": 1,
+      "low": [
+        9
+      ],
+      "list": "재고 확인 · 1종손님은 품절이어도 방문해요.블루 아워 ST · 2개 남음주문하기"
+    },
+    "cases": [
+      {
+        "stock": 0,
+        "enabled": false,
+        "cash": 0,
+        "low": [
+          9
+        ]
+      },
+      {
+        "stock": 0,
+        "enabled": true,
+        "cash": 0,
+        "low": [
+          9
+        ]
+      },
+      {
+        "stock": 1,
+        "enabled": false,
+        "cash": 0,
+        "low": [
+          9
+        ]
+      },
+      {
+        "stock": 1,
+        "enabled": true,
+        "cash": 0,
+        "low": [
+          9
+        ]
+      },
+      {
+        "stock": 2,
+        "enabled": false,
+        "cash": 0,
+        "low": [
+          9
+        ]
+      },
+      {
+        "stock": 2,
+        "enabled": true,
+        "cash": 0,
+        "low": [
+          9
+        ]
+      }
+    ],
+    "ui": {
+      "text": "재고 확인 1종 · 상품 주문 ›",
+      "hidden": false,
+      "list": "재고 확인 · 1종손님은 품절이어도 방문해요.블루 아워 ST · 2개 남음주문하기"
+    },
+    "restock": {
+      "incoming": 1,
+      "low": [],
+      "hidden": true,
+      "warnings": 0
+    },
+    "restored": {
+      "ok": true,
+      "staff": 2,
+      "low": [],
+      "basics": [
+        {
+          "i": 0,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 1,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 2,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 3,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 4,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 5,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 6,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 7,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 8,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 19,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        },
+        {
+          "i": 20,
+          "stock": 0,
+          "rule": {
+            "enabled": false,
+            "quantity": 999,
+            "at": 0
+          }
+        }
+      ]
+    },
+    "saleToasts": {
+      "sales": 22,
+      "shortageNotes": []
+    },
+    "errors": []
+  },
+  "thumbnailChecks": {
+    "results": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "items": [
+          {
+            "type": 0,
+            "name": "기타 진열대",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 75.4,
+              "h": 79.9
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 1,
+            "name": "계산대",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 79.9,
+              "h": 59.6
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 2,
+            "name": "앰프 전시대",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 56.3,
+              "h": 79.9
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 3,
+            "name": "몬스테라",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 68.6,
+              "h": 79.9
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 4,
+            "name": "악기 시연석",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 59.6,
+              "h": 79.9
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 5,
+            "name": "소품 진열장",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 79.9,
+              "h": 78.8
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 6,
+            "name": "전자드럼 진열대",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 79.9,
+              "h": 48.4
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 7,
+            "name": "전자드럼 시연 공간",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 79.9,
+              "h": 77.6
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 8,
+            "name": "거래처 카탈로그",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 56.3,
+              "h": 79.9
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 9,
+            "name": "빈티지 러그",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 79.9,
+              "h": 39.4
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 10,
+            "name": "공연 포스터 보드",
+            "box": {
+              "w": 90,
+              "h": 90
+            },
+            "canvas": {
+              "w": 90,
+              "h": 90
+            },
+            "visibleImage": {
+              "w": 59.6,
+              "h": 79.9
+            },
+            "touchesCanvasEdge": false
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "items": [
+          {
+            "type": 0,
+            "name": "기타 진열대",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 63.6,
+              "h": 67.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 1,
+            "name": "계산대",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 67.5,
+              "h": 50.3
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 2,
+            "name": "앰프 전시대",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 47.5,
+              "h": 67.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 3,
+            "name": "몬스테라",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 57.9,
+              "h": 67.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 4,
+            "name": "악기 시연석",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 50.3,
+              "h": 67.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 5,
+            "name": "소품 진열장",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 67.5,
+              "h": 66.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 6,
+            "name": "전자드럼 진열대",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 67.5,
+              "h": 40.9
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 7,
+            "name": "전자드럼 시연 공간",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 67.5,
+              "h": 65.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 8,
+            "name": "거래처 카탈로그",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 47.5,
+              "h": 67.5
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 9,
+            "name": "빈티지 러그",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 67.5,
+              "h": 33.3
+            },
+            "touchesCanvasEdge": false
+          },
+          {
+            "type": 10,
+            "name": "공연 포스터 보드",
+            "box": {
+              "w": 76,
+              "h": 76
+            },
+            "canvas": {
+              "w": 76,
+              "h": 76
+            },
+            "visibleImage": {
+              "w": 50.3,
+              "h": 67.5
+            },
+            "touchesCanvasEdge": false
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "reload": [
+    {
+      "case": "v3.16.0 page reload",
+      "passed": true,
+      "guests": 3
+    },
+    {
+      "case": "v3.13.0 save → v3.16.0",
+      "passed": true,
+      "guests": 2
+    },
+    {
+      "case": "v3.14.0 save → v3.16.0",
+      "passed": true,
+      "guests": 4
+    },
+    {
+      "case": "v3.15.0 save → v3.16.0",
+      "passed": true,
+      "guests": 4
+    }
+  ],
+  "artifact": {
+    "file": "little-tone-v3.16.0-web.zip",
+    "bytes": 13083345,
+    "sha256": "74ef72ee462caed27c5ca506f3c501bd8561f7daa1f9b10bd79043cf51300e3d",
+    "manifestVerifiedFiles": 36,
+    "zipIntegrityPassed": true
+  }
+}
