@@ -1,0 +1,21 @@
+{
+  "source": "v3.17.0 native renderer and shipped sprite assets",
+  "previewOnly": true,
+  "sourceFilesChanged": false,
+  "overview": {
+    "camera": {
+      "w": 1600,
+      "h": 1000,
+      "scale": 1.0560344827586208,
+      "dpr": 1,
+      "panX": 0,
+      "panY": 0,
+      "centerX": 636,
+      "centerY": 448,
+      "midY": 477.5,
+      "zoom": 1
+    },
+    "fixtures": 17
+  },
+  "errors": []
+}
