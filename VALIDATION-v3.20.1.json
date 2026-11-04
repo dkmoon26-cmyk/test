@@ -1,0 +1,7631 @@
+{
+  "version": "3.20.1",
+  "schema": 24,
+  "cleanupValidationPassed": true,
+  "knownIssueCount": 4,
+  "knownIssuesFixedInThisRelease": 0,
+  "artifacts": [
+    {
+      "name": "little-tone-v3.20.1-web.zip",
+      "bytes": 15955338,
+      "sha256": "86d21b442d60a575d0b4c7c7d6e8a54ba580bc35a109dadc6257117878589676",
+      "files": 40,
+      "verified": true
+    },
+    {
+      "name": "little-tone-v3.20.1-test-stage7-1b.zip",
+      "bytes": 15960003,
+      "sha256": "e458c53855ac937d20e406a52c5eb7bd6bb367b49e19e944e41d32b45e3e75e0",
+      "files": 42,
+      "verified": true
+    }
+  ],
+  "cleanup": [
+    {
+      "directory": "/workspace/little-tone-v3.20.1-web",
+      "oldApp": "app-f599118c92e5.js",
+      "newApp": "app-7ef670aab463.js",
+      "oldJSBytes": 694717,
+      "newJSBytes": 677089,
+      "oldHTMLBytes": 36290,
+      "newHTMLBytes": 26682,
+      "removedFunctions": [
+        "atelierPanel",
+        "expansionCard"
+      ],
+      "removedImages": [
+        {
+          "key": "assets/people-everyday-v310.webp",
+          "path": "assets/people-everyday-v310-dfaeccef11f3.webp",
+          "bytes": 644750
+        },
+        {
+          "key": "assets/people-regulars-v310.webp",
+          "path": "assets/people-regulars-v310-bff25052566c.webp",
+          "bytes": 626752
+        },
+        {
+          "key": "assets/people-story-v310.webp",
+          "path": "assets/people-story-v310-7fb299c30fe8.webp",
+          "bytes": 648984
+        },
+        {
+          "key": "assets/people-special-v310.webp",
+          "path": "assets/people-special-v310-2e7285a617a0.webp",
+          "bytes": 635038
+        },
+        {
+          "key": "assets/people-team-v310.webp",
+          "path": "assets/people-team-v310-594e20771393.webp",
+          "bytes": 586468
+        },
+        {
+          "key": "assets/drummer-v350.webp",
+          "path": "assets/drummer-v350-6b56b2977b4c.webp",
+          "bytes": 366472
+        },
+        {
+          "key": "assets/team-checkout-v3100.webp",
+          "path": "assets/team-checkout-v3100-5f52f0283333.webp",
+          "bytes": 274714
+        }
+      ],
+      "removedImageBytes": 3783178,
+      "remainingImages": 33
+    },
+    {
+      "directory": "/workspace/little-tone-v3.20.1-test-web",
+      "oldApp": "app-f179e89cdda4.js",
+      "newApp": "app-5ae5197bf851.js",
+      "oldJSBytes": 697733,
+      "newJSBytes": 680105,
+      "oldHTMLBytes": 41918,
+      "newHTMLBytes": 32310,
+      "removedFunctions": [
+        "atelierPanel",
+        "expansionCard"
+      ],
+      "removedImages": [
+        {
+          "key": "assets/people-everyday-v310.webp",
+          "path": "assets/people-everyday-v310-dfaeccef11f3.webp",
+          "bytes": 644750
+        },
+        {
+          "key": "assets/people-regulars-v310.webp",
+          "path": "assets/people-regulars-v310-bff25052566c.webp",
+          "bytes": 626752
+        },
+        {
+          "key": "assets/people-story-v310.webp",
+          "path": "assets/people-story-v310-7fb299c30fe8.webp",
+          "bytes": 648984
+        },
+        {
+          "key": "assets/people-special-v310.webp",
+          "path": "assets/people-special-v310-2e7285a617a0.webp",
+          "bytes": 635038
+        },
+        {
+          "key": "assets/people-team-v310.webp",
+          "path": "assets/people-team-v310-594e20771393.webp",
+          "bytes": 586468
+        },
+        {
+          "key": "assets/drummer-v350.webp",
+          "path": "assets/drummer-v350-6b56b2977b4c.webp",
+          "bytes": 366472
+        },
+        {
+          "key": "assets/team-checkout-v3100.webp",
+          "path": "assets/team-checkout-v3100-5f52f0283333.webp",
+          "bytes": 274714
+        }
+      ],
+      "removedImageBytes": 3783178,
+      "remainingImages": 33
+    }
+  ],
+  "pixelAndSaveComparison": {
+    "pass": true,
+    "images": 33,
+    "characterPoses": 176,
+    "identicalCharacterPixels": true,
+    "characterSHA256": "7e051ad361b71bde564cbee1c13a077dd4f8863ab9539f36453cf2e19d24b6a8",
+    "saveVersion": 24,
+    "previousReleaseSaveIdentical": true,
+    "errors": [],
+    "failed": []
+  },
+  "audit": {
+    "version": "3.20.0",
+    "editor": {
+      "enabled": true,
+      "status": "4×4칸 · 배치 가능 · 문 위치는 다음 화면에서 조절",
+      "committed": false,
+      "toast": "VIP 구역은 8×8칸으로 지정해주세요"
+    },
+    "duplicateDisplay": {
+      "stock": 1,
+      "configured": 3,
+      "offered": 1,
+      "allImagesIdentical": true,
+      "ids": [
+        4,
+        5,
+        6
+      ]
+    },
+    "desks": {
+      "firstDeskId": 8,
+      "secondDeskId": 13,
+      "beforeRemovingFirst": [
+        "상담 테이블 옆 직원 자리 확보"
+      ],
+      "afterRemovingFirst": []
+    },
+    "restState": {
+      "chairId": 3,
+      "logical": {
+        "x": 4,
+        "y": 5
+      },
+      "rendered": {
+        "x": 4.4,
+        "y": 4.2
+      },
+      "difference": 0.8944271909999159,
+      "path": []
+    },
+    "assets": {
+      "drawn": [
+        "assets/walk-everyday-a-v3120.webp",
+        "assets/walk-everyday-b-v3120.webp",
+        "assets/walk-regulars-a-v3120.webp",
+        "assets/walk-regulars-b-v3120.webp",
+        "assets/walk-story-a-v3120.webp",
+        "assets/walk-story-b-v3120.webp",
+        "assets/walk-special-a-v3120.webp",
+        "assets/walk-special-b-v3120.webp",
+        "assets/checkout-v3130.webp",
+        "assets/walk-team-v3120.webp",
+        "assets/walk-drummer-v3120.webp",
+        "assets/empty-rack-v7.webp",
+        "assets/instruments-0-v340.webp",
+        "assets/lounge-v3200.webp",
+        "assets/furniture.webp",
+        "assets/atelier-v3180.webp",
+        "assets/horizontal-v3200.webp",
+        "assets/instruments-1-v340.webp",
+        "assets/acoustics-v3200.webp",
+        "assets/interior-v3180.webp",
+        "assets/people-v3200.webp",
+        "assets/instruments-2-v340.webp",
+        "assets/vip-v3180.webp",
+        "assets/audition-v3130.webp",
+        "assets/empty-cabinet-v3.webp",
+        "assets/goods-v3.webp",
+        "assets/drum-fixtures-v350.webp",
+        "assets/decor-v3130.webp",
+        "assets/drum-product-v350.webp"
+      ],
+      "legacyKeys": [
+        "assets/people-everyday-v310.webp",
+        "assets/people-regulars-v310.webp",
+        "assets/people-story-v310.webp",
+        "assets/people-special-v310.webp",
+        "assets/people-team-v310.webp",
+        "assets/drummer-v350.webp",
+        "assets/team-checkout-v3100.webp"
+      ],
+      "allNaturalActors": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "17",
+        "18",
+        "21"
+      ],
+      "checkoutActors": [
+        16,
+        19,
+        20
+      ],
+      "loadedKeys": [
+        "assets/furniture-back.webp",
+        "assets/furniture.webp",
+        "assets/goods-v3.webp",
+        "assets/empty-cabinet-v3.webp",
+        "assets/title-v1.webp",
+        "assets/empty-rack-v7.webp",
+        "assets/people-everyday-v310.webp",
+        "assets/people-regulars-v310.webp",
+        "assets/people-story-v310.webp",
+        "assets/people-special-v310.webp",
+        "assets/people-team-v310.webp",
+        "assets/instruments-0-v340.webp",
+        "assets/instruments-1-v340.webp",
+        "assets/instruments-2-v340.webp",
+        "assets/drum-fixtures-v350.webp",
+        "assets/drummer-v350.webp",
+        "assets/drum-product-v350.webp",
+        "assets/accessories-v370.webp",
+        "assets/team-checkout-v3100.webp",
+        "assets/walk-everyday-a-v3120.webp",
+        "assets/walk-everyday-b-v3120.webp",
+        "assets/walk-regulars-a-v3120.webp",
+        "assets/walk-regulars-b-v3120.webp",
+        "assets/walk-story-a-v3120.webp",
+        "assets/walk-story-b-v3120.webp",
+        "assets/walk-special-a-v3120.webp",
+        "assets/walk-special-b-v3120.webp",
+        "assets/walk-team-v3120.webp",
+        "assets/walk-drummer-v3120.webp",
+        "assets/decor-v3130.webp",
+        "assets/checkout-v3130.webp",
+        "assets/audition-v3130.webp",
+        "assets/vip-v3180.webp",
+        "assets/atelier-v3180.webp",
+        "assets/interior-v3180.webp",
+        "assets/wall-details-v3190.webp",
+        "assets/acoustics-v3200.webp",
+        "assets/people-v3200.webp",
+        "assets/lounge-v3200.webp",
+        "assets/horizontal-v3200.webp"
+      ],
+      "packing": {
+        "assets/people-everyday-v310.webp": {
+          "width": 1677,
+          "height": 749,
+          "regions": [
+            {
+              "source": [
+                538,
+                519,
+                134,
+                252
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                193,
+                519,
+                136,
+                250
+              ],
+              "target": [
+                140,
+                2
+              ]
+            },
+            {
+              "source": [
+                31,
+                519,
+                133,
+                250
+              ],
+              "target": [
+                280,
+                2
+              ]
+            },
+            {
+              "source": [
+                363,
+                519,
+                140,
+                249
+              ],
+              "target": [
+                417,
+                2
+              ]
+            },
+            {
+              "source": [
+                1366,
+                520,
+                136,
+                249
+              ],
+              "target": [
+                561,
+                2
+              ]
+            },
+            {
+              "source": [
+                859,
+                520,
+                135,
+                249
+              ],
+              "target": [
+                701,
+                2
+              ]
+            },
+            {
+              "source": [
+                544,
+                264,
+                138,
+                248
+              ],
+              "target": [
+                840,
+                2
+              ]
+            },
+            {
+              "source": [
+                698,
+                520,
+                132,
+                248
+              ],
+              "target": [
+                982,
+                2
+              ]
+            },
+            {
+              "source": [
+                1208,
+                521,
+                117,
+                248
+              ],
+              "target": [
+                1118,
+                2
+              ]
+            },
+            {
+              "source": [
+                187,
+                264,
+                152,
+                247
+              ],
+              "target": [
+                1239,
+                2
+              ]
+            },
+            {
+              "source": [
+                22,
+                264,
+                150,
+                247
+              ],
+              "target": [
+                1395,
+                2
+              ]
+            },
+            {
+              "source": [
+                1035,
+                521,
+                126,
+                247
+              ],
+              "target": [
+                1549,
+                2
+              ]
+            },
+            {
+              "source": [
+                362,
+                265,
+                144,
+                246
+              ],
+              "target": [
+                2,
+                258
+              ]
+            },
+            {
+              "source": [
+                694,
+                265,
+                141,
+                246
+              ],
+              "target": [
+                150,
+                258
+              ]
+            },
+            {
+              "source": [
+                1350,
+                266,
+                153,
+                245
+              ],
+              "target": [
+                295,
+                258
+              ]
+            },
+            {
+              "source": [
+                851,
+                266,
+                152,
+                245
+              ],
+              "target": [
+                452,
+                258
+              ]
+            },
+            {
+              "source": [
+                1180,
+                266,
+                146,
+                245
+              ],
+              "target": [
+                608,
+                258
+              ]
+            },
+            {
+              "source": [
+                1012,
+                266,
+                148,
+                244
+              ],
+              "target": [
+                758,
+                258
+              ]
+            },
+            {
+              "source": [
+                1372,
+                12,
+                128,
+                241
+              ],
+              "target": [
+                910,
+                258
+              ]
+            },
+            {
+              "source": [
+                536,
+                11,
+                122,
+                241
+              ],
+              "target": [
+                1042,
+                258
+              ]
+            },
+            {
+              "source": [
+                871,
+                12,
+                127,
+                240
+              ],
+              "target": [
+                1168,
+                258
+              ]
+            },
+            {
+              "source": [
+                1037,
+                12,
+                124,
+                240
+              ],
+              "target": [
+                1299,
+                258
+              ]
+            },
+            {
+              "source": [
+                705,
+                11,
+                117,
+                240
+              ],
+              "target": [
+                1427,
+                258
+              ]
+            },
+            {
+              "source": [
+                1201,
+                13,
+                124,
+                239
+              ],
+              "target": [
+                1548,
+                258
+              ]
+            },
+            {
+              "source": [
+                41,
+                13,
+                121,
+                239
+              ],
+              "target": [
+                2,
+                508
+              ]
+            },
+            {
+              "source": [
+                206,
+                13,
+                121,
+                239
+              ],
+              "target": [
+                127,
+                508
+              ]
+            },
+            {
+              "source": [
+                24,
+                775,
+                141,
+                238
+              ],
+              "target": [
+                252,
+                508
+              ]
+            },
+            {
+              "source": [
+                366,
+                14,
+                125,
+                238
+              ],
+              "target": [
+                397,
+                508
+              ]
+            },
+            {
+              "source": [
+                364,
+                777,
+                142,
+                236
+              ],
+              "target": [
+                526,
+                508
+              ]
+            },
+            {
+              "source": [
+                196,
+                777,
+                137,
+                235
+              ],
+              "target": [
+                672,
+                508
+              ]
+            },
+            {
+              "source": [
+                536,
+                778,
+                133,
+                235
+              ],
+              "target": [
+                813,
+                508
+              ]
+            },
+            {
+              "source": [
+                1365,
+                780,
+                134,
+                233
+              ],
+              "target": [
+                950,
+                508
+              ]
+            },
+            {
+              "source": [
+                698,
+                779,
+                133,
+                233
+              ],
+              "target": [
+                1088,
+                508
+              ]
+            },
+            {
+              "source": [
+                858,
+                780,
+                133,
+                233
+              ],
+              "target": [
+                1225,
+                508
+              ]
+            },
+            {
+              "source": [
+                1195,
+                780,
+                131,
+                233
+              ],
+              "target": [
+                1362,
+                508
+              ]
+            },
+            {
+              "source": [
+                1029,
+                780,
+                131,
+                232
+              ],
+              "target": [
+                1497,
+                508
+              ]
+            }
+          ]
+        },
+        "assets/people-regulars-v310.webp": {
+          "width": 1740,
+          "height": 749,
+          "regions": [
+            {
+              "source": [
+                29,
+                507,
+                135,
+                253
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                698,
+                508,
+                131,
+                253
+              ],
+              "target": [
+                141,
+                2
+              ]
+            },
+            {
+              "source": [
+                868,
+                508,
+                137,
+                252
+              ],
+              "target": [
+                276,
+                2
+              ]
+            },
+            {
+              "source": [
+                530,
+                509,
+                129,
+                251
+              ],
+              "target": [
+                417,
+                2
+              ]
+            },
+            {
+              "source": [
+                1389,
+                509,
+                137,
+                250
+              ],
+              "target": [
+                550,
+                2
+              ]
+            },
+            {
+              "source": [
+                196,
+                509,
+                136,
+                250
+              ],
+              "target": [
+                691,
+                2
+              ]
+            },
+            {
+              "source": [
+                363,
+                511,
+                142,
+                249
+              ],
+              "target": [
+                831,
+                2
+              ]
+            },
+            {
+              "source": [
+                1214,
+                510,
+                139,
+                249
+              ],
+              "target": [
+                977,
+                2
+              ]
+            },
+            {
+              "source": [
+                692,
+                257,
+                146,
+                247
+              ],
+              "target": [
+                1120,
+                2
+              ]
+            },
+            {
+              "source": [
+                1044,
+                512,
+                138,
+                247
+              ],
+              "target": [
+                1270,
+                2
+              ]
+            },
+            {
+              "source": [
+                691,
+                768,
+                146,
+                245
+              ],
+              "target": [
+                1412,
+                2
+              ]
+            },
+            {
+              "source": [
+                1211,
+                767,
+                146,
+                244
+              ],
+              "target": [
+                1562,
+                2
+              ]
+            },
+            {
+              "source": [
+                188,
+                767,
+                145,
+                244
+              ],
+              "target": [
+                2,
+                259
+              ]
+            },
+            {
+              "source": [
+                524,
+                767,
+                145,
+                244
+              ],
+              "target": [
+                151,
+                259
+              ]
+            },
+            {
+              "source": [
+                357,
+                768,
+                148,
+                243
+              ],
+              "target": [
+                300,
+                259
+              ]
+            },
+            {
+              "source": [
+                860,
+                768,
+                146,
+                243
+              ],
+              "target": [
+                452,
+                259
+              ]
+            },
+            {
+              "source": [
+                1028,
+                769,
+                151,
+                242
+              ],
+              "target": [
+                602,
+                259
+              ]
+            },
+            {
+              "source": [
+                1375,
+                768,
+                151,
+                242
+              ],
+              "target": [
+                757,
+                259
+              ]
+            },
+            {
+              "source": [
+                861,
+                258,
+                147,
+                242
+              ],
+              "target": [
+                912,
+                259
+              ]
+            },
+            {
+              "source": [
+                364,
+                260,
+                143,
+                242
+              ],
+              "target": [
+                1063,
+                259
+              ]
+            },
+            {
+              "source": [
+                22,
+                769,
+                150,
+                241
+              ],
+              "target": [
+                1210,
+                259
+              ]
+            },
+            {
+              "source": [
+                196,
+                260,
+                144,
+                241
+              ],
+              "target": [
+                1364,
+                259
+              ]
+            },
+            {
+              "source": [
+                1041,
+                261,
+                140,
+                241
+              ],
+              "target": [
+                1512,
+                259
+              ]
+            },
+            {
+              "source": [
+                527,
+                260,
+                139,
+                240
+              ],
+              "target": [
+                2,
+                507
+              ]
+            },
+            {
+              "source": [
+                25,
+                261,
+                147,
+                239
+              ],
+              "target": [
+                145,
+                507
+              ]
+            },
+            {
+              "source": [
+                1384,
+                263,
+                139,
+                239
+              ],
+              "target": [
+                296,
+                507
+              ]
+            },
+            {
+              "source": [
+                1213,
+                263,
+                136,
+                237
+              ],
+              "target": [
+                439,
+                507
+              ]
+            },
+            {
+              "source": [
+                702,
+                13,
+                115,
+                235
+              ],
+              "target": [
+                579,
+                507
+              ]
+            },
+            {
+              "source": [
+                864,
+                13,
+                128,
+                233
+              ],
+              "target": [
+                698,
+                507
+              ]
+            },
+            {
+              "source": [
+                364,
+                13,
+                123,
+                233
+              ],
+              "target": [
+                830,
+                507
+              ]
+            },
+            {
+              "source": [
+                1208,
+                13,
+                135,
+                232
+              ],
+              "target": [
+                957,
+                507
+              ]
+            },
+            {
+              "source": [
+                535,
+                14,
+                122,
+                232
+              ],
+              "target": [
+                1096,
+                507
+              ]
+            },
+            {
+              "source": [
+                202,
+                13,
+                121,
+                232
+              ],
+              "target": [
+                1222,
+                507
+              ]
+            },
+            {
+              "source": [
+                1040,
+                16,
+                125,
+                231
+              ],
+              "target": [
+                1347,
+                507
+              ]
+            },
+            {
+              "source": [
+                36,
+                13,
+                122,
+                231
+              ],
+              "target": [
+                1476,
+                507
+              ]
+            },
+            {
+              "source": [
+                1389,
+                17,
+                136,
+                230
+              ],
+              "target": [
+                1602,
+                507
+              ]
+            }
+          ]
+        },
+        "assets/people-story-v310.webp": {
+          "width": 1019,
+          "height": 1253,
+          "regions": [
+            {
+              "source": [
+                348,
+                759,
+                144,
+                255
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                197,
+                759,
+                129,
+                255
+              ],
+              "target": [
+                150,
+                2
+              ]
+            },
+            {
+              "source": [
+                30,
+                759,
+                140,
+                254
+              ],
+              "target": [
+                283,
+                2
+              ]
+            },
+            {
+              "source": [
+                681,
+                760,
+                115,
+                254
+              ],
+              "target": [
+                427,
+                2
+              ]
+            },
+            {
+              "source": [
+                986,
+                762,
+                170,
+                253
+              ],
+              "target": [
+                546,
+                2
+              ]
+            },
+            {
+              "source": [
+                520,
+                760,
+                131,
+                253
+              ],
+              "target": [
+                720,
+                2
+              ]
+            },
+            {
+              "source": [
+                1174,
+                763,
+                162,
+                252
+              ],
+              "target": [
+                855,
+                2
+              ]
+            },
+            {
+              "source": [
+                1358,
+                762,
+                159,
+                252
+              ],
+              "target": [
+                2,
+                261
+              ]
+            },
+            {
+              "source": [
+                821,
+                762,
+                151,
+                251
+              ],
+              "target": [
+                165,
+                261
+              ]
+            },
+            {
+              "source": [
+                841,
+                504,
+                124,
+                250
+              ],
+              "target": [
+                320,
+                261
+              ]
+            },
+            {
+              "source": [
+                354,
+                503,
+                122,
+                250
+              ],
+              "target": [
+                448,
+                261
+              ]
+            },
+            {
+              "source": [
+                34,
+                504,
+                117,
+                250
+              ],
+              "target": [
+                574,
+                261
+              ]
+            },
+            {
+              "source": [
+                518,
+                503,
+                117,
+                250
+              ],
+              "target": [
+                695,
+                261
+              ]
+            },
+            {
+              "source": [
+                198,
+                503,
+                114,
+                250
+              ],
+              "target": [
+                816,
+                261
+              ]
+            },
+            {
+              "source": [
+                1013,
+                505,
+                132,
+                249
+              ],
+              "target": [
+                2,
+                517
+              ]
+            },
+            {
+              "source": [
+                1200,
+                505,
+                129,
+                249
+              ],
+              "target": [
+                138,
+                517
+              ]
+            },
+            {
+              "source": [
+                682,
+                504,
+                114,
+                249
+              ],
+              "target": [
+                271,
+                517
+              ]
+            },
+            {
+              "source": [
+                1381,
+                505,
+                133,
+                248
+              ],
+              "target": [
+                389,
+                517
+              ]
+            },
+            {
+              "source": [
+                992,
+                255,
+                158,
+                242
+              ],
+              "target": [
+                526,
+                517
+              ]
+            },
+            {
+              "source": [
+                191,
+                255,
+                128,
+                242
+              ],
+              "target": [
+                688,
+                517
+              ]
+            },
+            {
+              "source": [
+                1360,
+                255,
+                154,
+                241
+              ],
+              "target": [
+                820,
+                517
+              ]
+            },
+            {
+              "source": [
+                340,
+                254,
+                147,
+                241
+              ],
+              "target": [
+                2,
+                770
+              ]
+            },
+            {
+              "source": [
+                23,
+                255,
+                146,
+                240
+              ],
+              "target": [
+                153,
+                770
+              ]
+            },
+            {
+              "source": [
+                513,
+                256,
+                143,
+                240
+              ],
+              "target": [
+                303,
+                770
+              ]
+            },
+            {
+              "source": [
+                678,
+                255,
+                125,
+                240
+              ],
+              "target": [
+                450,
+                770
+              ]
+            },
+            {
+              "source": [
+                1182,
+                257,
+                153,
+                239
+              ],
+              "target": [
+                579,
+                770
+              ]
+            },
+            {
+              "source": [
+                1006,
+                8,
+                124,
+                238
+              ],
+              "target": [
+                736,
+                770
+              ]
+            },
+            {
+              "source": [
+                827,
+                259,
+                143,
+                237
+              ],
+              "target": [
+                864,
+                770
+              ]
+            },
+            {
+              "source": [
+                1386,
+                8,
+                117,
+                236
+              ],
+              "target": [
+                2,
+                1015
+              ]
+            },
+            {
+              "source": [
+                1198,
+                9,
+                114,
+                236
+              ],
+              "target": [
+                123,
+                1015
+              ]
+            },
+            {
+              "source": [
+                200,
+                9,
+                113,
+                236
+              ],
+              "target": [
+                241,
+                1015
+              ]
+            },
+            {
+              "source": [
+                39,
+                9,
+                115,
+                235
+              ],
+              "target": [
+                358,
+                1015
+              ]
+            },
+            {
+              "source": [
+                684,
+                9,
+                110,
+                235
+              ],
+              "target": [
+                477,
+                1015
+              ]
+            },
+            {
+              "source": [
+                358,
+                9,
+                115,
+                234
+              ],
+              "target": [
+                591,
+                1015
+              ]
+            },
+            {
+              "source": [
+                844,
+                11,
+                112,
+                233
+              ],
+              "target": [
+                710,
+                1015
+              ]
+            },
+            {
+              "source": [
+                520,
+                10,
+                111,
+                233
+              ],
+              "target": [
+                826,
+                1015
+              ]
+            }
+          ]
+        },
+        "assets/people-special-v310.webp": {
+          "width": 1722,
+          "height": 763,
+          "regions": [
+            {
+              "source": [
+                693,
+                514,
+                156,
+                262
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                512,
+                514,
+                155,
+                262
+              ],
+              "target": [
+                162,
+                2
+              ]
+            },
+            {
+              "source": [
+                175,
+                513,
+                151,
+                262
+              ],
+              "target": [
+                321,
+                2
+              ]
+            },
+            {
+              "source": [
+                14,
+                511,
+                150,
+                262
+              ],
+              "target": [
+                476,
+                2
+              ]
+            },
+            {
+              "source": [
+                1376,
+                517,
+                151,
+                261
+              ],
+              "target": [
+                630,
+                2
+              ]
+            },
+            {
+              "source": [
+                875,
+                517,
+                157,
+                259
+              ],
+              "target": [
+                785,
+                2
+              ]
+            },
+            {
+              "source": [
+                338,
+                515,
+                151,
+                259
+              ],
+              "target": [
+                946,
+                2
+              ]
+            },
+            {
+              "source": [
+                1052,
+                518,
+                157,
+                258
+              ],
+              "target": [
+                1101,
+                2
+              ]
+            },
+            {
+              "source": [
+                1216,
+                518,
+                153,
+                257
+              ],
+              "target": [
+                1262,
+                2
+              ]
+            },
+            {
+              "source": [
+                703,
+                8,
+                128,
+                249
+              ],
+              "target": [
+                1419,
+                2
+              ]
+            },
+            {
+              "source": [
+                521,
+                8,
+                127,
+                249
+              ],
+              "target": [
+                1551,
+                2
+              ]
+            },
+            {
+              "source": [
+                1383,
+                10,
+                132,
+                248
+              ],
+              "target": [
+                2,
+                268
+              ]
+            },
+            {
+              "source": [
+                28,
+                10,
+                130,
+                248
+              ],
+              "target": [
+                138,
+                268
+              ]
+            },
+            {
+              "source": [
+                187,
+                10,
+                127,
+                248
+              ],
+              "target": [
+                272,
+                268
+              ]
+            },
+            {
+              "source": [
+                880,
+                10,
+                135,
+                247
+              ],
+              "target": [
+                403,
+                268
+              ]
+            },
+            {
+              "source": [
+                346,
+                10,
+                129,
+                247
+              ],
+              "target": [
+                542,
+                268
+              ]
+            },
+            {
+              "source": [
+                1056,
+                10,
+                129,
+                247
+              ],
+              "target": [
+                675,
+                268
+              ]
+            },
+            {
+              "source": [
+                1219,
+                10,
+                128,
+                247
+              ],
+              "target": [
+                808,
+                268
+              ]
+            },
+            {
+              "source": [
+                190,
+                267,
+                119,
+                244
+              ],
+              "target": [
+                940,
+                268
+              ]
+            },
+            {
+              "source": [
+                1043,
+                268,
+                134,
+                242
+              ],
+              "target": [
+                1063,
+                268
+              ]
+            },
+            {
+              "source": [
+                1214,
+                268,
+                133,
+                242
+              ],
+              "target": [
+                1201,
+                268
+              ]
+            },
+            {
+              "source": [
+                533,
+                268,
+                126,
+                242
+              ],
+              "target": [
+                1338,
+                268
+              ]
+            },
+            {
+              "source": [
+                709,
+                267,
+                119,
+                242
+              ],
+              "target": [
+                1468,
+                268
+              ]
+            },
+            {
+              "source": [
+                1383,
+                269,
+                129,
+                241
+              ],
+              "target": [
+                1591,
+                268
+              ]
+            },
+            {
+              "source": [
+                30,
+                267,
+                123,
+                241
+              ],
+              "target": [
+                2,
+                520
+              ]
+            },
+            {
+              "source": [
+                351,
+                267,
+                123,
+                241
+              ],
+              "target": [
+                129,
+                520
+              ]
+            },
+            {
+              "source": [
+                880,
+                269,
+                132,
+                240
+              ],
+              "target": [
+                256,
+                520
+              ]
+            },
+            {
+              "source": [
+                21,
+                780,
+                141,
+                233
+              ],
+              "target": [
+                392,
+                520
+              ]
+            },
+            {
+              "source": [
+                181,
+                781,
+                138,
+                231
+              ],
+              "target": [
+                537,
+                520
+              ]
+            },
+            {
+              "source": [
+                695,
+                782,
+                138,
+                231
+              ],
+              "target": [
+                679,
+                520
+              ]
+            },
+            {
+              "source": [
+                343,
+                782,
+                137,
+                231
+              ],
+              "target": [
+                821,
+                520
+              ]
+            },
+            {
+              "source": [
+                527,
+                782,
+                134,
+                231
+              ],
+              "target": [
+                962,
+                520
+              ]
+            },
+            {
+              "source": [
+                865,
+                782,
+                137,
+                230
+              ],
+              "target": [
+                1100,
+                520
+              ]
+            },
+            {
+              "source": [
+                1042,
+                784,
+                132,
+                228
+              ],
+              "target": [
+                1241,
+                520
+              ]
+            },
+            {
+              "source": [
+                1212,
+                784,
+                131,
+                228
+              ],
+              "target": [
+                1377,
+                520
+              ]
+            },
+            {
+              "source": [
+                1380,
+                785,
+                133,
+                227
+              ],
+              "target": [
+                1512,
+                520
+              ]
+            }
+          ]
+        },
+        "assets/people-team-v310.webp": {
+          "width": 885,
+          "height": 937,
+          "regions": [
+            {
+              "source": [
+                23,
+                687,
+                141,
+                311
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                347,
+                689,
+                146,
+                310
+              ],
+              "target": [
+                147,
+                2
+              ]
+            },
+            {
+              "source": [
+                859,
+                690,
+                139,
+                310
+              ],
+              "target": [
+                297,
+                2
+              ]
+            },
+            {
+              "source": [
+                1025,
+                691,
+                148,
+                309
+              ],
+              "target": [
+                440,
+                2
+              ]
+            },
+            {
+              "source": [
+                692,
+                691,
+                137,
+                309
+              ],
+              "target": [
+                592,
+                2
+              ]
+            },
+            {
+              "source": [
+                188,
+                690,
+                136,
+                309
+              ],
+              "target": [
+                733,
+                2
+              ]
+            },
+            {
+              "source": [
+                527,
+                691,
+                135,
+                309
+              ],
+              "target": [
+                2,
+                317
+              ]
+            },
+            {
+              "source": [
+                1198,
+                364,
+                145,
+                308
+              ],
+              "target": [
+                141,
+                317
+              ]
+            },
+            {
+              "source": [
+                1365,
+                693,
+                152,
+                307
+              ],
+              "target": [
+                290,
+                317
+              ]
+            },
+            {
+              "source": [
+                1024,
+                363,
+                146,
+                307
+              ],
+              "target": [
+                446,
+                317
+              ]
+            },
+            {
+              "source": [
+                1198,
+                693,
+                141,
+                307
+              ],
+              "target": [
+                596,
+                317
+              ]
+            },
+            {
+              "source": [
+                184,
+                362,
+                142,
+                306
+              ],
+              "target": [
+                741,
+                317
+              ]
+            },
+            {
+              "source": [
+                1368,
+                365,
+                145,
+                305
+              ],
+              "target": [
+                2,
+                630
+              ]
+            },
+            {
+              "source": [
+                862,
+                365,
+                141,
+                305
+              ],
+              "target": [
+                151,
+                630
+              ]
+            },
+            {
+              "source": [
+                521,
+                365,
+                140,
+                305
+              ],
+              "target": [
+                296,
+                630
+              ]
+            },
+            {
+              "source": [
+                349,
+                364,
+                147,
+                304
+              ],
+              "target": [
+                440,
+                630
+              ]
+            },
+            {
+              "source": [
+                22,
+                361,
+                144,
+                304
+              ],
+              "target": [
+                591,
+                630
+              ]
+            },
+            {
+              "source": [
+                692,
+                364,
+                139,
+                304
+              ],
+              "target": [
+                739,
+                630
+              ]
+            }
+          ]
+        },
+        "assets/drummer-v350.webp": {
+          "width": 1787,
+          "height": 405,
+          "regions": [
+            {
+              "source": [
+                536,
+                8,
+                180,
+                401
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                542,
+                814,
+                175,
+                401
+              ],
+              "target": [
+                186,
+                2
+              ]
+            },
+            {
+              "source": [
+                147,
+                8,
+                196,
+                400
+              ],
+              "target": [
+                365,
+                2
+              ]
+            },
+            {
+              "source": [
+                922,
+                11,
+                200,
+                397
+              ],
+              "target": [
+                565,
+                2
+              ]
+            },
+            {
+              "source": [
+                130,
+                814,
+                223,
+                396
+              ],
+              "target": [
+                769,
+                2
+              ]
+            },
+            {
+              "source": [
+                923,
+                815,
+                214,
+                395
+              ],
+              "target": [
+                996,
+                2
+              ]
+            },
+            {
+              "source": [
+                541,
+                415,
+                173,
+                390
+              ],
+              "target": [
+                1214,
+                2
+              ]
+            },
+            {
+              "source": [
+                146,
+                419,
+                202,
+                385
+              ],
+              "target": [
+                1391,
+                2
+              ]
+            },
+            {
+              "source": [
+                938,
+                420,
+                188,
+                384
+              ],
+              "target": [
+                1597,
+                2
+              ]
+            }
+          ]
+        },
+        "assets/team-checkout-v3100.webp": {
+          "width": 453,
+          "height": 1494,
+          "regions": [
+            {
+              "source": [
+                200,
+                1024,
+                215,
+                503
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                201,
+                520,
+                230,
+                500
+              ],
+              "target": [
+                221,
+                2
+              ]
+            },
+            {
+              "source": [
+                623,
+                1027,
+                221,
+                500
+              ],
+              "target": [
+                2,
+                509
+              ]
+            },
+            {
+              "source": [
+                615,
+                520,
+                220,
+                499
+              ],
+              "target": [
+                227,
+                509
+              ]
+            },
+            {
+              "source": [
+                188,
+                23,
+                227,
+                479
+              ],
+              "target": [
+                2,
+                1013
+              ]
+            },
+            {
+              "source": [
+                611,
+                23,
+                210,
+                478
+              ],
+              "target": [
+                233,
+                1013
+              ]
+            }
+          ]
+        },
+        "assets/instruments-0-v340.webp": {
+          "width": 1204,
+          "height": 1001,
+          "regions": [
+            {
+              "source": [
+                1057,
+                7,
+                182,
+                502
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                303,
+                7,
+                180,
+                502
+              ],
+              "target": [
+                188,
+                2
+              ]
+            },
+            {
+              "source": [
+                534,
+                11,
+                218,
+                499
+              ],
+              "target": [
+                372,
+                2
+              ]
+            },
+            {
+              "source": [
+                1313,
+                14,
+                187,
+                496
+              ],
+              "target": [
+                594,
+                2
+              ]
+            },
+            {
+              "source": [
+                46,
+                9,
+                183,
+                494
+              ],
+              "target": [
+                785,
+                2
+              ]
+            },
+            {
+              "source": [
+                811,
+                9,
+                182,
+                494
+              ],
+              "target": [
+                972,
+                2
+              ]
+            },
+            {
+              "source": [
+                299,
+                509,
+                184,
+                491
+              ],
+              "target": [
+                2,
+                508
+              ]
+            },
+            {
+              "source": [
+                802,
+                509,
+                194,
+                487
+              ],
+              "target": [
+                190,
+                508
+              ]
+            },
+            {
+              "source": [
+                528,
+                513,
+                227,
+                486
+              ],
+              "target": [
+                388,
+                508
+              ]
+            },
+            {
+              "source": [
+                1054,
+                514,
+                190,
+                486
+              ],
+              "target": [
+                619,
+                508
+              ]
+            },
+            {
+              "source": [
+                44,
+                511,
+                192,
+                485
+              ],
+              "target": [
+                813,
+                508
+              ]
+            },
+            {
+              "source": [
+                1308,
+                513,
+                193,
+                484
+              ],
+              "target": [
+                1009,
+                508
+              ]
+            }
+          ]
+        },
+        "assets/instruments-1-v340.webp": {
+          "width": 1262,
+          "height": 1006,
+          "regions": [
+            {
+              "source": [
+                553,
+                4,
+                195,
+                517
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                787,
+                7,
+                206,
+                514
+              ],
+              "target": [
+                201,
+                2
+              ]
+            },
+            {
+              "source": [
+                1311,
+                9,
+                194,
+                511
+              ],
+              "target": [
+                411,
+                2
+              ]
+            },
+            {
+              "source": [
+                47,
+                8,
+                191,
+                511
+              ],
+              "target": [
+                609,
+                2
+              ]
+            },
+            {
+              "source": [
+                283,
+                10,
+                222,
+                507
+              ],
+              "target": [
+                804,
+                2
+              ]
+            },
+            {
+              "source": [
+                276,
+                523,
+                230,
+                481
+              ],
+              "target": [
+                1030,
+                2
+              ]
+            },
+            {
+              "source": [
+                545,
+                522,
+                192,
+                481
+              ],
+              "target": [
+                2,
+                523
+              ]
+            },
+            {
+              "source": [
+                788,
+                527,
+                204,
+                478
+              ],
+              "target": [
+                198,
+                523
+              ]
+            },
+            {
+              "source": [
+                1057,
+                44,
+                199,
+                473
+              ],
+              "target": [
+                406,
+                523
+              ]
+            },
+            {
+              "source": [
+                45,
+                528,
+                186,
+                471
+              ],
+              "target": [
+                609,
+                523
+              ]
+            },
+            {
+              "source": [
+                1315,
+                525,
+                186,
+                471
+              ],
+              "target": [
+                799,
+                523
+              ]
+            },
+            {
+              "source": [
+                1046,
+                556,
+                199,
+                438
+              ],
+              "target": [
+                989,
+                523
+              ]
+            }
+          ]
+        },
+        "assets/instruments-2-v340.webp": {
+          "width": 1270,
+          "height": 987,
+          "regions": [
+            {
+              "source": [
+                529,
+                9,
+                211,
+                499
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                1285,
+                8,
+                227,
+                497
+              ],
+              "target": [
+                217,
+                2
+              ]
+            },
+            {
+              "source": [
+                803,
+                10,
+                195,
+                492
+              ],
+              "target": [
+                448,
+                2
+              ]
+            },
+            {
+              "source": [
+                1045,
+                12,
+                189,
+                492
+              ],
+              "target": [
+                647,
+                2
+              ]
+            },
+            {
+              "source": [
+                44,
+                11,
+                201,
+                491
+              ],
+              "target": [
+                840,
+                2
+              ]
+            },
+            {
+              "source": [
+                281,
+                14,
+                214,
+                490
+              ],
+              "target": [
+                1045,
+                2
+              ]
+            },
+            {
+              "source": [
+                1285,
+                512,
+                225,
+                480
+              ],
+              "target": [
+                2,
+                505
+              ]
+            },
+            {
+              "source": [
+                529,
+                514,
+                214,
+                479
+              ],
+              "target": [
+                231,
+                505
+              ]
+            },
+            {
+              "source": [
+                1045,
+                515,
+                190,
+                477
+              ],
+              "target": [
+                449,
+                505
+              ]
+            },
+            {
+              "source": [
+                804,
+                513,
+                196,
+                476
+              ],
+              "target": [
+                643,
+                505
+              ]
+            },
+            {
+              "source": [
+                54,
+                513,
+                200,
+                473
+              ],
+              "target": [
+                843,
+                505
+              ]
+            },
+            {
+              "source": [
+                276,
+                516,
+                221,
+                470
+              ],
+              "target": [
+                1047,
+                505
+              ]
+            }
+          ]
+        },
+        "assets/goods-v3.webp": {
+          "width": 1269,
+          "height": 890,
+          "regions": [
+            {
+              "source": [
+                1058,
+                517,
+                425,
+                462
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                65,
+                519,
+                417,
+                453
+              ],
+              "target": [
+                431,
+                2
+              ]
+            },
+            {
+              "source": [
+                556,
+                520,
+                415,
+                453
+              ],
+              "target": [
+                852,
+                2
+              ]
+            },
+            {
+              "source": [
+                1081,
+                47,
+                402,
+                420
+              ],
+              "target": [
+                2,
+                468
+              ]
+            },
+            {
+              "source": [
+                569,
+                46,
+                402,
+                418
+              ],
+              "target": [
+                408,
+                468
+              ]
+            },
+            {
+              "source": [
+                84,
+                53,
+                392,
+                408
+              ],
+              "target": [
+                814,
+                468
+              ]
+            }
+          ]
+        },
+        "assets/empty-rack-v7.webp": {
+          "width": 801,
+          "height": 1531,
+          "regions": [
+            {
+              "source": [
+                67,
+                64,
+                797,
+                770
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                980,
+                93,
+                786,
+                753
+              ],
+              "target": [
+                2,
+                776
+              ]
+            }
+          ]
+        },
+        "assets/furniture.webp": {
+          "width": 516,
+          "height": 2064,
+          "regions": [
+            {
+              "source": [
+                0,
+                512,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                512,
+                0,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                518
+              ]
+            },
+            {
+              "source": [
+                512,
+                512,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                1034
+              ]
+            },
+            {
+              "source": [
+                1024,
+                0,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                1550
+              ]
+            }
+          ]
+        },
+        "assets/furniture-back.webp": {
+          "width": 516,
+          "height": 1548,
+          "regions": [
+            {
+              "source": [
+                512,
+                0,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                2
+              ]
+            },
+            {
+              "source": [
+                512,
+                512,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                518
+              ]
+            },
+            {
+              "source": [
+                1024,
+                0,
+                512,
+                512
+              ],
+              "target": [
+                2,
+                1034
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "errors": []
+  },
+  "auditedFunctionsUnchanged": {
+    "zoneError": true,
+    "selectVIPTile": true,
+    "setVIPZone": true,
+    "setVIPDisplay": true,
+    "loungeFurnitureSprite": true,
+    "vipStaffHome": true,
+    "cachedVIPRequirements": true,
+    "drawVIP": true,
+    "drawSeatedCustomer": true,
+    "finishRest": true
+  },
+  "features": {
+    "pass": true,
+    "checks": [
+      "schema24",
+      "29 products and 6 VIPs",
+      "6 renamed grades",
+      "all seven stages enlarged",
+      "staff locked initially",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 5",
+      "valid placement 15 11,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 11,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 17,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 14,7 배치 가능",
+      "commit furniture 14",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 5",
+      "VIP instrument rejected on normal rack",
+      "cedar stage5 moonlight locked",
+      "acoustic craft locked before stage7",
+      "luxury display occupies 3 tiles",
+      "middle display tile blocks placement",
+      "reject smaller new VIP zone",
+      "reserve includes VIP wages",
+      "dismiss in preparation",
+      "dismiss removes VIP readiness and payroll",
+      "dismiss has no invented refund",
+      "no VIP visitor without staff",
+      "rehire",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 5",
+      "valid placement 15 11,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 11,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 17,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 14,7 배치 가능",
+      "commit furniture 14",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 5",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 5",
+      "employee moves and VIP sits",
+      "stage5 two visits with stock",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 4:enter",
+      "reload no duplicate VIP payment 4:browse",
+      "reload no duplicate VIP payment 4:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 4:consult",
+      "reload no duplicate VIP payment 4:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 5",
+      "employee moves and VIP sits",
+      "stage5 two visits with stock",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 5:enter",
+      "reload no duplicate VIP payment 5:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 5:try",
+      "reload no duplicate VIP payment 5:consult",
+      "reload no duplicate VIP payment 5:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "reload no duplicate VIP payment 0:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:consult",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 5",
+      "employee moves and VIP sits",
+      "stage5 two visits with stock",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "reload no duplicate VIP payment 2:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 5",
+      "employee moves and VIP sits",
+      "stage5 two visits with stock",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 6",
+      "valid placement 15 13,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 17,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 13,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 19,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 16,7 배치 가능",
+      "commit furniture 14",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 6",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 6",
+      "employee moves and VIP sits",
+      "continue after ending",
+      "open shop",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:enter",
+      "reload no duplicate VIP payment 3:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:try",
+      "reload no duplicate VIP payment 3:consult",
+      "reload no duplicate VIP payment 3:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 6",
+      "employee moves and VIP sits",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 4:enter",
+      "reload no duplicate VIP payment 4:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 4:try",
+      "reload no duplicate VIP payment 4:consult",
+      "reload no duplicate VIP payment 4:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 5:enter",
+      "reload no duplicate VIP payment 5:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 5:try",
+      "reload no duplicate VIP payment 5:consult",
+      "reload no duplicate VIP payment 5:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 6",
+      "employee moves and VIP sits",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 6",
+      "employee moves and VIP sits",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "reload no duplicate VIP payment 1:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:browse",
+      "reload no duplicate VIP payment 1:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 7",
+      "employee moves and VIP sits",
+      "stage7 three visits with stock",
+      "continue after ending",
+      "open shop",
+      "reload no duplicate VIP payment 3:enter",
+      "reload no duplicate VIP payment 3:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:try",
+      "reload no duplicate VIP payment 3:consult",
+      "reload no duplicate VIP payment 3:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 4:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 4:browse",
+      "reload no duplicate VIP payment 4:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 4:consult",
+      "reload no duplicate VIP payment 4:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 7",
+      "employee moves and VIP sits",
+      "stage7 three visits with stock",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:leave",
+      "reload no duplicate VIP payment 3:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:browse",
+      "reload no duplicate VIP payment 3:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:consult",
+      "reload no duplicate VIP payment 3:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 7",
+      "employee moves and VIP sits",
+      "stage7 three visits with stock",
+      "next day",
+      "open shop",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:leave",
+      "reload no duplicate VIP payment 3:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:browse",
+      "reload no duplicate VIP payment 3:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 3:consult",
+      "reload no duplicate VIP payment 3:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "VIP normal instruments sell at stage 7",
+      "employee moves and VIP sits",
+      "stage7 three visits with stock",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "atomic custom crafting 27",
+      "assign free custom slot 27",
+      "atomic custom crafting 28",
+      "assign free custom slot 28",
+      "atomic custom crafting 1",
+      "assign free custom slot 1",
+      "one custom instrument per separate display",
+      "three separate custom displays offered",
+      "reject second instrument slot",
+      "single-instrument display links survive save",
+      "invalid new save rejected",
+      "failed import preserves current state",
+      "invalid new save rejected",
+      "failed import preserves current state",
+      "invalid new save rejected",
+      "failed import preserves current state",
+      "invalid new save rejected",
+      "failed import preserves current state",
+      "invalid new save rejected",
+      "failed import preserves current state",
+      "invalid new save rejected",
+      "failed import preserves current state",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "reload no duplicate VIP payment 1:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:browse",
+      "reload no duplicate VIP payment 1:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "custom instruments purchased",
+      "wide display rotation 0",
+      "3 cells direction 0",
+      "wide display rotation 1",
+      "3 cells direction 1",
+      "wide display rotation 2",
+      "3 cells direction 2",
+      "wide display rotation 3",
+      "3 cells direction 3",
+      "legacy migration preserves cash",
+      "legacy appends two inventory records",
+      "legacy crafted items preserved",
+      "legacy item links gain slot0",
+      "legacy migration does not hire paid staff for free",
+      "migrated save reload"
+    ],
+    "days": [
+      {
+        "day": 1,
+        "stage": 5,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 8100000,
+        "profiles": [
+          0,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 144.8
+      },
+      {
+        "day": 2,
+        "stage": 5,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 7400000,
+        "profiles": [
+          2,
+          4
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 136.3
+      },
+      {
+        "day": 3,
+        "stage": 5,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 7400000,
+        "profiles": [
+          5,
+          0
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 136.9
+      },
+      {
+        "day": 4,
+        "stage": 5,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 7900000,
+        "profiles": [
+          1,
+          2
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 137.8
+      },
+      {
+        "day": 1,
+        "stage": 6,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 8100000,
+        "profiles": [
+          0,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 149.4
+      },
+      {
+        "day": 2,
+        "stage": 6,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 10300000,
+        "profiles": [
+          2,
+          3
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 138.9
+      },
+      {
+        "day": 3,
+        "stage": 6,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 10300000,
+        "profiles": [
+          4,
+          5
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 141.8
+      },
+      {
+        "day": 4,
+        "stage": 6,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 8100000,
+        "profiles": [
+          0,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 141
+      },
+      {
+        "day": 1,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 14600000,
+        "profiles": [
+          0,
+          1,
+          2
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 150.9
+      },
+      {
+        "day": 2,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 14600000,
+        "profiles": [
+          3,
+          4,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 150.9
+      },
+      {
+        "day": 3,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 14600000,
+        "profiles": [
+          2,
+          3,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 150.9
+      },
+      {
+        "day": 4,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 14600000,
+        "profiles": [
+          2,
+          3,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 150.9
+      }
+    ],
+    "events": [
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "browse",
+        "kind": "normal",
+        "time": 17.199999999999974
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "try",
+        "kind": "normal",
+        "time": 23.500000000000064
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "consult",
+        "kind": "normal",
+        "time": 32.100000000000186
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "leave",
+        "kind": "normal",
+        "time": 37.10000000000026
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "enter",
+        "time": 47.500000000000405
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 54.500000000000504
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 60.800000000000594
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 68.70000000000037
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 73.70000000000009
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "browse",
+        "kind": "normal",
+        "time": 17.199999999999974
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "try",
+        "kind": "normal",
+        "time": 21.300000000000033
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "consult",
+        "kind": "normal",
+        "time": 28.90000000000014
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "leave",
+        "kind": "normal",
+        "time": 33.90000000000021
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "enter",
+        "time": 44.30000000000036
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "browse",
+        "kind": "normal",
+        "time": 51.30000000000046
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "try",
+        "kind": "normal",
+        "time": 57.60000000000055
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "consult",
+        "kind": "normal",
+        "time": 66.20000000000051
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "leave",
+        "kind": "normal",
+        "time": 71.20000000000023
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "browse",
+        "kind": "normal",
+        "time": 17.199999999999974
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "try",
+        "kind": "normal",
+        "time": 21.300000000000033
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "consult",
+        "kind": "normal",
+        "time": 28.90000000000014
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "leave",
+        "kind": "normal",
+        "time": 33.90000000000021
+      },
+      {
+        "day": 3,
+        "profile": 0,
+        "state": "enter",
+        "time": 44.30000000000036
+      },
+      {
+        "day": 3,
+        "profile": 0,
+        "state": "browse",
+        "kind": "normal",
+        "time": 51.30000000000046
+      },
+      {
+        "day": 3,
+        "profile": 0,
+        "state": "try",
+        "kind": "normal",
+        "time": 57.60000000000055
+      },
+      {
+        "day": 3,
+        "profile": 0,
+        "state": "consult",
+        "kind": "normal",
+        "time": 66.20000000000051
+      },
+      {
+        "day": 3,
+        "profile": 0,
+        "state": "leave",
+        "kind": "normal",
+        "time": 71.20000000000023
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 17.199999999999974
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 23.500000000000064
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 31.400000000000176
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 36.40000000000025
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "enter",
+        "time": 46.800000000000395
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "browse",
+        "kind": "normal",
+        "time": 53.800000000000495
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "try",
+        "kind": "normal",
+        "time": 57.90000000000055
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "consult",
+        "kind": "normal",
+        "time": 65.50000000000055
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "leave",
+        "kind": "normal",
+        "time": 70.50000000000027
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "browse",
+        "kind": "normal",
+        "time": 18.39999999999999
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "try",
+        "kind": "normal",
+        "time": 24.70000000000008
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "consult",
+        "kind": "normal",
+        "time": 33.3000000000002
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "leave",
+        "kind": "normal",
+        "time": 38.300000000000274
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "enter",
+        "time": 50.00000000000044
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 58.20000000000056
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 64.50000000000061
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 72.40000000000016
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 77.39999999999988
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "browse",
+        "kind": "normal",
+        "time": 18.39999999999999
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "try",
+        "kind": "normal",
+        "time": 24.70000000000008
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "consult",
+        "kind": "normal",
+        "time": 33.3000000000002
+      },
+      {
+        "day": 2,
+        "profile": 2,
+        "state": "leave",
+        "kind": "normal",
+        "time": 38.300000000000274
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "enter",
+        "time": 50.00000000000044
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "browse",
+        "kind": "normal",
+        "time": 58.20000000000056
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "try",
+        "kind": "normal",
+        "time": 62.300000000000615
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "consult",
+        "kind": "normal",
+        "time": 69.9000000000003
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "leave",
+        "kind": "normal",
+        "time": 74.90000000000002
+      },
+      {
+        "day": 3,
+        "profile": 4,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 3,
+        "profile": 4,
+        "state": "browse",
+        "kind": "normal",
+        "time": 18.39999999999999
+      },
+      {
+        "day": 3,
+        "profile": 4,
+        "state": "try",
+        "kind": "normal",
+        "time": 24.70000000000008
+      },
+      {
+        "day": 3,
+        "profile": 4,
+        "state": "consult",
+        "kind": "normal",
+        "time": 33.3000000000002
+      },
+      {
+        "day": 3,
+        "profile": 4,
+        "state": "leave",
+        "kind": "normal",
+        "time": 38.300000000000274
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "enter",
+        "time": 50.00000000000044
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "browse",
+        "kind": "normal",
+        "time": 58.20000000000056
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "try",
+        "kind": "normal",
+        "time": 62.300000000000615
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "consult",
+        "kind": "normal",
+        "time": 69.9000000000003
+      },
+      {
+        "day": 3,
+        "profile": 5,
+        "state": "leave",
+        "kind": "normal",
+        "time": 74.90000000000002
+      },
+      {
+        "day": 4,
+        "profile": 0,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 4,
+        "profile": 0,
+        "state": "browse",
+        "kind": "normal",
+        "time": 18.39999999999999
+      },
+      {
+        "day": 4,
+        "profile": 0,
+        "state": "try",
+        "kind": "normal",
+        "time": 24.70000000000008
+      },
+      {
+        "day": 4,
+        "profile": 0,
+        "state": "consult",
+        "kind": "normal",
+        "time": 33.3000000000002
+      },
+      {
+        "day": 4,
+        "profile": 0,
+        "state": "leave",
+        "kind": "normal",
+        "time": 38.300000000000274
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "enter",
+        "time": 50.00000000000044
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 58.20000000000056
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 64.50000000000061
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 72.40000000000016
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 77.39999999999988
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "browse",
+        "kind": "normal",
+        "time": 19.70000000000001
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "try",
+        "kind": "normal",
+        "time": 26.0000000000001
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "consult",
+        "kind": "normal",
+        "time": 36.200000000000244
+      },
+      {
+        "day": 1,
+        "profile": 0,
+        "state": "leave",
+        "kind": "normal",
+        "time": 41.200000000000315
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "enter",
+        "time": 59.30000000000057
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 68.80000000000037
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 75.3
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 84.19999999999949
+      },
+      {
+        "day": 1,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 89.1999999999992
+      },
+      {
+        "day": 1,
+        "profile": 2,
+        "state": "enter",
+        "time": 107.39999999999817
+      },
+      {
+        "day": 1,
+        "profile": 2,
+        "state": "browse",
+        "kind": "normal",
+        "time": 116.89999999999763
+      },
+      {
+        "day": 1,
+        "profile": 2,
+        "state": "try",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 1,
+        "profile": 2,
+        "state": "consult",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 1,
+        "profile": 2,
+        "state": "leave",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "browse",
+        "kind": "normal",
+        "time": 19.70000000000001
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "try",
+        "kind": "normal",
+        "time": 23.800000000000068
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "consult",
+        "kind": "normal",
+        "time": 33.60000000000021
+      },
+      {
+        "day": 2,
+        "profile": 3,
+        "state": "leave",
+        "kind": "normal",
+        "time": 38.60000000000028
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "enter",
+        "time": 56.700000000000536
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "browse",
+        "kind": "normal",
+        "time": 66.20000000000051
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "try",
+        "kind": "normal",
+        "time": 72.50000000000016
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "consult",
+        "kind": "normal",
+        "time": 82.69999999999958
+      },
+      {
+        "day": 2,
+        "profile": 4,
+        "state": "leave",
+        "kind": "normal",
+        "time": 87.69999999999929
+      },
+      {
+        "day": 2,
+        "profile": 1,
+        "state": "enter",
+        "time": 105.89999999999826
+      },
+      {
+        "day": 2,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 115.39999999999772
+      },
+      {
+        "day": 2,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 2,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 2,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 3,
+        "profile": 2,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 3,
+        "profile": 2,
+        "state": "browse",
+        "kind": "normal",
+        "time": 19.70000000000001
+      },
+      {
+        "day": 3,
+        "profile": 2,
+        "state": "try",
+        "kind": "normal",
+        "time": 26.0000000000001
+      },
+      {
+        "day": 3,
+        "profile": 2,
+        "state": "consult",
+        "kind": "normal",
+        "time": 36.200000000000244
+      },
+      {
+        "day": 3,
+        "profile": 2,
+        "state": "leave",
+        "kind": "normal",
+        "time": 41.200000000000315
+      },
+      {
+        "day": 3,
+        "profile": 3,
+        "state": "enter",
+        "time": 59.30000000000057
+      },
+      {
+        "day": 3,
+        "profile": 3,
+        "state": "browse",
+        "kind": "normal",
+        "time": 68.80000000000037
+      },
+      {
+        "day": 3,
+        "profile": 3,
+        "state": "try",
+        "kind": "normal",
+        "time": 72.90000000000013
+      },
+      {
+        "day": 3,
+        "profile": 3,
+        "state": "consult",
+        "kind": "normal",
+        "time": 82.69999999999958
+      },
+      {
+        "day": 3,
+        "profile": 3,
+        "state": "leave",
+        "kind": "normal",
+        "time": 87.69999999999929
+      },
+      {
+        "day": 3,
+        "profile": 1,
+        "state": "enter",
+        "time": 105.89999999999826
+      },
+      {
+        "day": 3,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 115.39999999999772
+      },
+      {
+        "day": 3,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 3,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 3,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "enter",
+        "time": 10.19999999999998
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "browse",
+        "kind": "normal",
+        "time": 19.70000000000001
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "try",
+        "kind": "normal",
+        "time": 26.0000000000001
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "consult",
+        "kind": "normal",
+        "time": 36.200000000000244
+      },
+      {
+        "day": 4,
+        "profile": 2,
+        "state": "leave",
+        "kind": "normal",
+        "time": 41.200000000000315
+      },
+      {
+        "day": 4,
+        "profile": 3,
+        "state": "enter",
+        "time": 59.30000000000057
+      },
+      {
+        "day": 4,
+        "profile": 3,
+        "state": "browse",
+        "kind": "normal",
+        "time": 68.80000000000037
+      },
+      {
+        "day": 4,
+        "profile": 3,
+        "state": "try",
+        "kind": "normal",
+        "time": 72.90000000000013
+      },
+      {
+        "day": 4,
+        "profile": 3,
+        "state": "consult",
+        "kind": "normal",
+        "time": 82.69999999999958
+      },
+      {
+        "day": 4,
+        "profile": 3,
+        "state": "leave",
+        "kind": "normal",
+        "time": 87.69999999999929
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "enter",
+        "time": 105.89999999999826
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "browse",
+        "kind": "normal",
+        "time": 115.39999999999772
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "try",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "consult",
+        "kind": "normal",
+        "time": 120
+      },
+      {
+        "day": 4,
+        "profile": 1,
+        "state": "leave",
+        "kind": "normal",
+        "time": 120
+      }
+    ],
+    "customDay": {
+      "day": 1,
+      "stage": 7,
+      "visits": 3,
+      "sales": 3,
+      "revenue": 8005000,
+      "profiles": [
+        0,
+        1,
+        2
+      ],
+      "seated": true,
+      "rested": true,
+      "employeeMoved": true,
+      "reloads": 15,
+      "seconds": 150.7
+    },
+    "textures": [
+      {
+        "base": "27",
+        "key": "pickguard",
+        "value": "tortoise"
+      },
+      {
+        "base": "27",
+        "key": "pickguard",
+        "value": "ivory"
+      },
+      {
+        "base": "27",
+        "key": "rosette",
+        "value": "wood"
+      },
+      {
+        "base": "27",
+        "key": "rosette",
+        "value": "pearl"
+      },
+      {
+        "base": "27",
+        "key": "bridge",
+        "value": "ebony"
+      },
+      {
+        "base": "27",
+        "key": "bridge",
+        "value": "walnut"
+      },
+      {
+        "base": "27",
+        "key": "color",
+        "value": "forest"
+      },
+      {
+        "base": "27",
+        "key": "color",
+        "value": "ivory"
+      },
+      {
+        "base": "27",
+        "key": "color",
+        "value": "blue"
+      },
+      {
+        "base": "27",
+        "key": "color",
+        "value": "violet"
+      },
+      {
+        "base": "27",
+        "key": "wood",
+        "value": "ash"
+      },
+      {
+        "base": "27",
+        "key": "wood",
+        "value": "walnut"
+      },
+      {
+        "base": "27",
+        "key": "wood",
+        "value": "mahogany"
+      },
+      {
+        "base": "27",
+        "key": "hardware",
+        "value": "black"
+      },
+      {
+        "base": "27",
+        "key": "hardware",
+        "value": "gold"
+      },
+      {
+        "base": "27",
+        "key": "finish",
+        "value": "gloss"
+      },
+      {
+        "base": "27",
+        "key": "finish",
+        "value": "relic"
+      },
+      {
+        "base": "28",
+        "key": "pickguard",
+        "value": "tortoise"
+      },
+      {
+        "base": "28",
+        "key": "pickguard",
+        "value": "ivory"
+      },
+      {
+        "base": "28",
+        "key": "rosette",
+        "value": "wood"
+      },
+      {
+        "base": "28",
+        "key": "rosette",
+        "value": "pearl"
+      },
+      {
+        "base": "28",
+        "key": "bridge",
+        "value": "ebony"
+      },
+      {
+        "base": "28",
+        "key": "bridge",
+        "value": "walnut"
+      },
+      {
+        "base": "28",
+        "key": "color",
+        "value": "forest"
+      },
+      {
+        "base": "28",
+        "key": "color",
+        "value": "ivory"
+      },
+      {
+        "base": "28",
+        "key": "color",
+        "value": "blue"
+      },
+      {
+        "base": "28",
+        "key": "color",
+        "value": "violet"
+      },
+      {
+        "base": "28",
+        "key": "wood",
+        "value": "ash"
+      },
+      {
+        "base": "28",
+        "key": "wood",
+        "value": "walnut"
+      },
+      {
+        "base": "28",
+        "key": "wood",
+        "value": "mahogany"
+      },
+      {
+        "base": "28",
+        "key": "hardware",
+        "value": "black"
+      },
+      {
+        "base": "28",
+        "key": "hardware",
+        "value": "gold"
+      },
+      {
+        "base": "28",
+        "key": "finish",
+        "value": "gloss"
+      },
+      {
+        "base": "28",
+        "key": "finish",
+        "value": "relic"
+      }
+    ],
+    "directions": [
+      {
+        "dir": 0,
+        "cells": [
+          {
+            "x": 17,
+            "y": 3
+          },
+          {
+            "x": 18,
+            "y": 3
+          },
+          {
+            "x": 19,
+            "y": 3
+          }
+        ],
+        "front": {
+          "x": 18,
+          "y": 4
+        }
+      },
+      {
+        "dir": 1,
+        "cells": [
+          {
+            "x": 17,
+            "y": 3
+          },
+          {
+            "x": 17,
+            "y": 4
+          },
+          {
+            "x": 17,
+            "y": 5
+          }
+        ],
+        "front": {
+          "x": 18,
+          "y": 4
+        }
+      },
+      {
+        "dir": 2,
+        "cells": [
+          {
+            "x": 17,
+            "y": 3
+          },
+          {
+            "x": 18,
+            "y": 3
+          },
+          {
+            "x": 19,
+            "y": 3
+          }
+        ],
+        "front": {
+          "x": 18,
+          "y": 2
+        }
+      },
+      {
+        "dir": 3,
+        "cells": [
+          {
+            "x": 17,
+            "y": 3
+          },
+          {
+            "x": 17,
+            "y": 4
+          },
+          {
+            "x": 17,
+            "y": 5
+          }
+        ],
+        "front": {
+          "x": 16,
+          "y": 4
+        }
+      }
+    ],
+    "layouts": [
+      {
+        "width": 320,
+        "height": 568,
+        "kind": "vip",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "management",
+            "overflow": false,
+            "width": 304
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "kind": "workshop",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "workshopDialog",
+            "overflow": false,
+            "width": 286
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "kind": "interior",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "interiorDialog",
+            "overflow": false,
+            "width": 286
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "kind": "displays",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "customDisplayDialog",
+            "overflow": false,
+            "width": 286
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "kind": "vip",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "management",
+            "overflow": false,
+            "width": 374
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "kind": "workshop",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "workshopDialog",
+            "overflow": false,
+            "width": 356
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "kind": "interior",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "interiorDialog",
+            "overflow": false,
+            "width": 356
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "kind": "displays",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "customDisplayDialog",
+            "overflow": false,
+            "width": 356
+          }
+        ]
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "kind": "vip",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "management",
+            "overflow": false,
+            "width": 812
+          }
+        ]
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "kind": "workshop",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "workshopDialog",
+            "overflow": false,
+            "width": 810
+          }
+        ]
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "kind": "interior",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "interiorDialog",
+            "overflow": false,
+            "width": 760
+          }
+        ]
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "kind": "displays",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "customDisplayDialog",
+            "overflow": false,
+            "width": 760
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "kind": "vip",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "management",
+            "overflow": false,
+            "width": 450
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "kind": "workshop",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "workshopDialog",
+            "overflow": false,
+            "width": 1000
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "kind": "interior",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "interiorDialog",
+            "overflow": false,
+            "width": 760
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "kind": "displays",
+        "pageOverflow": false,
+        "dialogs": [
+          {
+            "id": "customDisplayDialog",
+            "overflow": false,
+            "width": 760
+          }
+        ]
+      }
+    ],
+    "migrated": {
+      "cash": 982655200,
+      "items": 2,
+      "zone": {
+        "x": 13,
+        "y": 1,
+        "w": 6,
+        "h": 6,
+        "doorSide": "left",
+        "doorAt": 2
+      },
+      "requirements": [
+        "VIP 구역을 8×8로 넓히세요",
+        "최고급·명품 진열대 배치 필요",
+        "VIP 직원 미채용"
+      ]
+    },
+    "errors": []
+  },
+  "edges": {
+    "pass": true,
+    "checks": [
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "VIP door left",
+      "door facilities reachable left",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "reload no duplicate VIP payment 1:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:browse",
+      "reload no duplicate VIP payment 1:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:enter",
+      "reload no duplicate VIP payment 2:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "all entered VIPs purchase and exit via left",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "VIP door right",
+      "door facilities reachable right",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:browse",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "reload no duplicate VIP payment 1:browse",
+      "reload no duplicate VIP payment 1:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:consult",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:browse",
+      "reload no duplicate VIP payment 2:try",
+      "reload no duplicate VIP payment 2:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:leave",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "all entered VIPs purchase and exit via right",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "VIP door top",
+      "door facilities reachable top",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:browse",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:browse",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "all entered VIPs purchase and exit via top",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "VIP door bottom",
+      "door facilities reachable bottom",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "reload no duplicate VIP payment 1:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:browse",
+      "reload no duplicate VIP payment 1:try",
+      "reload no duplicate VIP payment 1:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 1:leave",
+      "reload no duplicate VIP payment 2:enter",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:browse",
+      "reload no duplicate VIP payment 2:try",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 2:consult",
+      "reload no duplicate VIP payment 2:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "all entered VIPs purchase and exit via bottom",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "shared stock is not duplicated across display assignments",
+      "open shop",
+      "reload no duplicate VIP payment 0:enter",
+      "reload no duplicate VIP payment 0:browse",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:try",
+      "reload no duplicate VIP payment 0:consult",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "reload no duplicate VIP payment 0:leave",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day finishes without stuck visitor",
+      "VIP exits",
+      "daily VIP visit limit",
+      "at most one sale per VIP",
+      "payroll includes VIP employee",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "one stocked instrument can sell only once",
+      "continue after ending",
+      "no empty-stock VIP visit",
+      "cannot dismiss VIP employee during business",
+      "cannot double hire",
+      "cannot change display during business",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "ordinary customer exists",
+      "directed rest uses real chair route",
+      "ordinary customer sits",
+      "seated customer and chair restored",
+      "rest ends and shopping resumes",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7"
+    ],
+    "directions": [
+      {
+        "side": "left",
+        "day": 1,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 11700000,
+        "profiles": [
+          0,
+          1,
+          2
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 150.9
+      },
+      {
+        "side": "right",
+        "day": 1,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 11700000,
+        "profiles": [
+          0,
+          1,
+          2
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 156.1
+      },
+      {
+        "side": "top",
+        "day": 1,
+        "stage": 7,
+        "visits": 2,
+        "sales": 2,
+        "revenue": 8100000,
+        "profiles": [
+          0,
+          1
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 10,
+        "seconds": 143.8
+      },
+      {
+        "side": "bottom",
+        "day": 1,
+        "stage": 7,
+        "visits": 3,
+        "sales": 3,
+        "revenue": 11700000,
+        "profiles": [
+          0,
+          1,
+          2
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 15,
+        "seconds": 145.6
+      }
+    ],
+    "limits": {
+      "checks": 329
+    },
+    "rest": {
+      "chair": 3,
+      "id": 1
+    },
+    "performance": {
+      "medianDrawMs": 1.0999999940395355,
+      "p95DrawMs": 83.59999999403954,
+      "viewport": "1600x1000",
+      "hardware": "managed headless Chromium"
+    },
+    "taintedAcoustic": true,
+    "errors": []
+  },
+  "regression": {
+    "checks": [
+      "natural low-cash last-rack scenario protected without state mutation",
+      "quick menu and management both disable last-rack sale",
+      "expand",
+      "hire first staff",
+      "basic threshold3 quantity5",
+      "reserved threshold3 quantity1",
+      "covered funded basic alert hidden",
+      "first employee cannot hide uncovered reserved product",
+      "basic alerts hidden even when globally disabled",
+      "basic alerts hidden even when product disabled",
+      "basic alerts hidden even when cash insufficient",
+      "exact reserve plus order hides alert",
+      "non-last rack sale allowed",
+      "remaining reserved rack permits opening",
+      "later expansion",
+      "later expansion",
+      "later expansion",
+      "hire second inventory employee",
+      "second employee covers reserved product",
+      "automatic reserved order",
+      "one unit next-day order",
+      "paid incoming order hides alert even with low cash",
+      "pending order blocks automatic duplicate",
+      "manual express allowed while normal delivery pending",
+      "express keeps pending order and charges exact fee",
+      "disabled automation remains visible with incoming",
+      "custom rules save restores",
+      "manual threshold and quantity persist",
+      "operations revenue and sold count update while panel remains open",
+      "actual sales crossing stock2 and stock0 suppress covered shortage toasts",
+      "operations menu pause/play/speed actual clicks",
+      "operations to mission transition pause/play/speed actual clicks",
+      "mission dialog pause/play/speed actual clicks",
+      "staff management pause/play/speed actual clicks",
+      "staff order settings pause/play/speed actual clicks",
+      "staff order settings still freeze simulation",
+      "320x568 stock menu pause/play/speed actual clicks",
+      "320x568 mission dialog pause/play/speed actual clicks",
+      "360x640 stock menu pause/play/speed actual clicks",
+      "360x640 mission dialog pause/play/speed actual clicks",
+      "390x844 stock menu pause/play/speed actual clicks",
+      "390x844 mission dialog pause/play/speed actual clicks",
+      "650x900 stock menu pause/play/speed actual clicks",
+      "650x900 mission dialog pause/play/speed actual clicks",
+      "651x900 stock menu pause/play/speed actual clicks",
+      "651x900 mission dialog pause/play/speed actual clicks",
+      "844x390 stock menu pause/play/speed actual clicks",
+      "844x390 mission dialog pause/play/speed actual clicks",
+      "1024x768 stock menu pause/play/speed actual clicks",
+      "1024x768 mission dialog pause/play/speed actual clicks",
+      "1440x900 stock menu pause/play/speed actual clicks",
+      "1440x900 mission dialog pause/play/speed actual clicks",
+      "next-stage mission explanation visible",
+      "settlement closes employee menu and next day cannot revive stale controls"
+    ],
+    "guard": {
+      "money": 70000,
+      "stock": 22,
+      "ready": true
+    },
+    "live": {
+      "sold": 12,
+      "label": "12",
+      "revenue": 5320000
+    },
+    "toastCheck": {
+      "transitions": [
+        2,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ],
+      "notes": [
+        "학생 밴드부원 첫 방문! 밴드부원 도하",
+        "인디밴드 연주자 첫 방문! 인디 연주자 나래",
+        "전문 세션 연주자 첫 방문! 세션 연주자 현우",
+        "악기 수집가 첫 방문! 수집가 선영",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고",
+        "오늘 입고 · 악기 1개",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고"
+      ]
+    },
+    "layouts": [
+      {
+        "width": 320,
+        "height": 568,
+        "day": {
+          "x": 21,
+          "y": 38.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 65.671875,
+          "bottom": 58.5
+        },
+        "clock": {
+          "x": 68.671875,
+          "y": 38.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 96.171875,
+          "bottom": 58.5
+        },
+        "pause": {
+          "x": 205,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 233,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 296,
+          "h": 70,
+          "right": 308,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 360,
+        "height": 640,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 243,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 271,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 336,
+          "h": 70,
+          "right": 348,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 273,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 301,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 366,
+          "h": 70,
+          "right": 378,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 650,
+        "height": 900,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 533,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 561,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 626,
+          "h": 70,
+          "right": 638,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 651,
+        "height": 900,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 534,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 562,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 627,
+          "h": 70,
+          "right": 639,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "day": {
+          "x": 23,
+          "y": 26.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 46.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 26.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 46.5
+        },
+        "pause": {
+          "x": 727,
+          "y": 36,
+          "w": 28,
+          "h": 24,
+          "right": 755,
+          "bottom": 60
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 820,
+          "h": 56,
+          "right": 832,
+          "bottom": 66
+        },
+        "overflow": false
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "day": {
+          "x": 23,
+          "y": 49,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 69
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 49,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 69
+        },
+        "pause": {
+          "x": 907,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 935,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 1000,
+          "h": 70,
+          "right": 1012,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "day": {
+          "x": 23,
+          "y": 49,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 69
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 49,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 69
+        },
+        "pause": {
+          "x": 1323,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 1351,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 1416,
+          "h": 70,
+          "right": 1428,
+          "bottom": 80
+        },
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  "gameplay": {
+    "days": 99,
+    "runs": [
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 6910000,
+            "net": 1910000,
+            "closeSeconds": 16.6,
+            "maxPathStall": 5.4
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 24,
+            "money": 5970000,
+            "net": -940000,
+            "closeSeconds": 5,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 25,
+            "money": 8490000,
+            "net": 2520000,
+            "closeSeconds": 13.4,
+            "maxPathStall": 8.2
+          },
+          {
+            "day": 4,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 24,
+            "money": 11920000,
+            "net": 3430000,
+            "closeSeconds": 17.2,
+            "maxPathStall": 7.6
+          },
+          {
+            "day": 5,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 26,
+            "money": 12780000,
+            "net": 860000,
+            "closeSeconds": 19.5,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 6,
+            "stage": 1,
+            "sold": 13,
+            "visitors": 25,
+            "money": 18160000,
+            "net": 5380000,
+            "closeSeconds": 7.2,
+            "maxPathStall": 6.8
+          },
+          {
+            "day": 7,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 25,
+            "money": 16430000,
+            "net": -1730000,
+            "closeSeconds": 13.5,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 8,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 19100000,
+            "net": 2670000,
+            "closeSeconds": 14.1,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 9,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 25,
+            "money": 22510000,
+            "net": 3410000,
+            "closeSeconds": 20,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 10,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 24140000,
+            "net": 1630000,
+            "closeSeconds": 15.9,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 11,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 25,
+            "money": 25190000,
+            "net": 1050000,
+            "closeSeconds": 20.2,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 12,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 28710000,
+            "net": 3520000,
+            "closeSeconds": 18.3,
+            "maxPathStall": 8.2
+          },
+          {
+            "day": 13,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 26,
+            "money": 30610000,
+            "net": 1900000,
+            "closeSeconds": 16,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 14,
+            "stage": 1,
+            "sold": 23,
+            "visitors": 26,
+            "money": 34700000,
+            "net": 4090000,
+            "closeSeconds": 18.7,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 15,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 26,
+            "money": 35790000,
+            "net": 1090000,
+            "closeSeconds": 18.8,
+            "maxPathStall": 6.1
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 373,
+            "family": 382,
+            "child": 382,
+            "musician": 468
+          },
+          "states": {
+            "browse": 23510,
+            "try": 9954,
+            "checkout": 11404,
+            "leave": 16495,
+            "queue": 1870,
+            "follow": 382
+          },
+          "peak": 6,
+          "saveChecks": 20,
+          "orders": 41,
+          "claims": 2,
+          "expansions": 0
+        },
+        "findings": [],
+        "final": {
+          "day": 16,
+          "stage": 1,
+          "money": 35790000,
+          "sales": 272,
+          "missions": [
+            "s1-sales",
+            "s1-core"
+          ]
+        },
+        "mode": "organic",
+        "seed": 17,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 6810000,
+            "net": 1810000,
+            "closeSeconds": 11.7,
+            "maxPathStall": 5.7
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 24,
+            "money": 6230000,
+            "net": -580000,
+            "closeSeconds": 15,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 14,
+            "visitors": 24,
+            "money": 7480000,
+            "net": 1250000,
+            "closeSeconds": 17.5,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 4,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 26,
+            "money": 10280000,
+            "net": 2800000,
+            "closeSeconds": 21.6,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 5,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 26,
+            "money": 12400000,
+            "net": 2120000,
+            "closeSeconds": 21.2,
+            "maxPathStall": 8.9
+          },
+          {
+            "day": 6,
+            "stage": 1,
+            "sold": 12,
+            "visitors": 25,
+            "money": 17360000,
+            "net": 4960000,
+            "closeSeconds": 8.1,
+            "maxPathStall": 25.1
+          },
+          {
+            "day": 7,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 24,
+            "money": 16650000,
+            "net": -710000,
+            "closeSeconds": 15.7,
+            "maxPathStall": 8.2
+          },
+          {
+            "day": 8,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 19350000,
+            "net": 2700000,
+            "closeSeconds": 16.4,
+            "maxPathStall": 4.8
+          },
+          {
+            "day": 9,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 25,
+            "money": 20530000,
+            "net": 1180000,
+            "closeSeconds": 17,
+            "maxPathStall": 5.7
+          },
+          {
+            "day": 10,
+            "stage": 1,
+            "sold": 15,
+            "visitors": 25,
+            "money": 21990000,
+            "net": 1460000,
+            "closeSeconds": 13,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 11,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 25240000,
+            "net": 3250000,
+            "closeSeconds": 16.3,
+            "maxPathStall": 9.1
+          },
+          {
+            "day": 12,
+            "stage": 1,
+            "sold": 15,
+            "visitors": 26,
+            "money": 25820000,
+            "net": 580000,
+            "closeSeconds": 14.2,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 13,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 27,
+            "money": 28830000,
+            "net": 3010000,
+            "closeSeconds": 22.2,
+            "maxPathStall": 11.6
+          },
+          {
+            "day": 14,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 25,
+            "money": 32730000,
+            "net": 3900000,
+            "closeSeconds": 15.5,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 15,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 26,
+            "money": 35980000,
+            "net": 3250000,
+            "closeSeconds": 19.9,
+            "maxPathStall": 6.8
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 214,
+            "family": 367,
+            "child": 367,
+            "musician": 338
+          },
+          "states": {
+            "browse": 23932,
+            "try": 10293,
+            "checkout": 10803,
+            "leave": 16321,
+            "queue": 2170,
+            "follow": 367
+          },
+          "peak": 6,
+          "saveChecks": 20,
+          "orders": 41,
+          "claims": 2,
+          "expansions": 0
+        },
+        "findings": [],
+        "final": {
+          "day": 16,
+          "stage": 1,
+          "money": 35980000,
+          "sales": 258,
+          "missions": [
+            "s1-sales",
+            "s1-core"
+          ]
+        },
+        "mode": "organic",
+        "seed": 2026,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 24,
+            "money": 6960000,
+            "net": 1960000,
+            "closeSeconds": 13.13,
+            "maxPathStall": 5.4
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 7690000,
+            "net": 730000,
+            "closeSeconds": 12.43,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 10060000,
+            "net": 2370000,
+            "closeSeconds": 12.37,
+            "maxPathStall": 5.97
+          },
+          {
+            "day": 4,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 12700000,
+            "net": 2640000,
+            "closeSeconds": 12.53,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 5,
+            "stage": 1,
+            "sold": 12,
+            "visitors": 25,
+            "money": 11700000,
+            "net": -1000000,
+            "closeSeconds": 15.17,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 6,
+            "stage": 1,
+            "sold": 14,
+            "visitors": 24,
+            "money": 17060000,
+            "net": 5360000,
+            "closeSeconds": 16.4,
+            "maxPathStall": 6.17
+          },
+          {
+            "day": 7,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 26,
+            "money": 17690000,
+            "net": 630000,
+            "closeSeconds": 12.3,
+            "maxPathStall": 9.9
+          },
+          {
+            "day": 8,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 25,
+            "money": 20710000,
+            "net": 3020000,
+            "closeSeconds": 18.47,
+            "maxPathStall": 7.1
+          },
+          {
+            "day": 9,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 26,
+            "money": 22760000,
+            "net": 2050000,
+            "closeSeconds": 17.17,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 10,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 25150000,
+            "net": 2390000,
+            "closeSeconds": 20.9,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 11,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 26,
+            "money": 27340000,
+            "net": 2190000,
+            "closeSeconds": 18.03,
+            "maxPathStall": 5.03
+          },
+          {
+            "day": 12,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 29860000,
+            "net": 2520000,
+            "closeSeconds": 13.97,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 13,
+            "stage": 1,
+            "sold": 24,
+            "visitors": 27,
+            "money": 34180000,
+            "net": 4320000,
+            "closeSeconds": 18.2,
+            "maxPathStall": 6.9
+          },
+          {
+            "day": 14,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 35450000,
+            "net": 1270000,
+            "closeSeconds": 15.83,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 15,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 26,
+            "money": 36390000,
+            "net": 940000,
+            "closeSeconds": 11.6,
+            "maxPathStall": 6.07
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 1092,
+            "family": 922,
+            "child": 922,
+            "musician": 1128
+          },
+          "states": {
+            "browse": 71706,
+            "try": 30000,
+            "checkout": 34329,
+            "queue": 6048,
+            "leave": 49732,
+            "follow": 922
+          },
+          "peak": 6,
+          "saveChecks": 20,
+          "orders": 41,
+          "claims": 2,
+          "expansions": 0
+        },
+        "findings": [],
+        "final": {
+          "day": 16,
+          "stage": 1,
+          "money": 36390000,
+          "sales": 280,
+          "missions": [
+            "s1-sales",
+            "s1-core"
+          ]
+        },
+        "mode": "organic",
+        "seed": 731,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 24,
+            "money": 989436000,
+            "net": -12034000,
+            "closeSeconds": 18.7,
+            "maxPathStall": 12.2
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 24,
+            "visitors": 25,
+            "money": 995229000,
+            "net": 5793000,
+            "closeSeconds": 23.7,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 24,
+            "visitors": 24,
+            "money": 1000508000,
+            "net": 5279000,
+            "closeSeconds": 22.6,
+            "maxPathStall": 12.6
+          },
+          {
+            "day": 4,
+            "stage": 2,
+            "sold": 30,
+            "visitors": 29,
+            "money": 967206800,
+            "net": -34793200,
+            "closeSeconds": 24.1,
+            "maxPathStall": 14.3
+          },
+          {
+            "day": 5,
+            "stage": 2,
+            "sold": 27,
+            "visitors": 30,
+            "money": 974082800,
+            "net": 6876000,
+            "closeSeconds": 22,
+            "maxPathStall": 18.4
+          },
+          {
+            "day": 6,
+            "stage": 2,
+            "sold": 28,
+            "visitors": 28,
+            "money": 980412400,
+            "net": 6329600,
+            "closeSeconds": 25.7,
+            "maxPathStall": 12.2
+          },
+          {
+            "day": 7,
+            "stage": 3,
+            "sold": 32,
+            "visitors": 35,
+            "money": 938886000,
+            "net": -65614000,
+            "closeSeconds": 19,
+            "maxPathStall": 5.5
+          },
+          {
+            "day": 8,
+            "stage": 3,
+            "sold": 29,
+            "visitors": 34,
+            "money": 948134000,
+            "net": 9248000,
+            "closeSeconds": 18.6,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 9,
+            "stage": 3,
+            "sold": 26,
+            "visitors": 34,
+            "money": 955240200,
+            "net": 7106200,
+            "closeSeconds": 18.1,
+            "maxPathStall": 3.4
+          },
+          {
+            "day": 10,
+            "stage": 4,
+            "sold": 42,
+            "visitors": 37,
+            "money": 996078100,
+            "net": -13921900,
+            "closeSeconds": 29.8,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 11,
+            "stage": 4,
+            "sold": 36,
+            "visitors": 39,
+            "money": 1005572900,
+            "net": 9494800,
+            "closeSeconds": 20.8,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 12,
+            "stage": 4,
+            "sold": 33,
+            "visitors": 37,
+            "money": 1014983700,
+            "net": 9410800,
+            "closeSeconds": 21.8,
+            "maxPathStall": 4.1
+          },
+          {
+            "day": 13,
+            "stage": 5,
+            "sold": 35,
+            "visitors": 43,
+            "money": 989674600,
+            "net": -32325400,
+            "closeSeconds": 38.5,
+            "maxPathStall": 9.6
+          },
+          {
+            "day": 14,
+            "stage": 5,
+            "sold": 31,
+            "visitors": 43,
+            "money": 998335600,
+            "net": 8661000,
+            "closeSeconds": 23.2,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 15,
+            "stage": 5,
+            "sold": 36,
+            "visitors": 39,
+            "money": 1015328000,
+            "net": 16992400,
+            "closeSeconds": 27.4,
+            "maxPathStall": 6.5
+          },
+          {
+            "day": 16,
+            "stage": 6,
+            "sold": 40,
+            "visitors": 45,
+            "money": 909078100,
+            "net": -130921900,
+            "closeSeconds": 29.7,
+            "maxPathStall": 11.1
+          },
+          {
+            "day": 17,
+            "stage": 6,
+            "sold": 39,
+            "visitors": 44,
+            "money": 931207100,
+            "net": 22129000,
+            "closeSeconds": 28.9,
+            "maxPathStall": 10.4
+          },
+          {
+            "day": 18,
+            "stage": 6,
+            "sold": 41,
+            "visitors": 45,
+            "money": 952439900,
+            "net": 21232800,
+            "closeSeconds": 32.2,
+            "maxPathStall": 7.5
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 771,
+            "family": 478,
+            "child": 478,
+            "musician": 451
+          },
+          "states": {
+            "browse": 66561,
+            "leave": 44556,
+            "try": 9275,
+            "checkout": 22230,
+            "queue": 3055,
+            "follow": 478
+          },
+          "peak": 12,
+          "saveChecks": 24,
+          "orders": 74,
+          "claims": 14,
+          "expansions": 5
+        },
+        "findings": [],
+        "final": {
+          "day": 19,
+          "stage": 6,
+          "money": 952439900,
+          "sales": 3373,
+          "missions": [
+            "s1-sales",
+            "s1-core",
+            "s2-sales",
+            "s2-core",
+            "s3-sales",
+            "s3-rack",
+            "s3-core",
+            "s4-sales",
+            "s4-core",
+            "s5-sales",
+            "s5-core",
+            "s6-sales",
+            "s6-drums",
+            "s6-core"
+          ]
+        },
+        "mode": "stages",
+        "seed": 17,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 23,
+            "visitors": 25,
+            "money": 989066000,
+            "net": -12404000,
+            "closeSeconds": 20.5,
+            "maxPathStall": 7.7
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 23,
+            "visitors": 24,
+            "money": 993691000,
+            "net": 4625000,
+            "closeSeconds": 23.5,
+            "maxPathStall": 8.8
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 24,
+            "money": 997384000,
+            "net": 3693000,
+            "closeSeconds": 7.6,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 4,
+            "stage": 2,
+            "sold": 26,
+            "visitors": 28,
+            "money": 968824400,
+            "net": -33175600,
+            "closeSeconds": 20,
+            "maxPathStall": 21.7
+          },
+          {
+            "day": 5,
+            "stage": 2,
+            "sold": 27,
+            "visitors": 29,
+            "money": 978374400,
+            "net": 9550000,
+            "closeSeconds": 27.9,
+            "maxPathStall": 27.5
+          },
+          {
+            "day": 6,
+            "stage": 2,
+            "sold": 24,
+            "visitors": 29,
+            "money": 986108200,
+            "net": 7733800,
+            "closeSeconds": 20.3,
+            "maxPathStall": 6.9
+          },
+          {
+            "day": 7,
+            "stage": 3,
+            "sold": 25,
+            "visitors": 32,
+            "money": 934000600,
+            "net": -70499400,
+            "closeSeconds": 15.1,
+            "maxPathStall": 5.3
+          },
+          {
+            "day": 8,
+            "stage": 3,
+            "sold": 32,
+            "visitors": 33,
+            "money": 941780600,
+            "net": 7780000,
+            "closeSeconds": 17.7,
+            "maxPathStall": 8.7
+          },
+          {
+            "day": 9,
+            "stage": 3,
+            "sold": 33,
+            "visitors": 33,
+            "money": 950153800,
+            "net": 8373200,
+            "closeSeconds": 22,
+            "maxPathStall": 7.5
+          },
+          {
+            "day": 10,
+            "stage": 4,
+            "sold": 36,
+            "visitors": 39,
+            "money": 996830900,
+            "net": -13169100,
+            "closeSeconds": 28.2,
+            "maxPathStall": 6.5
+          },
+          {
+            "day": 11,
+            "stage": 4,
+            "sold": 36,
+            "visitors": 39,
+            "money": 1007933900,
+            "net": 11103000,
+            "closeSeconds": 20.7,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 12,
+            "stage": 4,
+            "sold": 30,
+            "visitors": 37,
+            "money": 1016410500,
+            "net": 8476600,
+            "closeSeconds": 23.1,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 13,
+            "stage": 5,
+            "sold": 40,
+            "visitors": 40,
+            "money": 991487600,
+            "net": -30512400,
+            "closeSeconds": 26.4,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 14,
+            "stage": 5,
+            "sold": 35,
+            "visitors": 41,
+            "money": 1003719600,
+            "net": 12232000,
+            "closeSeconds": 22,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 15,
+            "stage": 5,
+            "sold": 35,
+            "visitors": 38,
+            "money": 1011337000,
+            "net": 7617400,
+            "closeSeconds": 33.3,
+            "maxPathStall": 7.5
+          },
+          {
+            "day": 16,
+            "stage": 6,
+            "sold": 43,
+            "visitors": 43,
+            "money": 921490000,
+            "net": -118510000,
+            "closeSeconds": 23.3,
+            "maxPathStall": 6.5
+          },
+          {
+            "day": 17,
+            "stage": 6,
+            "sold": 38,
+            "visitors": 43,
+            "money": 945815000,
+            "net": 24325000,
+            "closeSeconds": 34.7,
+            "maxPathStall": 8.7
+          },
+          {
+            "day": 18,
+            "stage": 6,
+            "sold": 32,
+            "visitors": 42,
+            "money": 961874200,
+            "net": 16059200,
+            "closeSeconds": 31.5,
+            "maxPathStall": 6.7
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 1033,
+            "family": 386,
+            "child": 386,
+            "musician": 524
+          },
+          "states": {
+            "browse": 64577,
+            "try": 9041,
+            "leave": 43360,
+            "checkout": 21552,
+            "queue": 3721,
+            "follow": 386
+          },
+          "peak": 12,
+          "saveChecks": 24,
+          "orders": 70,
+          "claims": 14,
+          "expansions": 5
+        },
+        "findings": [],
+        "final": {
+          "day": 19,
+          "stage": 6,
+          "money": 961874200,
+          "sales": 3357,
+          "missions": [
+            "s1-sales",
+            "s1-core",
+            "s2-sales",
+            "s2-core",
+            "s3-sales",
+            "s3-rack",
+            "s3-core",
+            "s4-sales",
+            "s4-core",
+            "s5-sales",
+            "s5-core",
+            "s6-sales",
+            "s6-drums",
+            "s6-core"
+          ]
+        },
+        "mode": "stages",
+        "seed": 2026,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 27,
+            "visitors": 26,
+            "money": 990556000,
+            "net": -10914000,
+            "closeSeconds": 19.7,
+            "maxPathStall": 9.4
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 995767000,
+            "net": 5211000,
+            "closeSeconds": 24.33,
+            "maxPathStall": 12.23
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 25,
+            "visitors": 25,
+            "money": 1002290000,
+            "net": 6523000,
+            "closeSeconds": 19.9,
+            "maxPathStall": 12.5
+          },
+          {
+            "day": 4,
+            "stage": 2,
+            "sold": 30,
+            "visitors": 28,
+            "money": 966712700,
+            "net": -35287300,
+            "closeSeconds": 20.9,
+            "maxPathStall": 6.9
+          },
+          {
+            "day": 5,
+            "stage": 2,
+            "sold": 25,
+            "visitors": 29,
+            "money": 971723700,
+            "net": 5011000,
+            "closeSeconds": 16.6,
+            "maxPathStall": 8.77
+          },
+          {
+            "day": 6,
+            "stage": 2,
+            "sold": 20,
+            "visitors": 29,
+            "money": 976727900,
+            "net": 5004200,
+            "closeSeconds": 18.03,
+            "maxPathStall": 5.5
+          },
+          {
+            "day": 7,
+            "stage": 3,
+            "sold": 36,
+            "visitors": 34,
+            "money": 942551900,
+            "net": -61948100,
+            "closeSeconds": 25.23,
+            "maxPathStall": 4.73
+          },
+          {
+            "day": 8,
+            "stage": 3,
+            "sold": 36,
+            "visitors": 34,
+            "money": 954944900,
+            "net": 12393000,
+            "closeSeconds": 21.17,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 9,
+            "stage": 3,
+            "sold": 31,
+            "visitors": 34,
+            "money": 962043700,
+            "net": 7098800,
+            "closeSeconds": 13.53,
+            "maxPathStall": 12.2
+          },
+          {
+            "day": 10,
+            "stage": 4,
+            "sold": 32,
+            "visitors": 38,
+            "money": 988000800,
+            "net": -21999200,
+            "closeSeconds": 15.23,
+            "maxPathStall": 4.73
+          },
+          {
+            "day": 11,
+            "stage": 4,
+            "sold": 32,
+            "visitors": 38,
+            "money": 997119800,
+            "net": 9119000,
+            "closeSeconds": 19.97,
+            "maxPathStall": 4.73
+          },
+          {
+            "day": 12,
+            "stage": 4,
+            "sold": 30,
+            "visitors": 38,
+            "money": 1004475400,
+            "net": 7355600,
+            "closeSeconds": 16.7,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 13,
+            "stage": 5,
+            "sold": 38,
+            "visitors": 40,
+            "money": 995248900,
+            "net": -26751100,
+            "closeSeconds": 30.67,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 14,
+            "stage": 5,
+            "sold": 38,
+            "visitors": 41,
+            "money": 1007414900,
+            "net": 12166000,
+            "closeSeconds": 29.57,
+            "maxPathStall": 5.2
+          },
+          {
+            "day": 15,
+            "stage": 5,
+            "sold": 32,
+            "visitors": 40,
+            "money": 1016751300,
+            "net": 9336400,
+            "closeSeconds": 25,
+            "maxPathStall": 7.57
+          },
+          {
+            "day": 16,
+            "stage": 6,
+            "sold": 32,
+            "visitors": 43,
+            "money": 910648500,
+            "net": -129351500,
+            "closeSeconds": 27.77,
+            "maxPathStall": 8.77
+          },
+          {
+            "day": 17,
+            "stage": 6,
+            "sold": 41,
+            "visitors": 45,
+            "money": 930566500,
+            "net": 19918000,
+            "closeSeconds": 30.83,
+            "maxPathStall": 10.93
+          },
+          {
+            "day": 18,
+            "stage": 6,
+            "sold": 40,
+            "visitors": 45,
+            "money": 944897500,
+            "net": 14331000,
+            "closeSeconds": 32.27,
+            "maxPathStall": 7.73
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 2721,
+            "family": 1523,
+            "child": 1523,
+            "musician": 1887
+          },
+          "states": {
+            "browse": 197984,
+            "try": 24591,
+            "leave": 132077,
+            "checkout": 62553,
+            "queue": 6090,
+            "follow": 1523
+          },
+          "peak": 12,
+          "saveChecks": 24,
+          "orders": 72,
+          "claims": 14,
+          "expansions": 5
+        },
+        "findings": [],
+        "final": {
+          "day": 19,
+          "stage": 6,
+          "money": 944897500,
+          "sales": 3365,
+          "missions": [
+            "s1-sales",
+            "s1-core",
+            "s2-sales",
+            "s2-core",
+            "s3-sales",
+            "s3-rack",
+            "s3-core",
+            "s4-sales",
+            "s4-core",
+            "s5-sales",
+            "s5-core",
+            "s6-sales",
+            "s6-drums",
+            "s6-core"
+          ]
+        },
+        "mode": "stages",
+        "seed": 731,
+        "errors": []
+      }
+    ]
+  },
+  "testBuild": {
+    "pass": true,
+    "checks": [
+      "test starts stage7, exactly1b, staff hired,6 single-instrument displays, bench3",
+      "actual pointer VIP 8x8 editor 1600x1000",
+      "actual pointer VIP 8x8 editor 390x844",
+      "test build trades and settles with balanced payroll/stock",
+      "real reload preserves test progress",
+      "reset restores test fixture and leaves normal storage untouched"
+    ],
+    "initial": {
+      "stage": 6,
+      "cash": 1000000000,
+      "ready": true,
+      "bench": 3,
+      "displays": 6,
+      "key": "little-tone-v320-test-stage7-1b"
+    },
+    "trade": {
+      "money": 1013500000,
+      "sales": 3,
+      "visits": 3,
+      "phase": "settled",
+      "stock": [
+        23,
+        39,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        39,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        38,
+        39
+      ]
+    },
+    "errors": []
+  },
+  "limitations": [
+    "Known issues are documented in AUDIT-v3.20.1.md; this is a cleanup release, not a fix for those issues.",
+    "Late stages and VIP tests use funded/unlocked fixtures.",
+    "No physical phone hardware performance test.",
+    "Character rotation still uses 2D front/rear art."
+  ]
+}

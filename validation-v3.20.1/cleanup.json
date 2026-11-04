@@ -1,0 +1,106 @@
+[
+  {
+    "directory": "/workspace/little-tone-v3.20.1-web",
+    "oldApp": "app-f599118c92e5.js",
+    "newApp": "app-7ef670aab463.js",
+    "oldJSBytes": 694717,
+    "newJSBytes": 677089,
+    "oldHTMLBytes": 36290,
+    "newHTMLBytes": 26682,
+    "removedFunctions": [
+      "atelierPanel",
+      "expansionCard"
+    ],
+    "removedImages": [
+      {
+        "key": "assets/people-everyday-v310.webp",
+        "path": "assets/people-everyday-v310-dfaeccef11f3.webp",
+        "bytes": 644750
+      },
+      {
+        "key": "assets/people-regulars-v310.webp",
+        "path": "assets/people-regulars-v310-bff25052566c.webp",
+        "bytes": 626752
+      },
+      {
+        "key": "assets/people-story-v310.webp",
+        "path": "assets/people-story-v310-7fb299c30fe8.webp",
+        "bytes": 648984
+      },
+      {
+        "key": "assets/people-special-v310.webp",
+        "path": "assets/people-special-v310-2e7285a617a0.webp",
+        "bytes": 635038
+      },
+      {
+        "key": "assets/people-team-v310.webp",
+        "path": "assets/people-team-v310-594e20771393.webp",
+        "bytes": 586468
+      },
+      {
+        "key": "assets/drummer-v350.webp",
+        "path": "assets/drummer-v350-6b56b2977b4c.webp",
+        "bytes": 366472
+      },
+      {
+        "key": "assets/team-checkout-v3100.webp",
+        "path": "assets/team-checkout-v3100-5f52f0283333.webp",
+        "bytes": 274714
+      }
+    ],
+    "removedImageBytes": 3783178,
+    "remainingImages": 33
+  },
+  {
+    "directory": "/workspace/little-tone-v3.20.1-test-web",
+    "oldApp": "app-f179e89cdda4.js",
+    "newApp": "app-5ae5197bf851.js",
+    "oldJSBytes": 697733,
+    "newJSBytes": 680105,
+    "oldHTMLBytes": 41918,
+    "newHTMLBytes": 32310,
+    "removedFunctions": [
+      "atelierPanel",
+      "expansionCard"
+    ],
+    "removedImages": [
+      {
+        "key": "assets/people-everyday-v310.webp",
+        "path": "assets/people-everyday-v310-dfaeccef11f3.webp",
+        "bytes": 644750
+      },
+      {
+        "key": "assets/people-regulars-v310.webp",
+        "path": "assets/people-regulars-v310-bff25052566c.webp",
+        "bytes": 626752
+      },
+      {
+        "key": "assets/people-story-v310.webp",
+        "path": "assets/people-story-v310-7fb299c30fe8.webp",
+        "bytes": 648984
+      },
+      {
+        "key": "assets/people-special-v310.webp",
+        "path": "assets/people-special-v310-2e7285a617a0.webp",
+        "bytes": 635038
+      },
+      {
+        "key": "assets/people-team-v310.webp",
+        "path": "assets/people-team-v310-594e20771393.webp",
+        "bytes": 586468
+      },
+      {
+        "key": "assets/drummer-v350.webp",
+        "path": "assets/drummer-v350-6b56b2977b4c.webp",
+        "bytes": 366472
+      },
+      {
+        "key": "assets/team-checkout-v3100.webp",
+        "path": "assets/team-checkout-v3100-5f52f0283333.webp",
+        "bytes": 274714
+      }
+    ],
+    "removedImageBytes": 3783178,
+    "remainingImages": 33
+  }
+]

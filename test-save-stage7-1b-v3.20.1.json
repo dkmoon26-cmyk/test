@@ -1,0 +1,533 @@
+{
+  "format": "little-tone-save",
+  "appVersion": "3.20.1",
+  "saveVersion": 24,
+  "state": {
+    "design": {
+      "wall": "cream",
+      "floor": "original",
+      "vipFloor": "walnut",
+      "vipWall": "sage",
+      "wallItems": []
+    },
+    "vip": {
+      "zone": {
+        "x": 15,
+        "y": 1,
+        "w": 8,
+        "h": 8,
+        "doorSide": "left",
+        "doorAt": 4
+      },
+      "visitedDay": 0,
+      "nextProfile": 0,
+      "lastProfile": -1,
+      "guest": null,
+      "visits": 0,
+      "sales": 0,
+      "revenue": 0,
+      "lastResult": "전시대·시연석·상담대를 구역 안에 배치하세요",
+      "hired": true,
+      "normalSales": 0,
+      "normalRevenue": 0,
+      "dailyDay": 0,
+      "dailyCount": 0,
+      "nextVisitAt": 10
+    },
+    "custom": {
+      "benchLevel": 3,
+      "nextId": 4,
+      "crafted": 3,
+      "sold": 0,
+      "totalCost": 8946400,
+      "totalRevenue": 0,
+      "items": [
+        {
+          "id": 1,
+          "base": 27,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickguard": "none",
+            "rosette": "simple",
+            "bridge": "rosewood",
+            "hardware": "chrome",
+            "finish": "satin"
+          },
+          "cost": 3012000,
+          "price": 3976000,
+          "day": 1,
+          "displayId": 9,
+          "displaySlot": 0
+        },
+        {
+          "id": 2,
+          "base": 28,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickguard": "none",
+            "rosette": "simple",
+            "bridge": "rosewood",
+            "hardware": "chrome",
+            "finish": "satin"
+          },
+          "cost": 5476000,
+          "price": 7228000,
+          "day": 1,
+          "displayId": 10,
+          "displaySlot": 0
+        },
+        {
+          "id": 3,
+          "base": 1,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickup": "standard",
+            "hardware": "chrome",
+            "finish": "satin"
+          },
+          "cost": 458400,
+          "price": 605000,
+          "day": 1,
+          "displayId": 11,
+          "displaySlot": 0
+        }
+      ]
+    },
+    "saveVersion": 24,
+    "ending": {
+      "day": 1,
+      "viewed": true,
+      "continued": true,
+      "records": {
+        "sales": 2900,
+        "revenue": 0,
+        "regulars": 0,
+        "drums": 100
+      }
+    },
+    "shopName": "VIP 테스트 악기점",
+    "named": true,
+    "opened": false,
+    "phase": "prepare",
+    "stage": 6,
+    "dayRent": 125000,
+    "settlement": null,
+    "specialDone": false,
+    "posterRoll": {
+      "day": 0,
+      "won": false
+    },
+    "guests": [],
+    "introducedTiers": [],
+    "pendingIntroductions": [],
+    "expansionNotice": null,
+    "customerBook": {},
+    "hanaStory": {
+      "phase": "locked",
+      "startedDay": 0,
+      "deliveredDay": 0,
+      "completedDay": 0
+    },
+    "repathGuests": false,
+    "pendingOrders": [],
+    "tutorial": {
+      "active": false,
+      "step": 0,
+      "purchased": false,
+      "startDay": 1,
+      "completed": false
+    },
+    "staffHired": 2,
+    "cashierHired": 0,
+    "featureNotices": [],
+    "newFeatures": [],
+    "staffPolicy": {
+      "enabled": true,
+      "reserve": 0,
+      "products": [
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        }
+      ]
+    },
+    "showcase": null,
+    "drummerIntroduced": false,
+    "furnitureRevenue": 0,
+    "ledgerStart": 1000000000,
+    "audio": {
+      "music": 0.22,
+      "effects": 0.6,
+      "muted": false
+    },
+    "customerSequence": 0,
+    "money": 1000000000,
+    "day": 1,
+    "time": 0,
+    "revenue": 0,
+    "sold": 0,
+    "visitors": 0,
+    "totalSales": 2900,
+    "totalRevenue": 0,
+    "expenses": 0,
+    "rep": 10,
+    "reputationDaily": {
+      "day": 1,
+      "gained": 0
+    },
+    "missionRevenue": 0,
+    "missionStats": {
+      "sales": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bestDay": 100,
+      "legacyImported": false
+    },
+    "claimedMissions": [
+      "s1-sales",
+      "s1-core",
+      "s2-sales",
+      "s2-core",
+      "s3-sales",
+      "s3-rack",
+      "s3-core",
+      "s4-sales",
+      "s4-core",
+      "s5-sales",
+      "s5-core",
+      "s6-sales",
+      "s6-core",
+      "s6-drums"
+    ],
+    "pendingMissionGuests": [],
+    "introducedMissionGuests": [
+      9,
+      10,
+      11
+    ],
+    "stock": [
+      40,
+      39,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      39,
+      39
+    ],
+    "furniture": [
+      {
+        "id": 1,
+        "t": 0,
+        "x": 2,
+        "y": 2,
+        "p": 0,
+        "p2": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 2,
+        "t": 1,
+        "x": 5,
+        "y": 7,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 3,
+        "t": 16,
+        "x": 4,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 4,
+        "t": 15,
+        "x": 15,
+        "y": 2,
+        "p": null,
+        "rot": false,
+        "dir": 0,
+        "vipSlots": [
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "t": 15,
+        "x": 19,
+        "y": 2,
+        "p": null,
+        "rot": false,
+        "dir": 0,
+        "vipSlots": [
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "t": 15,
+        "x": 15,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0,
+        "vipSlots": [
+          27
+        ]
+      },
+      {
+        "id": 7,
+        "t": 13,
+        "x": 21,
+        "y": 7,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 8,
+        "t": 14,
+        "x": 18,
+        "y": 7,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 9,
+        "t": 12,
+        "x": 19,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 10,
+        "t": 12,
+        "x": 15,
+        "y": 6,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 11,
+        "t": 12,
+        "x": 19,
+        "y": 6,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 12,
+        "t": 11,
+        "x": 9,
+        "y": 3,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      }
+    ],
+    "nextId": 13
+  }
+}
