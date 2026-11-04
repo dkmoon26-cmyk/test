@@ -1,0 +1,16 @@
+{
+  "previewOnly": true,
+  "gameSourceChanged": false,
+  "usesOriginalGameArtwork": true,
+  "checks": {
+    "horizontalOverflow": false,
+    "navCount": 4,
+    "labels": [
+      "운영",
+      "악기",
+      "상점",
+      "손님"
+    ]
+  },
+  "errors": []
+}
