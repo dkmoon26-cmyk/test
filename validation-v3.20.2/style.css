@@ -1,0 +1,10 @@
+body.vip-editing .bottom-hud,body.vip-editing .open-shop{visibility:hidden}
+#vipEditBar{bottom:12px}
+@media(orientation:landscape) and (max-height:550px){
+ #vipEditBar{width:calc(100vw - 24px);padding:8px 10px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center}
+ #vipEditBar[hidden]{display:none}
+ #vipEditBar b{font-size:12px;white-space:nowrap}
+ #vipEditBar p{margin:0;font-size:12px;line-height:1.4}
+ #vipEditBar>div{gap:6px}
+ #vipEditBar button{min-height:44px;white-space:nowrap;padding:6px 10px}
+}
