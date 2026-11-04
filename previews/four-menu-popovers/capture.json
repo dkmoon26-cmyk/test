@@ -1,0 +1,56 @@
+{
+  "previewOnly": true,
+  "gameFilesChanged": false,
+  "captures": [
+    {
+      "key": "shop",
+      "left": 13,
+      "width": 238,
+      "bottom": 95,
+      "items": [
+        "영업",
+        "직원",
+        "미션",
+        "기록"
+      ]
+    },
+    {
+      "key": "stock",
+      "left": 13,
+      "width": 310,
+      "bottom": 95,
+      "items": [
+        "악기",
+        "이펙터",
+        "소모품"
+      ]
+    },
+    {
+      "key": "furniture",
+      "left": 126.875,
+      "width": 225,
+      "bottom": 95,
+      "items": [
+        "꾸미기",
+        "제작"
+      ]
+    },
+    {
+      "key": "guests",
+      "left": 139,
+      "width": 238,
+      "bottom": 95,
+      "items": [
+        "손님",
+        "단골",
+        "이야기",
+        "VIP"
+      ]
+    }
+  ],
+  "operationsCheck": {
+    "VIPWorkshopRemoved": true,
+    "visibleText": "오늘 운영\n영업 중\n1일차\n\n오늘 매출 144만 5,000 원 · 판매 5개\n\n직원\n재고 2명 · 계산 0명 · 하루 12만 원\n관리 ›\n매장 확장\n7 / 7단계\n\n최종 확장 완료\n\n미션 보기\n목표와 보상 확인 ›\n광고 · 전자드럼\n영업 기록 보기"
+  },
+  "errors": []
+}
