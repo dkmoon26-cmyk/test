@@ -1,0 +1,101 @@
+{
+  "previewOnly": true,
+  "gameFilesChanged": false,
+  "currency": [
+    {
+      "value": 1000000000,
+      "label": "10억 원"
+    },
+    {
+      "value": 125000000,
+      "label": "1.3억 원"
+    },
+    {
+      "value": 9500000,
+      "label": "950만 원"
+    },
+    {
+      "value": 340000,
+      "label": "34만 원"
+    },
+    {
+      "value": 9500,
+      "label": "9,500원"
+    },
+    {
+      "value": -245000,
+      "label": "-24.5만 원"
+    }
+  ],
+  "checks": [
+    {
+      "width": 320,
+      "hudHeight": 70,
+      "navHeight": 54,
+      "buttons": [
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        }
+      ],
+      "money": "10억 원",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "hudHeight": 70,
+      "navHeight": 54,
+      "buttons": [
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        },
+        {
+          "height": 44,
+          "border": "1px"
+        }
+      ],
+      "money": "10억 원",
+      "overflow": false
+    }
+  ],
+  "completionToastDurationMs": 3000,
+  "toastAutoDismissVerified": true,
+  "errors": []
+}
