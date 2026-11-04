@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "initial": {
+    "stage": 7,
+    "money": 1000000000,
+    "VIPReady": true,
+    "benchLevel": 1,
+    "originalSavePreserved": true
+  },
+  "business": {
+    "day": 2,
+    "vipSales": 1,
+    "money": 999102600,
+    "benchLevel": 3
+  },
+  "reloadPreserved": true,
+  "reset": {
+    "stage": 7,
+    "money": 1000000000
+  },
+  "errors": []
+}
