@@ -1,0 +1,2437 @@
+{
+  "version": "3.19.0",
+  "schema": 23,
+  "pass": true,
+  "artifacts": [
+    {
+      "file": "little-tone-v3.19.0-web.zip",
+      "bytes": 17698193,
+      "sha256": "131c2fd6e678aaab0d52530f1945389d0181a57e39f3e833fc1615af5eb16767",
+      "manifestFiles": 43,
+      "allFileHashesVerified": true
+    },
+    {
+      "file": "little-tone-v3.19.0-test-stage7-1b.zip",
+      "bytes": 17702650,
+      "sha256": "f69f40619958967cdad2d3b3a37d191486d8255d5beee1b5402aac73492d9cef",
+      "manifestFiles": 45,
+      "allFileHashesVerified": true
+    }
+  ],
+  "newFeatures": {
+    "pass": true,
+    "checks": [
+      "new game walls start blank",
+      "single row shop 320x568",
+      "single row stock 320x568",
+      "single row furniture 320x568",
+      "single row guests 320x568",
+      "compact chrome 320x568",
+      "single row shop 390x844",
+      "single row stock 390x844",
+      "single row furniture 390x844",
+      "single row guests 390x844",
+      "compact chrome 390x844",
+      "single row shop 844x390",
+      "single row stock 844x390",
+      "single row furniture 844x390",
+      "single row guests 844x390",
+      "compact chrome 844x390",
+      "single row shop 1440x900",
+      "single row stock 1440x900",
+      "single row furniture 1440x900",
+      "single row guests 1440x900",
+      "compact chrome 1440x900",
+      "operations removes ads and workshop",
+      "real dialog navigation instruments",
+      "real dialog navigation effects",
+      "real dialog navigation supplies",
+      "real dialog navigation decor",
+      "real dialog navigation craft",
+      "real dialog navigation visitors",
+      "real dialog navigation relationships",
+      "real dialog navigation stories",
+      "real dialog navigation vips",
+      "outside closes floating menu",
+      "escape closes floating menu",
+      "v3.18 migration discards request bodies and ad effect, preserves relationships/wall art",
+      "6 wall decorations install and save without economy bonuses",
+      "real decor buttons reach six wall items and VIP door settings",
+      "wall clock hands follow game time",
+      "all 28 guitar/bass option changes visibly update without replacing form",
+      "all 12 base instruments and 24 front/rear views recolor",
+      "craft cost/stock once; identical saved and displayed texture after reload",
+      "money reveals exact amount and toast auto dismisses",
+      "tainted-art color/wood/pickup update with zero custom pixel readbacks"
+    ],
+    "textures": [
+      {
+        "base": "0",
+        "key": "color",
+        "value": "forest",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "color",
+        "value": "ivory",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "color",
+        "value": "blue",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "color",
+        "value": "violet",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "wood",
+        "value": "ash",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "wood",
+        "value": "walnut",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "wood",
+        "value": "mahogany",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "pickup",
+        "value": "vintage",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "pickup",
+        "value": "noiseless",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "pickup",
+        "value": "active",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "hardware",
+        "value": "gold",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "hardware",
+        "value": "black",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "finish",
+        "value": "gloss",
+        "changed": true
+      },
+      {
+        "base": "0",
+        "key": "finish",
+        "value": "relic",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "color",
+        "value": "forest",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "color",
+        "value": "ivory",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "color",
+        "value": "blue",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "color",
+        "value": "violet",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "wood",
+        "value": "ash",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "wood",
+        "value": "walnut",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "wood",
+        "value": "mahogany",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "pickup",
+        "value": "vintage",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "pickup",
+        "value": "noiseless",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "pickup",
+        "value": "active",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "hardware",
+        "value": "gold",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "hardware",
+        "value": "black",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "finish",
+        "value": "gloss",
+        "changed": true
+      },
+      {
+        "base": "1",
+        "key": "finish",
+        "value": "relic",
+        "changed": true
+      }
+    ],
+    "allGrades": [
+      {
+        "base": 0,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 0,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 1,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 1,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 9,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 9,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 10,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 10,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 11,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 11,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 12,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 12,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 13,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 13,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 14,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 14,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 15,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 15,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 16,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 16,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 17,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 17,
+        "rear": true,
+        "changed": true
+      },
+      {
+        "base": 18,
+        "rear": false,
+        "changed": true
+      },
+      {
+        "base": 18,
+        "rear": true,
+        "changed": true
+      }
+    ],
+    "migrated": {
+      "requests": 0,
+      "requestField": false,
+      "adField": false,
+      "adMultiplier": 1,
+      "visits": 8,
+      "wallItems": 4
+    },
+    "wall": {
+      "types": [
+        "poster",
+        "record",
+        "guitar",
+        "logo",
+        "clock",
+        "lamp"
+      ],
+      "cashUnchanged": true,
+      "costUnchanged": true
+    },
+    "taintedArt": true,
+    "errors": []
+  },
+  "core": {
+    "pass": true,
+    "reports": [
+      {
+        "functional": [
+          "version",
+          "schema23",
+          "new save roundtrip",
+          "locked workshop",
+          "locked VIP",
+          "reserved threshold1 basic3",
+          "manual threshold preserved",
+          "expand stage 2",
+          "expand stage 3",
+          "expand stage 4",
+          "expand stage 5",
+          "expand stage 6",
+          "expand stage 7",
+          "stage7",
+          "no undefined regular actor intro",
+          "place valid 0 2,2 배치 가능",
+          "place commit 0",
+          "place valid 1 5,8 배치 가능",
+          "place commit 1",
+          "place valid 11 8,4 배치 가능",
+          "place commit 11",
+          "free VIP zone",
+          "missing facilities",
+          "place valid 12 17,2 배치 가능",
+          "place commit 12",
+          "place valid 13 17,4 배치 가능",
+          "place commit 13",
+          "place valid 14 14,5 배치 가능",
+          "place commit 14",
+          "VIP ready",
+          "ordinary visitor cannot enter VIP",
+          "VIP route through door",
+          "zone cannot enclose ordinary rack",
+          "door cannot lead outside shop",
+          "open actual workshop",
+          "opening preview spends nothing",
+          "craft atomic resource debit",
+          "base cost not charged twice",
+          "display crafted item",
+          "custom appears for VIP",
+          "bench level2",
+          "tier2 base choices",
+          "bench level3",
+          "all grades",
+          "upgrade max3",
+          "advanced options craft",
+          "reject acoustic custom",
+          "reject invalid option",
+          "failed craft no charge",
+          "all wall ornaments",
+          "full atelier save roundtrip",
+          "reject bad zone",
+          "failed import unchanged bad zone",
+          "reject bad price",
+          "failed import unchanged bad price",
+          "reject bad profile",
+          "failed import unchanged bad profile",
+          "reject bad wall slot",
+          "failed import unchanged bad wall slot",
+          "reject duplicate item",
+          "failed import unchanged duplicate item"
+        ]
+      },
+      {
+        "simulation": {
+          "checks": 2276,
+          "days": [
+            {
+              "day": 1,
+              "profile": 0,
+              "vipSales": 1,
+              "revenue": 3177000,
+              "money": 985580800,
+              "steps": 1332
+            },
+            {
+              "day": 2,
+              "profile": 1,
+              "vipSales": 2,
+              "revenue": 3325000,
+              "money": 986882400,
+              "steps": 1346
+            },
+            {
+              "day": 3,
+              "profile": 2,
+              "vipSales": 3,
+              "revenue": 2837000,
+              "money": 987708000,
+              "steps": 1350
+            },
+            {
+              "day": 4,
+              "profile": 0,
+              "vipSales": 4,
+              "revenue": 2837000,
+              "money": 988533600,
+              "steps": 1333
+            },
+            {
+              "day": 5,
+              "profile": 1,
+              "vipSales": 5,
+              "revenue": 3325000,
+              "money": 989835200,
+              "steps": 1345
+            },
+            {
+              "day": 6,
+              "profile": 2,
+              "vipSales": 6,
+              "revenue": 2837000,
+              "money": 990340800,
+              "steps": 1318
+            },
+            {
+              "day": 7,
+              "profile": 0,
+              "vipSales": 7,
+              "revenue": 2837000,
+              "money": 991166400,
+              "steps": 1333
+            },
+            {
+              "day": 8,
+              "profile": 1,
+              "vipSales": 8,
+              "revenue": 3325000,
+              "money": 992468000,
+              "steps": 1310
+            },
+            {
+              "day": 9,
+              "profile": 2,
+              "vipSales": 9,
+              "revenue": 2837000,
+              "money": 992973600,
+              "steps": 1332
+            }
+          ],
+          "custom": {
+            "benchLevel": 3,
+            "nextId": 12,
+            "crafted": 11,
+            "sold": 9,
+            "totalCost": 4588400,
+            "totalRevenue": 4557000,
+            "items": [
+              {
+                "id": 1,
+                "base": 0,
+                "options": {
+                  "color": "wine",
+                  "wood": "alder",
+                  "pickup": "standard",
+                  "hardware": "chrome",
+                  "finish": "satin"
+                },
+                "cost": 346400,
+                "price": 457000,
+                "day": 1,
+                "displayId": null
+              },
+              {
+                "id": 2,
+                "base": 1,
+                "options": {
+                  "color": "wine",
+                  "wood": "alder",
+                  "pickup": "active",
+                  "hardware": "chrome",
+                  "finish": "satin"
+                },
+                "cost": 788400,
+                "price": 1041000,
+                "day": 1,
+                "displayId": null
+              }
+            ]
+          },
+          "vip": {
+            "zone": {
+              "x": 13,
+              "y": 1,
+              "w": 6,
+              "h": 6,
+              "doorSide": "left",
+              "doorAt": 2
+            },
+            "visitedDay": 9,
+            "nextProfile": 0,
+            "lastProfile": 2,
+            "guest": null,
+            "visits": 9,
+            "sales": 9,
+            "revenue": 4557000,
+            "lastResult": "은채 · 커스텀 악기 구매 45만 7,000 원"
+          }
+        }
+      },
+      {
+        "viewport": {
+          "width": 1600,
+          "height": 1000,
+          "pageOverflow": false,
+          "dialogOverflow": false,
+          "canvasWidth": 488.1875,
+          "canvasHeight": 490
+        }
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "pageOverflow": false,
+          "dialogOverflow": false,
+          "canvasWidth": 324,
+          "canvasHeight": 300
+        }
+      },
+      {
+        "viewport": {
+          "width": 320,
+          "height": 568,
+          "pageOverflow": false,
+          "dialogOverflow": false,
+          "canvasWidth": 254,
+          "canvasHeight": 300
+        }
+      }
+    ],
+    "errors": []
+  },
+  "vipEdges": {
+    "pass": true,
+    "reports": [
+      {
+        "side": "left",
+        "checks": [
+          "fixture import",
+          "all door sides valid",
+          "door inside accessible",
+          "ordinary guest excluded",
+          "craft",
+          "display",
+          "open",
+          "reload before payment",
+          "reload after payment",
+          "no duplicate payment on reload",
+          "complete visit through left",
+          "exactly one VIP sale",
+          "sale visit count",
+          "no stuck closing"
+        ],
+        "steps": 2661
+      },
+      {
+        "side": "right",
+        "checks": [
+          "fixture import",
+          "all door sides valid",
+          "door inside accessible",
+          "ordinary guest excluded",
+          "craft",
+          "display",
+          "open",
+          "reload before payment",
+          "reload after payment",
+          "no duplicate payment on reload",
+          "complete visit through right",
+          "exactly one VIP sale",
+          "sale visit count",
+          "no stuck closing"
+        ],
+        "steps": 2676
+      },
+      {
+        "side": "top",
+        "checks": [
+          "fixture import",
+          "all door sides valid",
+          "door inside accessible",
+          "ordinary guest excluded",
+          "craft",
+          "display",
+          "open",
+          "reload before payment",
+          "reload after payment",
+          "no duplicate payment on reload",
+          "complete visit through top",
+          "exactly one VIP sale",
+          "sale visit count",
+          "no stuck closing"
+        ],
+        "steps": 2713
+      },
+      {
+        "side": "bottom",
+        "checks": [
+          "fixture import",
+          "all door sides valid",
+          "door inside accessible",
+          "ordinary guest excluded",
+          "craft",
+          "display",
+          "open",
+          "reload before payment",
+          "reload after payment",
+          "no duplicate payment on reload",
+          "complete visit through bottom",
+          "exactly one VIP sale",
+          "sale visit count",
+          "no stuck closing"
+        ],
+        "steps": 2672
+      },
+      {
+        "failureChecks": [
+          "no stock no craft",
+          "no stock atomic",
+          "no funds no craft",
+          "no funds atomic",
+          "restore",
+          "zone removal",
+          "removed zone disables VIP",
+          "removed zone saved",
+          "ordinary rack blocks new zone",
+          "sell display",
+          "display links released",
+          "save after display sale"
+        ]
+      },
+      {
+        "pointerEditor": {
+          "width": 1440,
+          "height": 900,
+          "pass": true
+        }
+      },
+      {
+        "pointerEditor": {
+          "width": 390,
+          "height": 844,
+          "pass": true
+        }
+      },
+      {
+        "migration": {
+          "version": 23,
+          "stage": 2,
+          "money": 998150000
+        }
+      }
+    ],
+    "errors": []
+  },
+  "existingRegression": {
+    "checks": [
+      "natural low-cash last-rack scenario protected without state mutation",
+      "quick menu and management both disable last-rack sale",
+      "expand",
+      "hire first staff",
+      "basic threshold3 quantity5",
+      "reserved threshold3 quantity1",
+      "covered funded basic alert hidden",
+      "first employee cannot hide uncovered reserved product",
+      "basic alerts hidden even when globally disabled",
+      "basic alerts hidden even when product disabled",
+      "basic alerts hidden even when cash insufficient",
+      "exact reserve plus order hides alert",
+      "non-last rack sale allowed",
+      "remaining reserved rack permits opening",
+      "later expansion",
+      "later expansion",
+      "later expansion",
+      "hire second inventory employee",
+      "second employee covers reserved product",
+      "automatic reserved order",
+      "one unit next-day order",
+      "paid incoming order hides alert even with low cash",
+      "pending order blocks automatic duplicate",
+      "manual express allowed while normal delivery pending",
+      "express keeps pending order and charges exact fee",
+      "disabled automation remains visible with incoming",
+      "custom rules save restores",
+      "manual threshold and quantity persist",
+      "operations revenue and sold count update while panel remains open",
+      "actual sales crossing stock2 and stock0 suppress covered shortage toasts",
+      "operations menu pause/play/speed actual clicks",
+      "operations to mission transition pause/play/speed actual clicks",
+      "mission dialog pause/play/speed actual clicks",
+      "staff management pause/play/speed actual clicks",
+      "staff order settings pause/play/speed actual clicks",
+      "staff order settings still freeze simulation",
+      "320x568 stock menu pause/play/speed actual clicks",
+      "320x568 mission dialog pause/play/speed actual clicks",
+      "360x640 stock menu pause/play/speed actual clicks",
+      "360x640 mission dialog pause/play/speed actual clicks",
+      "390x844 stock menu pause/play/speed actual clicks",
+      "390x844 mission dialog pause/play/speed actual clicks",
+      "650x900 stock menu pause/play/speed actual clicks",
+      "650x900 mission dialog pause/play/speed actual clicks",
+      "651x900 stock menu pause/play/speed actual clicks",
+      "651x900 mission dialog pause/play/speed actual clicks",
+      "844x390 stock menu pause/play/speed actual clicks",
+      "844x390 mission dialog pause/play/speed actual clicks",
+      "1024x768 stock menu pause/play/speed actual clicks",
+      "1024x768 mission dialog pause/play/speed actual clicks",
+      "1440x900 stock menu pause/play/speed actual clicks",
+      "1440x900 mission dialog pause/play/speed actual clicks",
+      "next-stage mission explanation visible",
+      "settlement closes employee menu and next day cannot revive stale controls"
+    ],
+    "guard": {
+      "money": 70000,
+      "stock": 22,
+      "ready": true
+    },
+    "live": {
+      "sold": 14,
+      "label": "14",
+      "revenue": 5690000
+    },
+    "toastCheck": {
+      "transitions": [
+        2,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2
+      ],
+      "notes": [
+        "학생 밴드부원 첫 방문! 밴드부원 도하",
+        "인디밴드 연주자 첫 방문! 인디 연주자 나래",
+        "전문 세션 연주자 첫 방문! 세션 연주자 현우",
+        "악기 수집가 첫 방문! 수집가 선영",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고",
+        "오늘 입고 · 악기 1개",
+        "직원 주문 · 데이브레이크 ST 5개 · 즉시 입고"
+      ]
+    },
+    "layouts": [
+      {
+        "width": 320,
+        "height": 568,
+        "day": {
+          "x": 21,
+          "y": 38.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 65.671875,
+          "bottom": 58.5
+        },
+        "clock": {
+          "x": 68.671875,
+          "y": 38.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 96.171875,
+          "bottom": 58.5
+        },
+        "pause": {
+          "x": 205,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 233,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 296,
+          "h": 70,
+          "right": 308,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 360,
+        "height": 640,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 243,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 271,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 336,
+          "h": 70,
+          "right": 348,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 273,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 301,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 366,
+          "h": 70,
+          "right": 378,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 650,
+        "height": 900,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 533,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 561,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 626,
+          "h": 70,
+          "right": 638,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 651,
+        "height": 900,
+        "day": {
+          "x": 23,
+          "y": 37.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 57.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 37.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 57.5
+        },
+        "pause": {
+          "x": 534,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 562,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 627,
+          "h": 70,
+          "right": 639,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "day": {
+          "x": 23,
+          "y": 26.5,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 46.5
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 26.5,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 46.5
+        },
+        "pause": {
+          "x": 727,
+          "y": 36,
+          "w": 28,
+          "h": 24,
+          "right": 755,
+          "bottom": 60
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 820,
+          "h": 56,
+          "right": 832,
+          "bottom": 66
+        },
+        "overflow": false
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "day": {
+          "x": 23,
+          "y": 49,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 69
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 49,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 69
+        },
+        "pause": {
+          "x": 907,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 935,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 1000,
+          "h": 70,
+          "right": 1012,
+          "bottom": 80
+        },
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "day": {
+          "x": 23,
+          "y": 49,
+          "w": 44.671875,
+          "h": 20,
+          "right": 67.671875,
+          "bottom": 69
+        },
+        "clock": {
+          "x": 72.671875,
+          "y": 49,
+          "w": 27.5,
+          "h": 20,
+          "right": 100.171875,
+          "bottom": 69
+        },
+        "pause": {
+          "x": 1323,
+          "y": 47,
+          "w": 28,
+          "h": 24,
+          "right": 1351,
+          "bottom": 71
+        },
+        "hud": {
+          "x": 12,
+          "y": 10,
+          "w": 1416,
+          "h": 70,
+          "right": 1428,
+          "bottom": 80
+        },
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  "existingGameplay": {
+    "days": 99,
+    "naturalDays": 45,
+    "fixtureDays": 54,
+    "runs": [
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 7150000,
+            "net": 2150000,
+            "closeSeconds": 16.6,
+            "maxPathStall": 5.6
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 14,
+            "visitors": 24,
+            "money": 5670000,
+            "net": -1480000,
+            "closeSeconds": 15.8,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 24,
+            "money": 10160000,
+            "net": 4490000,
+            "closeSeconds": 17.5,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 4,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 26,
+            "money": 11960000,
+            "net": 1800000,
+            "closeSeconds": 13.6,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 5,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 26,
+            "money": 14290000,
+            "net": 2330000,
+            "closeSeconds": 20.5,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 6,
+            "stage": 1,
+            "sold": 12,
+            "visitors": 24,
+            "money": 18460000,
+            "net": 4170000,
+            "closeSeconds": 6.1,
+            "maxPathStall": 7.4
+          },
+          {
+            "day": 7,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 26,
+            "money": 18610000,
+            "net": 150000,
+            "closeSeconds": 17.5,
+            "maxPathStall": 7.9
+          },
+          {
+            "day": 8,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 25,
+            "money": 19790000,
+            "net": 1180000,
+            "closeSeconds": 13.8,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 9,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 25,
+            "money": 23420000,
+            "net": 3630000,
+            "closeSeconds": 9.6,
+            "maxPathStall": 7.6
+          },
+          {
+            "day": 10,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 25,
+            "money": 24240000,
+            "net": 820000,
+            "closeSeconds": 5.2,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 11,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 26,
+            "money": 26840000,
+            "net": 2600000,
+            "closeSeconds": 16.5,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 12,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 25,
+            "money": 29890000,
+            "net": 3050000,
+            "closeSeconds": 14.2,
+            "maxPathStall": 8.2
+          },
+          {
+            "day": 13,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 27,
+            "money": 32810000,
+            "net": 2920000,
+            "closeSeconds": 14.1,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 14,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 25,
+            "money": 33220000,
+            "net": 410000,
+            "closeSeconds": 9.6,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 15,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 26,
+            "money": 36100000,
+            "net": 2880000,
+            "closeSeconds": 12.1,
+            "maxPathStall": 6.7
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 283,
+            "family": 358,
+            "child": 358,
+            "musician": 342
+          },
+          "states": {
+            "browse": 22076,
+            "try": 10036,
+            "checkout": 11510,
+            "leave": 14742,
+            "queue": 2050,
+            "follow": 358
+          },
+          "peak": 5,
+          "saveChecks": 20,
+          "orders": 41,
+          "claims": 2,
+          "expansions": 0
+        },
+        "findings": [],
+        "final": {
+          "day": 16,
+          "stage": 1,
+          "money": 36100000,
+          "sales": 275,
+          "missions": [
+            "s1-sales",
+            "s1-core"
+          ]
+        },
+        "mode": "organic",
+        "seed": 17,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 13,
+            "visitors": 24,
+            "money": 5230000,
+            "net": 230000,
+            "closeSeconds": 8.2,
+            "maxPathStall": 5.6
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 25,
+            "money": 7950000,
+            "net": 2720000,
+            "closeSeconds": 19.4,
+            "maxPathStall": 6.9
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 9780000,
+            "net": 1830000,
+            "closeSeconds": 12.2,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 4,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 25,
+            "money": 11220000,
+            "net": 1440000,
+            "closeSeconds": 7.1,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 5,
+            "stage": 1,
+            "sold": 15,
+            "visitors": 26,
+            "money": 12860000,
+            "net": 1640000,
+            "closeSeconds": 12.5,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 6,
+            "stage": 1,
+            "sold": 15,
+            "visitors": 24,
+            "money": 18300000,
+            "net": 5440000,
+            "closeSeconds": 5.4,
+            "maxPathStall": 6.8
+          },
+          {
+            "day": 7,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 26,
+            "money": 18570000,
+            "net": 270000,
+            "closeSeconds": 21.7,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 8,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 25,
+            "money": 19940000,
+            "net": 1370000,
+            "closeSeconds": 14.5,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 9,
+            "stage": 1,
+            "sold": 13,
+            "visitors": 25,
+            "money": 20520000,
+            "net": 580000,
+            "closeSeconds": 14.8,
+            "maxPathStall": 5.2
+          },
+          {
+            "day": 10,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 26,
+            "money": 23280000,
+            "net": 2760000,
+            "closeSeconds": 12.1,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 11,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 25,
+            "money": 25550000,
+            "net": 2270000,
+            "closeSeconds": 13.9,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 12,
+            "stage": 1,
+            "sold": 12,
+            "visitors": 25,
+            "money": 25780000,
+            "net": 230000,
+            "closeSeconds": 10.1,
+            "maxPathStall": 7.1
+          },
+          {
+            "day": 13,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 26,
+            "money": 29060000,
+            "net": 3280000,
+            "closeSeconds": 14.2,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 14,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 30990000,
+            "net": 1930000,
+            "closeSeconds": 9.1,
+            "maxPathStall": 6.2
+          },
+          {
+            "day": 15,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 25,
+            "money": 34020000,
+            "net": 3030000,
+            "closeSeconds": 9.1,
+            "maxPathStall": 6.7
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 317,
+            "family": 208,
+            "child": 208,
+            "musician": 446
+          },
+          "states": {
+            "browse": 21674,
+            "try": 10460,
+            "checkout": 10824,
+            "leave": 14504,
+            "queue": 1650,
+            "follow": 208
+          },
+          "peak": 5,
+          "saveChecks": 20,
+          "orders": 41,
+          "claims": 2,
+          "expansions": 0
+        },
+        "findings": [],
+        "final": {
+          "day": 16,
+          "stage": 1,
+          "money": 34020000,
+          "sales": 255,
+          "missions": [
+            "s1-sales",
+            "s1-core"
+          ]
+        },
+        "mode": "organic",
+        "seed": 2026,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 7250000,
+            "net": 2250000,
+            "closeSeconds": 18.93,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 24,
+            "money": 6880000,
+            "net": -370000,
+            "closeSeconds": 9.37,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 17,
+            "visitors": 24,
+            "money": 8550000,
+            "net": 1670000,
+            "closeSeconds": 11.53,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 4,
+            "stage": 1,
+            "sold": 18,
+            "visitors": 25,
+            "money": 11010000,
+            "net": 2460000,
+            "closeSeconds": 12.53,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 5,
+            "stage": 1,
+            "sold": 15,
+            "visitors": 26,
+            "money": 12460000,
+            "net": 1450000,
+            "closeSeconds": 17.77,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 6,
+            "stage": 1,
+            "sold": 15,
+            "visitors": 25,
+            "money": 18010000,
+            "net": 5550000,
+            "closeSeconds": 8.33,
+            "maxPathStall": 4.37
+          },
+          {
+            "day": 7,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 25,
+            "money": 18640000,
+            "net": 630000,
+            "closeSeconds": 16.23,
+            "maxPathStall": 6.63
+          },
+          {
+            "day": 8,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 20070000,
+            "net": 1430000,
+            "closeSeconds": 10.1,
+            "maxPathStall": 6.63
+          },
+          {
+            "day": 9,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 26,
+            "money": 22410000,
+            "net": 2340000,
+            "closeSeconds": 17.77,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 10,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 26,
+            "money": 24980000,
+            "net": 2570000,
+            "closeSeconds": 21.53,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 11,
+            "stage": 1,
+            "sold": 23,
+            "visitors": 26,
+            "money": 28680000,
+            "net": 3700000,
+            "closeSeconds": 16.27,
+            "maxPathStall": 5.77
+          },
+          {
+            "day": 12,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 29800000,
+            "net": 1120000,
+            "closeSeconds": 15.47,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 13,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 27,
+            "money": 31700000,
+            "net": 1900000,
+            "closeSeconds": 17.07,
+            "maxPathStall": 5.3
+          },
+          {
+            "day": 14,
+            "stage": 1,
+            "sold": 16,
+            "visitors": 26,
+            "money": 33220000,
+            "net": 1520000,
+            "closeSeconds": 16.2,
+            "maxPathStall": 6.43
+          },
+          {
+            "day": 15,
+            "stage": 1,
+            "sold": 21,
+            "visitors": 26,
+            "money": 36640000,
+            "net": 3420000,
+            "closeSeconds": 18.1,
+            "maxPathStall": 5.3
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 827,
+            "family": 490,
+            "child": 490,
+            "musician": 1093
+          },
+          "states": {
+            "browse": 66342,
+            "try": 31926,
+            "checkout": 34647,
+            "queue": 4158,
+            "leave": 44482,
+            "follow": 490
+          },
+          "peak": 5,
+          "saveChecks": 20,
+          "orders": 41,
+          "claims": 2,
+          "expansions": 0
+        },
+        "findings": [],
+        "final": {
+          "day": 16,
+          "stage": 1,
+          "money": 36640000,
+          "sales": 279,
+          "missions": [
+            "s1-sales",
+            "s1-core"
+          ]
+        },
+        "mode": "organic",
+        "seed": 731,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 19,
+            "visitors": 25,
+            "money": 989118000,
+            "net": -12352000,
+            "closeSeconds": 10.8,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 30,
+            "visitors": 25,
+            "money": 995214000,
+            "net": 6096000,
+            "closeSeconds": 15.4,
+            "maxPathStall": 12.5
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 25,
+            "visitors": 23,
+            "money": 1001224000,
+            "net": 6010000,
+            "closeSeconds": 13.8,
+            "maxPathStall": 7.7
+          },
+          {
+            "day": 4,
+            "stage": 2,
+            "sold": 28,
+            "visitors": 29,
+            "money": 966639800,
+            "net": -35360200,
+            "closeSeconds": 23.9,
+            "maxPathStall": 12.2
+          },
+          {
+            "day": 5,
+            "stage": 2,
+            "sold": 30,
+            "visitors": 31,
+            "money": 973328800,
+            "net": 6689000,
+            "closeSeconds": 23.9,
+            "maxPathStall": 16.1
+          },
+          {
+            "day": 6,
+            "stage": 2,
+            "sold": 28,
+            "visitors": 28,
+            "money": 979148000,
+            "net": 5819200,
+            "closeSeconds": 23.4,
+            "maxPathStall": 19.2
+          },
+          {
+            "day": 7,
+            "stage": 3,
+            "sold": 31,
+            "visitors": 31,
+            "money": 941381300,
+            "net": -63118700,
+            "closeSeconds": 27.9,
+            "maxPathStall": 9.6
+          },
+          {
+            "day": 8,
+            "stage": 3,
+            "sold": 24,
+            "visitors": 31,
+            "money": 946558300,
+            "net": 5177000,
+            "closeSeconds": 27.6,
+            "maxPathStall": 4.8
+          },
+          {
+            "day": 9,
+            "stage": 3,
+            "sold": 33,
+            "visitors": 32,
+            "money": 955039300,
+            "net": 8481000,
+            "closeSeconds": 33.8,
+            "maxPathStall": 7.5
+          },
+          {
+            "day": 10,
+            "stage": 4,
+            "sold": 33,
+            "visitors": 36,
+            "money": 993660000,
+            "net": -16340000,
+            "closeSeconds": 27.2,
+            "maxPathStall": 9.5
+          },
+          {
+            "day": 11,
+            "stage": 4,
+            "sold": 27,
+            "visitors": 35,
+            "money": 1002851000,
+            "net": 9191000,
+            "closeSeconds": 27.6,
+            "maxPathStall": 4.8
+          },
+          {
+            "day": 12,
+            "stage": 4,
+            "sold": 32,
+            "visitors": 36,
+            "money": 1014724400,
+            "net": 11873400,
+            "closeSeconds": 22.1,
+            "maxPathStall": 7.6
+          },
+          {
+            "day": 13,
+            "stage": 5,
+            "sold": 33,
+            "visitors": 38,
+            "money": 988179300,
+            "net": -33820700,
+            "closeSeconds": 41.8,
+            "maxPathStall": 9.6
+          },
+          {
+            "day": 14,
+            "stage": 5,
+            "sold": 37,
+            "visitors": 39,
+            "money": 1002530300,
+            "net": 14351000,
+            "closeSeconds": 22.5,
+            "maxPathStall": 6.9
+          },
+          {
+            "day": 15,
+            "stage": 5,
+            "sold": 31,
+            "visitors": 40,
+            "money": 1012404500,
+            "net": 9874200,
+            "closeSeconds": 30.8,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 16,
+            "stage": 6,
+            "sold": 33,
+            "visitors": 47,
+            "money": 909719200,
+            "net": -130280800,
+            "closeSeconds": 26.2,
+            "maxPathStall": 13.4
+          },
+          {
+            "day": 17,
+            "stage": 6,
+            "sold": 45,
+            "visitors": 46,
+            "money": 939203200,
+            "net": 29484000,
+            "closeSeconds": 25.6,
+            "maxPathStall": 11.7
+          },
+          {
+            "day": 18,
+            "stage": 6,
+            "sold": 42,
+            "visitors": 47,
+            "money": 958573200,
+            "net": 19370000,
+            "closeSeconds": 30.3,
+            "maxPathStall": 7.5
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 1258,
+            "family": 523,
+            "child": 523,
+            "musician": 534
+          },
+          "states": {
+            "browse": 64969,
+            "leave": 40160,
+            "try": 8882,
+            "checkout": 28547,
+            "queue": 3805,
+            "follow": 523
+          },
+          "peak": 12,
+          "saveChecks": 24,
+          "orders": 66,
+          "claims": 14,
+          "expansions": 5
+        },
+        "findings": [],
+        "final": {
+          "day": 19,
+          "stage": 6,
+          "money": 958573200,
+          "sales": 3161,
+          "missions": [
+            "s1-sales",
+            "s1-core",
+            "s2-sales",
+            "s2-core",
+            "s3-sales",
+            "s3-rack",
+            "s3-core",
+            "s4-sales",
+            "s4-core",
+            "s5-sales",
+            "s5-core",
+            "s6-sales",
+            "s6-drums",
+            "s6-core"
+          ]
+        },
+        "mode": "stages",
+        "seed": 17,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 22,
+            "visitors": 23,
+            "money": 989039000,
+            "net": -12431000,
+            "closeSeconds": 12.8,
+            "maxPathStall": 8.3
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 24,
+            "visitors": 25,
+            "money": 994824000,
+            "net": 5785000,
+            "closeSeconds": 17.5,
+            "maxPathStall": 8.9
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 25,
+            "visitors": 24,
+            "money": 1000288400,
+            "net": 5464400,
+            "closeSeconds": 12,
+            "maxPathStall": 11.7
+          },
+          {
+            "day": 4,
+            "stage": 2,
+            "sold": 23,
+            "visitors": 29,
+            "money": 965597600,
+            "net": -36402400,
+            "closeSeconds": 16.6,
+            "maxPathStall": 9.1
+          },
+          {
+            "day": 5,
+            "stage": 2,
+            "sold": 35,
+            "visitors": 30,
+            "money": 974545600,
+            "net": 8948000,
+            "closeSeconds": 28.1,
+            "maxPathStall": 11.7
+          },
+          {
+            "day": 6,
+            "stage": 2,
+            "sold": 25,
+            "visitors": 29,
+            "money": 979626800,
+            "net": 5081200,
+            "closeSeconds": 18.9,
+            "maxPathStall": 13.8
+          },
+          {
+            "day": 7,
+            "stage": 3,
+            "sold": 29,
+            "visitors": 32,
+            "money": 941647800,
+            "net": -62852200,
+            "closeSeconds": 26.4,
+            "maxPathStall": 10.7
+          },
+          {
+            "day": 8,
+            "stage": 3,
+            "sold": 30,
+            "visitors": 31,
+            "money": 950943800,
+            "net": 9296000,
+            "closeSeconds": 23.1,
+            "maxPathStall": 6.9
+          },
+          {
+            "day": 9,
+            "stage": 3,
+            "sold": 26,
+            "visitors": 31,
+            "money": 960622000,
+            "net": 9678200,
+            "closeSeconds": 21.4,
+            "maxPathStall": 6.8
+          },
+          {
+            "day": 10,
+            "stage": 4,
+            "sold": 34,
+            "visitors": 35,
+            "money": 992244500,
+            "net": -17755500,
+            "closeSeconds": 30.2,
+            "maxPathStall": 12.2
+          },
+          {
+            "day": 11,
+            "stage": 4,
+            "sold": 31,
+            "visitors": 37,
+            "money": 1001191500,
+            "net": 8947000,
+            "closeSeconds": 27.8,
+            "maxPathStall": 7.5
+          },
+          {
+            "day": 12,
+            "stage": 4,
+            "sold": 27,
+            "visitors": 36,
+            "money": 1011797900,
+            "net": 10606400,
+            "closeSeconds": 24,
+            "maxPathStall": 5.5
+          },
+          {
+            "day": 13,
+            "stage": 5,
+            "sold": 35,
+            "visitors": 41,
+            "money": 988691900,
+            "net": -33308100,
+            "closeSeconds": 24.9,
+            "maxPathStall": 6.7
+          },
+          {
+            "day": 14,
+            "stage": 5,
+            "sold": 37,
+            "visitors": 41,
+            "money": 999467900,
+            "net": 10776000,
+            "closeSeconds": 35.9,
+            "maxPathStall": 10.9
+          },
+          {
+            "day": 15,
+            "stage": 5,
+            "sold": 34,
+            "visitors": 38,
+            "money": 1009712500,
+            "net": 10244600,
+            "closeSeconds": 24.9,
+            "maxPathStall": 9
+          },
+          {
+            "day": 16,
+            "stage": 6,
+            "sold": 44,
+            "visitors": 44,
+            "money": 922885000,
+            "net": -117115000,
+            "closeSeconds": 30.9,
+            "maxPathStall": 17
+          },
+          {
+            "day": 17,
+            "stage": 6,
+            "sold": 40,
+            "visitors": 44,
+            "money": 950818400,
+            "net": 27933400,
+            "closeSeconds": 26,
+            "maxPathStall": 10
+          },
+          {
+            "day": 18,
+            "stage": 6,
+            "sold": 34,
+            "visitors": 46,
+            "money": 969574600,
+            "net": 18756200,
+            "closeSeconds": 28.7,
+            "maxPathStall": 6.1
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 727,
+            "family": 463,
+            "child": 463,
+            "musician": 657
+          },
+          "states": {
+            "browse": 64483,
+            "try": 9235,
+            "leave": 40020,
+            "checkout": 28879,
+            "queue": 4455,
+            "follow": 463
+          },
+          "peak": 12,
+          "saveChecks": 24,
+          "orders": 74,
+          "claims": 14,
+          "expansions": 5
+        },
+        "findings": [],
+        "final": {
+          "day": 19,
+          "stage": 6,
+          "money": 969574600,
+          "sales": 3155,
+          "missions": [
+            "s1-sales",
+            "s1-core",
+            "s2-sales",
+            "s2-core",
+            "s3-sales",
+            "s3-rack",
+            "s3-core",
+            "s4-sales",
+            "s4-core",
+            "s5-sales",
+            "s5-core",
+            "s6-sales",
+            "s6-drums",
+            "s6-core"
+          ]
+        },
+        "mode": "stages",
+        "seed": 2026,
+        "errors": []
+      },
+      {
+        "days": [
+          {
+            "day": 1,
+            "stage": 1,
+            "sold": 27,
+            "visitors": 26,
+            "money": 990770000,
+            "net": -10700000,
+            "closeSeconds": 16.7,
+            "maxPathStall": 12.7
+          },
+          {
+            "day": 2,
+            "stage": 1,
+            "sold": 20,
+            "visitors": 24,
+            "money": 995506000,
+            "net": 4736000,
+            "closeSeconds": 8.7,
+            "maxPathStall": 12.7
+          },
+          {
+            "day": 3,
+            "stage": 1,
+            "sold": 26,
+            "visitors": 24,
+            "money": 1000650800,
+            "net": 5144800,
+            "closeSeconds": 9.9,
+            "maxPathStall": 8.1
+          },
+          {
+            "day": 4,
+            "stage": 2,
+            "sold": 31,
+            "visitors": 28,
+            "money": 966270500,
+            "net": -35729500,
+            "closeSeconds": 22.27,
+            "maxPathStall": 12.7
+          },
+          {
+            "day": 5,
+            "stage": 2,
+            "sold": 22,
+            "visitors": 30,
+            "money": 971260500,
+            "net": 4990000,
+            "closeSeconds": 14.27,
+            "maxPathStall": 7.17
+          },
+          {
+            "day": 6,
+            "stage": 2,
+            "sold": 29,
+            "visitors": 29,
+            "money": 977283500,
+            "net": 6023000,
+            "closeSeconds": 24.1,
+            "maxPathStall": 8.47
+          },
+          {
+            "day": 7,
+            "stage": 3,
+            "sold": 30,
+            "visitors": 32,
+            "money": 942901700,
+            "net": -61598300,
+            "closeSeconds": 28.47,
+            "maxPathStall": 10.83
+          },
+          {
+            "day": 8,
+            "stage": 3,
+            "sold": 31,
+            "visitors": 34,
+            "money": 950603700,
+            "net": 7702000,
+            "closeSeconds": 27.87,
+            "maxPathStall": 7.17
+          },
+          {
+            "day": 9,
+            "stage": 3,
+            "sold": 34,
+            "visitors": 31,
+            "money": 961906700,
+            "net": 11303000,
+            "closeSeconds": 23.33,
+            "maxPathStall": 17.63
+          },
+          {
+            "day": 10,
+            "stage": 4,
+            "sold": 31,
+            "visitors": 35,
+            "money": 991886400,
+            "net": -18113600,
+            "closeSeconds": 23.47,
+            "maxPathStall": 8.57
+          },
+          {
+            "day": 11,
+            "stage": 4,
+            "sold": 39,
+            "visitors": 37,
+            "money": 1005134400,
+            "net": 13248000,
+            "closeSeconds": 23.8,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 12,
+            "stage": 4,
+            "sold": 28,
+            "visitors": 38,
+            "money": 1013280200,
+            "net": 8145800,
+            "closeSeconds": 31.8,
+            "maxPathStall": 10.9
+          },
+          {
+            "day": 13,
+            "stage": 5,
+            "sold": 33,
+            "visitors": 39,
+            "money": 988785000,
+            "net": -33215000,
+            "closeSeconds": 27.1,
+            "maxPathStall": 6.07
+          },
+          {
+            "day": 14,
+            "stage": 5,
+            "sold": 31,
+            "visitors": 40,
+            "money": 998728000,
+            "net": 9943000,
+            "closeSeconds": 32.17,
+            "maxPathStall": 6.1
+          },
+          {
+            "day": 15,
+            "stage": 5,
+            "sold": 35,
+            "visitors": 43,
+            "money": 1009086800,
+            "net": 10358800,
+            "closeSeconds": 28.27,
+            "maxPathStall": 8.77
+          },
+          {
+            "day": 16,
+            "stage": 6,
+            "sold": 32,
+            "visitors": 46,
+            "money": 908234300,
+            "net": -131765700,
+            "closeSeconds": 30.9,
+            "maxPathStall": 10.7
+          },
+          {
+            "day": 17,
+            "stage": 6,
+            "sold": 38,
+            "visitors": 47,
+            "money": 938105300,
+            "net": 29871000,
+            "closeSeconds": 26.13,
+            "maxPathStall": 7.43
+          },
+          {
+            "day": 18,
+            "stage": 6,
+            "sold": 40,
+            "visitors": 43,
+            "money": 958667300,
+            "net": 20562000,
+            "closeSeconds": 23.07,
+            "maxPathStall": 9.7
+          }
+        ],
+        "coverage": {
+          "specials": {
+            "band": 2391,
+            "family": 1428,
+            "child": 1428,
+            "musician": 1566
+          },
+          "states": {
+            "browse": 197421,
+            "try": 25828,
+            "leave": 121514,
+            "checkout": 85181,
+            "queue": 10626,
+            "follow": 1428
+          },
+          "peak": 12,
+          "saveChecks": 24,
+          "orders": 72,
+          "claims": 14,
+          "expansions": 5
+        },
+        "findings": [],
+        "final": {
+          "day": 19,
+          "stage": 6,
+          "money": 958667300,
+          "sales": 3157,
+          "missions": [
+            "s1-sales",
+            "s1-core",
+            "s2-sales",
+            "s2-core",
+            "s3-sales",
+            "s3-rack",
+            "s3-core",
+            "s4-sales",
+            "s4-core",
+            "s5-sales",
+            "s5-core",
+            "s6-sales",
+            "s6-drums",
+            "s6-core"
+          ]
+        },
+        "mode": "stages",
+        "seed": 731,
+        "errors": []
+      }
+    ]
+  },
+  "testBuild": {
+    "pass": true,
+    "initial": {
+      "stage": 7,
+      "money": 1000000000,
+      "VIPReady": true,
+      "benchLevel": 1,
+      "originalSavePreserved": true
+    },
+    "business": {
+      "day": 2,
+      "vipSales": 1,
+      "money": 996835600,
+      "benchLevel": 3
+    },
+    "reloadPreserved": true,
+    "reset": {
+      "stage": 7,
+      "money": 1000000000
+    },
+    "errors": []
+  },
+  "motion": "30/60 Hz, distance across bends, exact arrival, gradual starts, fast-forward, zero-length and duplicate nodes passed",
+  "resolvedFindings": [
+    "Desktop floating time controls overlapped close button; sheet/dialog positions moved below compact HUD and click regression passed.",
+    "Broad pigment masks left original color near pickguards and hardware mask joined disjoint shapes; replaced with per-source vector coverage and independent metal subpaths.",
+    "Interior/VIP entry points were explicitly restored to the decor page and tested by actual clicks."
+  ],
+  "limitations": [
+    "Late-stage/VIP tests use funded/unlocked fixtures; this is not a complete natural stage7 economic balance study.",
+    "Chromium desktop and mobile viewport testing; no physical mobile hardware benchmark.",
+    "File URL navigation is blocked in this managed browser. A real tainted cross-origin image was used to reproduce pixel-read restrictions and verify color/material/pickup changes with zero runtime custom pixel reads.",
+    "Instrument rotation uses shipped 2D front/rear source images, not a full 3D model."
+  ]
+}

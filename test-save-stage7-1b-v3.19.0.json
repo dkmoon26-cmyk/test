@@ -1,0 +1,521 @@
+{
+  "format": "little-tone-save",
+  "appVersion": "3.19.0",
+  "saveVersion": 23,
+  "state": {
+    "design": {
+      "wall": "cream",
+      "floor": "oak",
+      "vipFloor": "walnut",
+      "vipWall": "sage",
+      "wallItems": []
+    },
+    "vip": {
+      "zone": {
+        "x": 13,
+        "y": 1,
+        "w": 6,
+        "h": 6,
+        "doorSide": "left",
+        "doorAt": 2
+      },
+      "visitedDay": 0,
+      "nextProfile": 0,
+      "lastProfile": -1,
+      "guest": null,
+      "visits": 0,
+      "sales": 0,
+      "revenue": 0,
+      "lastResult": "VIP 운영 준비 완료"
+    },
+    "custom": {
+      "benchLevel": 1,
+      "nextId": 3,
+      "crafted": 2,
+      "sold": 0,
+      "totalCost": 1014800,
+      "totalRevenue": 0,
+      "items": [
+        {
+          "id": 1,
+          "base": 0,
+          "options": {
+            "color": "wine",
+            "wood": "ash",
+            "pickup": "vintage",
+            "hardware": "chrome",
+            "finish": "satin"
+          },
+          "cost": 556400,
+          "price": 734000,
+          "day": 1,
+          "displayId": 4
+        },
+        {
+          "id": 2,
+          "base": 1,
+          "options": {
+            "color": "forest",
+            "wood": "alder",
+            "pickup": "standard",
+            "hardware": "chrome",
+            "finish": "satin"
+          },
+          "cost": 458400,
+          "price": 605000,
+          "day": 1,
+          "displayId": 7
+        }
+      ]
+    },
+    "saveVersion": 23,
+    "ending": {
+      "day": 1,
+      "viewed": true,
+      "continued": true,
+      "records": {
+        "sales": 2600,
+        "revenue": 0,
+        "regulars": 0,
+        "drums": 30
+      }
+    },
+    "shopName": "테스트 악기점",
+    "named": true,
+    "opened": false,
+    "phase": "prepare",
+    "stage": 6,
+    "dayRent": 125000,
+    "settlement": null,
+    "specialDone": false,
+    "posterRoll": {
+      "day": 0,
+      "won": false
+    },
+    "guests": [],
+    "introducedTiers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pendingIntroductions": [],
+    "expansionNotice": null,
+    "customerBook": {},
+    "hanaStory": {
+      "phase": "locked",
+      "startedDay": 0,
+      "deliveredDay": 0,
+      "completedDay": 0
+    },
+    "repathGuests": false,
+    "pendingOrders": [],
+    "tutorial": {
+      "active": false,
+      "step": 7,
+      "purchased": true,
+      "startDay": 1,
+      "completed": true
+    },
+    "staffHired": 2,
+    "cashierHired": 0,
+    "featureNotices": [],
+    "newFeatures": [],
+    "staffPolicy": {
+      "enabled": true,
+      "reserve": 0,
+      "products": [
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 2,
+          "at": 5
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        }
+      ]
+    },
+    "showcase": null,
+    "drummerIntroduced": true,
+    "furnitureRevenue": 0,
+    "ledgerStart": 1000000000,
+    "audio": {
+      "music": 0.22,
+      "effects": 0.6,
+      "muted": false
+    },
+    "customerSequence": 0,
+    "money": 1000000000,
+    "day": 1,
+    "time": 0,
+    "revenue": 0,
+    "sold": 0,
+    "visitors": 0,
+    "totalSales": 2600,
+    "totalRevenue": 0,
+    "expenses": 0,
+    "rep": 35,
+    "reputationDaily": {
+      "day": 1,
+      "gained": 0
+    },
+    "missionRevenue": 0,
+    "missionStats": {
+      "sales": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        0,
+        100,
+        100
+      ],
+      "bestDay": 100,
+      "legacyImported": false
+    },
+    "claimedMissions": [
+      "s1-sales",
+      "s1-core",
+      "s2-sales",
+      "s2-core",
+      "s3-sales",
+      "s3-rack",
+      "s3-core",
+      "s4-sales",
+      "s4-core",
+      "s5-sales",
+      "s5-core",
+      "s6-sales",
+      "s6-drums",
+      "s6-core"
+    ],
+    "pendingMissionGuests": [],
+    "introducedMissionGuests": [
+      9,
+      10,
+      11
+    ],
+    "stock": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "furniture": [
+      {
+        "id": 1,
+        "t": 0,
+        "x": 2,
+        "y": 2,
+        "p": 0,
+        "p2": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 2,
+        "t": 1,
+        "x": 5,
+        "y": 8,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 3,
+        "t": 11,
+        "x": 8,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 4,
+        "t": 12,
+        "x": 17,
+        "y": 2,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 5,
+        "t": 13,
+        "x": 17,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 6,
+        "t": 14,
+        "x": 14,
+        "y": 5,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 7,
+        "t": 12,
+        "x": 15,
+        "y": 2,
+        "dir": 0,
+        "p": null
+      },
+      {
+        "id": 8,
+        "t": 0,
+        "x": 5,
+        "y": 1,
+        "dir": 0,
+        "p": 1
+      },
+      {
+        "id": 9,
+        "t": 0,
+        "x": 8,
+        "y": 1,
+        "dir": 0,
+        "p": 9
+      },
+      {
+        "id": 10,
+        "t": 0,
+        "x": 11,
+        "y": 1,
+        "dir": 0,
+        "p": 10
+      },
+      {
+        "id": 11,
+        "t": 5,
+        "x": 3,
+        "y": 5,
+        "dir": 0,
+        "p": null,
+        "items": [
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "id": 12,
+        "t": 2,
+        "x": 10,
+        "y": 4,
+        "dir": 0,
+        "p": null
+      },
+      {
+        "id": 13,
+        "t": 3,
+        "x": 0,
+        "y": 0,
+        "dir": 0,
+        "p": null
+      },
+      {
+        "id": 14,
+        "t": 3,
+        "x": 18,
+        "y": 1,
+        "dir": 0,
+        "p": null
+      },
+      {
+        "id": 15,
+        "t": 10,
+        "x": 19,
+        "y": 0,
+        "dir": 0,
+        "p": null
+      },
+      {
+        "id": 16,
+        "t": 9,
+        "x": 17,
+        "y": 4,
+        "dir": 0,
+        "p": null
+      }
+    ],
+    "nextId": 17,
+    "requests": [],
+    "nextRequestId": 1
+  }
+}
