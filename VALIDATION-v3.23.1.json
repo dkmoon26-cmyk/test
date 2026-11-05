@@ -1,0 +1,947 @@
+{
+  "version": "3.23.1",
+  "schema": 28,
+  "artifact": {
+    "file": "little-tone-v3.23.1-web.zip",
+    "bytes": 16849659,
+    "sha256": "17583792d82f8b396c0782468bd112426c81b4de0d7ca1b43a1cb2e0849ff06f",
+    "manifestFiles": 43,
+    "zipCrc": "passed",
+    "fileHashes": "passed"
+  },
+  "summary": {
+    "startupScenarios": 18,
+    "modes": [
+      "normal",
+      "cross-origin artwork",
+      "all canvas pixel reads denied",
+      "prop atlas missing",
+      "both decorative atlases missing",
+      "prop draw failure"
+    ],
+    "viewports": [
+      [
+        1025,
+        672
+      ],
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "completeSevenStepTutorialRuns": 2,
+    "visualViewportZoomLevels": [
+      1,
+      1.5,
+      2,
+      3
+    ],
+    "unchangedPropImages": 6,
+    "saveCompatibilityFields": [
+      "money",
+      "stock",
+      "pendingOrders",
+      "furniture",
+      "claimedMissions",
+      "tutorial",
+      "custom",
+      "entrances"
+    ],
+    "coreCraftChecks": 47,
+    "salesActiveReload": "passed"
+  },
+  "reports": {
+    "startup-results": [
+      {
+        "mode": "normal",
+        "width": 1025,
+        "height": 672,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "normal",
+        "width": 1440,
+        "height": 900,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "normal",
+        "width": 390,
+        "height": 844,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 134,
+          "w": 366,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "cross",
+        "width": 1025,
+        "height": 672,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "cross",
+        "width": 1440,
+        "height": 900,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "cross",
+        "width": 390,
+        "height": 844,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 134,
+          "w": 366,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "denied",
+        "width": 1025,
+        "height": 672,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "denied",
+        "width": 1440,
+        "height": 900,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "denied",
+        "width": 390,
+        "height": 844,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 134,
+          "w": 366,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "missing",
+        "width": 1025,
+        "height": 672,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "missing",
+        "width": 1440,
+        "height": 900,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "missing",
+        "width": 390,
+        "height": 844,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 134,
+          "w": 366,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "missingAll",
+        "width": 1025,
+        "height": 672,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "missingAll",
+        "width": 1440,
+        "height": 900,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "missingAll",
+        "width": 390,
+        "height": 844,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 134,
+          "w": 366,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "mode": "failure",
+        "width": 1025,
+        "height": 672,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [
+          "Optional shop artwork unavailable: planter InvalidStateError",
+          "Optional shop artwork unavailable: lamp InvalidStateError",
+          "Optional shop artwork unavailable: door InvalidStateError",
+          "Optional shop artwork unavailable: sign InvalidStateError",
+          "Optional shop artwork unavailable: guitar InvalidStateError",
+          "Optional shop artwork unavailable: clock InvalidStateError"
+        ],
+        "errors": []
+      },
+      {
+        "mode": "failure",
+        "width": 1440,
+        "height": 900,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [
+          "Optional shop artwork unavailable: planter InvalidStateError",
+          "Optional shop artwork unavailable: lamp InvalidStateError",
+          "Optional shop artwork unavailable: door InvalidStateError",
+          "Optional shop artwork unavailable: sign InvalidStateError",
+          "Optional shop artwork unavailable: guitar InvalidStateError",
+          "Optional shop artwork unavailable: clock InvalidStateError"
+        ],
+        "errors": []
+      },
+      {
+        "mode": "failure",
+        "width": 390,
+        "height": 844,
+        "before": {
+          "phase": "prepare",
+          "tutorial": true,
+          "step": 0,
+          "design": {
+            "wall": "original",
+            "floor": "original",
+            "vipFloor": "walnut",
+            "vipWall": "sage",
+            "wallItems": []
+          }
+        },
+        "rect": {
+          "x": 12,
+          "y": 134,
+          "w": 366,
+          "h": 192,
+          "parent": "tutorialHome"
+        },
+        "after": {
+          "phase": "prepare",
+          "step": 1,
+          "money": 4500000
+        },
+        "warnings": [
+          "Optional shop artwork unavailable: planter InvalidStateError",
+          "Optional shop artwork unavailable: lamp InvalidStateError",
+          "Optional shop artwork unavailable: door InvalidStateError",
+          "Optional shop artwork unavailable: sign InvalidStateError",
+          "Optional shop artwork unavailable: guitar InvalidStateError",
+          "Optional shop artwork unavailable: clock InvalidStateError"
+        ],
+        "errors": []
+      }
+    ],
+    "tutorial-results": [
+      {
+        "width": 1025,
+        "height": 672,
+        "phase": "prepare",
+        "day": 2,
+        "completed": true,
+        "money": 5360000,
+        "errors": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "phase": "prepare",
+        "day": 2,
+        "completed": true,
+        "money": 5360000,
+        "errors": []
+      }
+    ],
+    "zoom-results": [
+      {
+        "scale": 1,
+        "card": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192
+        },
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 1025,
+          "h": 672
+        }
+      },
+      {
+        "scale": 1.5,
+        "card": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192
+        },
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 683.3333740234375,
+          "h": 448
+        }
+      },
+      {
+        "scale": 2,
+        "card": {
+          "x": 12,
+          "y": 126,
+          "w": 390,
+          "h": 192
+        },
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 512.5,
+          "h": 336
+        }
+      },
+      {
+        "scale": 3,
+        "card": {
+          "x": 12,
+          "y": 20,
+          "w": 317.65625,
+          "h": 192
+        },
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 341.66668701171875,
+          "h": 224
+        }
+      }
+    ],
+    "visual-results": {
+      "pass": true,
+      "rows": [
+        {
+          "name": "door",
+          "pixels": 121750,
+          "alphaMismatch": 0,
+          "rgbMax": 0
+        },
+        {
+          "name": "lamp",
+          "pixels": 75485,
+          "alphaMismatch": 0,
+          "rgbMax": 0
+        },
+        {
+          "name": "planter",
+          "pixels": 130790,
+          "alphaMismatch": 0,
+          "rgbMax": 0
+        },
+        {
+          "name": "guitar",
+          "pixels": 123500,
+          "alphaMismatch": 0,
+          "rgbMax": 0
+        },
+        {
+          "name": "clock",
+          "pixels": 142835,
+          "alphaMismatch": 0,
+          "rgbMax": 0
+        },
+        {
+          "name": "sign",
+          "pixels": 163400,
+          "alphaMismatch": 0,
+          "rgbMax": 0
+        }
+      ],
+      "migration": {
+        "version": 28,
+        "checks": [
+          "money",
+          "stock",
+          "pendingOrders",
+          "furniture",
+          "claimedMissions",
+          "tutorial",
+          "custom",
+          "entrances"
+        ]
+      }
+    },
+    "core-results": {
+      "checks": [
+        "schema 28 / 28",
+        "old helper upgrades first 3 / 3",
+        "new bench independent 1 / 1",
+        "upgrade second",
+        "second2 2 / 2",
+        "third1 1 / 1",
+        "basic1 1 / 1",
+        "medium2 2 / 2",
+        "premium3 3 / 3",
+        "three simultaneous jobs",
+        "no instant items 0 / 0",
+        "three jobs 3 / 3",
+        "exact cash debit 966229200 / 966229200",
+        "one base reserved 0 39 / 39",
+        "one base reserved 1 39 / 39",
+        "one base reserved 15 38 / 38",
+        "busy no duplicate",
+        "busy no upgrade",
+        "busy no sale",
+        "badgeD3 D-3 / D-3",
+        "shop opens 1",
+        "settled 1",
+        "remaining 1 2 / 2",
+        "settled no duplicate progress",
+        "not released before nextday 0 / 0",
+        "released nextday 1 1 / 1",
+        "shop opens 2",
+        "settled 2",
+        "remaining 2 1 / 1",
+        "settled no duplicate progress",
+        "not released before nextday 1 / 1",
+        "released nextday 2 2 / 2",
+        "shop opens 3",
+        "settled 3",
+        "remaining 3 0 / 0",
+        "settled no duplicate progress",
+        "not released before nextday 2 / 2",
+        "released nextday 3 3 / 3",
+        "all jobs done 0 / 0",
+        "count three once 3 / 3",
+        "no duplicate release 0 / 0",
+        "low normal display",
+        "low cannotVIP",
+        "highVIP",
+        "high cannotnormal",
+        "onlypremium VIPoffer 1 / 1",
+        "onlylow normaloffer 1 / 1"
+      ],
+      "first": 12,
+      "second": 13,
+      "third": 14,
+      "low": 1,
+      "high": 3,
+      "ordinary": 15,
+      "vip": 9,
+      "errors": []
+    },
+    "sales-results": {
+      "pass": true,
+      "before": {
+        "id": 75,
+        "item": {
+          "id": 1,
+          "base": 0,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickup": "standard",
+            "hardware": "chrome",
+            "finish": "satin",
+            "top": "none",
+            "bridge": "standard",
+            "inlay": "dots"
+          },
+          "cost": 346400,
+          "price": 457000,
+          "day": 1,
+          "madeLevel": 1,
+          "displayId": 15,
+          "displaySlot": 0
+        },
+        "baseStock": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "money": 989494200,
+        "revenue": 0,
+        "totalSold": 0,
+        "normalSold": 0
+      },
+      "sold": {
+        "cash": 989951200,
+        "revenue": 457000,
+        "sold": 1,
+        "normal": 1,
+        "id": 75
+      },
+      "vip": {
+        "day": 4,
+        "stage": 7,
+        "visits": 1,
+        "sales": 1,
+        "revenue": 6252000,
+        "profiles": [
+          4
+        ],
+        "seated": true,
+        "rested": true,
+        "employeeMoved": true,
+        "reloads": 5,
+        "seconds": 145.9
+      },
+      "errors": []
+    }
+  },
+  "beforeSecurityError": {
+    "errors": [
+      "SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The canvas has been tainted by cross-origin data.\n    at prop23 (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3286:292)\n    at exteriorProp (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3341:46)\n    at drawExteriorProps (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3342:328)\n    at drawScenery (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5284:1168)\n    at draw (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5303:5)\n    at frame (http://127.0.0.1:8892/app-aeb64e40c8e3.js:6947:80)"
+    ],
+    "result": {
+      "error": "SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The canvas has been tainted by cross-origin data.\n    at prop23 (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3286:292)\n    at exteriorProp (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3341:46)\n    at drawExteriorProps (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3342:328)\n    at drawScenery (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5284:1168)\n    at Object.draw (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5303:5)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:25)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "phase": "prepare",
+      "tutorial": {
+        "active": true,
+        "step": 0,
+        "purchased": false,
+        "startDay": 1,
+        "completed": false
+      },
+      "card": {
+        "x": 24,
+        "y": 126,
+        "w": 390,
+        "h": 192
+      }
+    }
+  },
+  "limitations": [
+    "Chromium with desktop/mobile viewports and visual viewport zoom; not physical phone testing.",
+    "Managed browser policy blocks direct file:// navigation. The same pixel-read SecurityError was reproduced using cross-origin artwork, then regression-tested with cross-origin images and a forced global getImageData denial.",
+    "The exact original tutorial left-clipping layout was not reproduced; viewport-based placement was added and verified at four zoom levels.",
+    "This hotfix has no economic rule or save schema changes. Prior long economy simulations were not repeated; first-day tutorial, crafting and actual sale/reload checks were run."
+  ]
+}

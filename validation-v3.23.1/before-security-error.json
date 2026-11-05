@@ -1,0 +1,22 @@
+{
+  "errors": [
+    "SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The canvas has been tainted by cross-origin data.\n    at prop23 (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3286:292)\n    at exteriorProp (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3341:46)\n    at drawExteriorProps (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3342:328)\n    at drawScenery (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5284:1168)\n    at draw (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5303:5)\n    at frame (http://127.0.0.1:8892/app-aeb64e40c8e3.js:6947:80)"
+  ],
+  "result": {
+    "error": "SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The canvas has been tainted by cross-origin data.\n    at prop23 (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3286:292)\n    at exteriorProp (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3341:46)\n    at drawExteriorProps (http://127.0.0.1:8892/app-aeb64e40c8e3.js:3342:328)\n    at drawScenery (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5284:1168)\n    at Object.draw (http://127.0.0.1:8892/app-aeb64e40c8e3.js:5303:5)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:25)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+    "phase": "prepare",
+    "tutorial": {
+      "active": true,
+      "step": 0,
+      "purchased": false,
+      "startDay": 1,
+      "completed": false
+    },
+    "card": {
+      "x": 24,
+      "y": 126,
+      "w": 390,
+      "h": 192
+    }
+  }
+}
