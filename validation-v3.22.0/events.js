@@ -1,0 +1,4 @@
+document.body.append($('furnitureQuick'));
+premiumShowcaseAtlas=runtimeImage('assets/premium-showcase-v3220.webp');
+document.addEventListener('click',e=>{const wb=e.target.closest('[data-workbench]');if(wb){openWorkshop(+wb.dataset.workbench);return;}const choice=e.target.closest('[data-case-item]');if(choice){if(setCustomDisplay(+choice.dataset.caseItem,+choice.dataset.caseId,0))$('customDisplayDialog').close();return;}},true);
+$('furnitureQuick').addEventListener('click',e=>{const b=e.target.closest('[data-quick]');if(!b||b.disabled)return;const f=S.furniture.find(f=>f.id===selected);if(!f)return;if(b.dataset.quick==='choose'){hideFurnitureQuick();if([0,5].includes(f.t))openRackPicker(f.id);else if(f.t===12)openCustomDisplays(f.id);else if(f.t===15)openVIPDisplays();else setTab('stock');}if(b.dataset.quick==='clear')clearDisplay(f);});
