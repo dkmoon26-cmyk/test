@@ -1,0 +1,177 @@
+{
+  "pass": true,
+  "calendar": {
+    "checks": 36175,
+    "counts": {
+      "events": {
+        "none": 5837,
+        "school": 80,
+        "student": 1159,
+        "band": 1251,
+        "graduation": 73
+      },
+      "weather": {
+        "sun": 4481,
+        "rain": 1478,
+        "cloud": 2441
+      },
+      "seasons": {
+        "봄": 2100,
+        "여름": 2100,
+        "가을": 2100,
+        "겨울": 2100
+      }
+    },
+    "eventRate": 0.3051190476190476
+  },
+  "ending": {
+    "checks": [
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "valid placement 0 2,2 배치 가능",
+      "commit furniture 0",
+      "valid placement 1 5,7 배치 가능",
+      "commit furniture 1",
+      "valid placement 16 4,4 배치 가능",
+      "commit furniture 16",
+      "set VIP 8x8 stage 7",
+      "valid placement 15 15,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 19,2 배치 가능",
+      "commit furniture 15",
+      "valid placement 15 15,4 배치 가능",
+      "commit furniture 15",
+      "valid placement 13 21,7 배치 가능",
+      "commit furniture 13",
+      "valid placement 14 18,7 배치 가능",
+      "commit furniture 14",
+      "valid placement 12 19,4 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 15,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 12 19,6 배치 가능",
+      "commit furniture 12",
+      "valid placement 11 9,3 배치 가능",
+      "commit furniture 11",
+      "VIP requires employee",
+      "hire VIP staff",
+      "VIP ready stage 7",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "30+ drums never end early",
+      "next day",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "day83 no ending",
+      "next day",
+      "day84 starts",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "anniversary recorded after84 settlement",
+      "anniversary screen opens",
+      "pending anniversary survives import",
+      "continue after anniversary",
+      "day85 prepares",
+      "continuation preserves assets",
+      "second year calendar",
+      "nonnegative integer stocks",
+      "cash ledger balances",
+      "no duplicate ending"
+    ],
+    "ending": {
+      "day": 84,
+      "viewed": true,
+      "continued": true,
+      "records": {
+        "sales": 2900,
+        "revenue": 0,
+        "regulars": 0,
+        "drums": 100
+      }
+    },
+    "calendar": {
+      "seed": 1220850334,
+      "day": 85,
+      "event": "none",
+      "weather": "cloud",
+      "next": {
+        "day": 86,
+        "event": "none",
+        "weather": "sun"
+      }
+    }
+  },
+  "migration": {
+    "checks": 84,
+    "day": 4,
+    "ending": {
+      "day": 1,
+      "viewed": true,
+      "continued": true,
+      "records": {
+        "sales": 2921,
+        "revenue": 17820000,
+        "regulars": 0,
+        "drums": 100
+      }
+    }
+  },
+  "policy": {
+    "enabled": false,
+    "product": {
+      "enabled": false,
+      "quantity": 7,
+      "at": 2
+    },
+    "hired": 2
+  },
+  "safety": {
+    "literalName": true,
+    "importName": true,
+    "invalidSavePreservesState": true
+  },
+  "keyboard": {
+    "cursor": {
+      "x": 6,
+      "y": 5
+    },
+    "placed": {
+      "id": 13,
+      "t": 3,
+      "x": 6,
+      "y": 5,
+      "p": null,
+      "p2": null,
+      "items": [],
+      "rot": false,
+      "dir": 0
+    }
+  },
+  "errors": []
+}

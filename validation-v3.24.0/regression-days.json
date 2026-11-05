@@ -1,0 +1,1244 @@
+[
+  {
+    "days": [
+      {
+        "day": 1,
+        "stage": 1,
+        "sold": 13,
+        "visitors": 24,
+        "money": 5210000,
+        "net": 210000,
+        "closeSeconds": 9.2,
+        "maxPathStall": 6.2
+      },
+      {
+        "day": 2,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 24,
+        "money": 6830000,
+        "net": 1620000,
+        "closeSeconds": 17.2,
+        "maxPathStall": 6.2
+      },
+      {
+        "day": 3,
+        "stage": 1,
+        "sold": 16,
+        "visitors": 24,
+        "money": 8460000,
+        "net": 1630000,
+        "closeSeconds": 18,
+        "maxPathStall": 7.7
+      },
+      {
+        "day": 4,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 10770000,
+        "net": 2310000,
+        "closeSeconds": 13.5,
+        "maxPathStall": 5.7
+      },
+      {
+        "day": 5,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 23,
+        "money": 13200000,
+        "net": 2430000,
+        "closeSeconds": 12,
+        "maxPathStall": 6.2
+      },
+      {
+        "day": 6,
+        "stage": 1,
+        "sold": 11,
+        "visitors": 23,
+        "money": 17670000,
+        "net": 4470000,
+        "closeSeconds": 5.5,
+        "maxPathStall": 7.4
+      },
+      {
+        "day": 7,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 25,
+        "money": 17120000,
+        "net": -550000,
+        "closeSeconds": 17.4,
+        "maxPathStall": 8.2
+      },
+      {
+        "day": 8,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 25,
+        "money": 19370000,
+        "net": 2250000,
+        "closeSeconds": 14.9,
+        "maxPathStall": 6.2
+      },
+      {
+        "day": 9,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 24,
+        "money": 21590000,
+        "net": 2220000,
+        "closeSeconds": 16.3,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 10,
+        "stage": 1,
+        "sold": 16,
+        "visitors": 24,
+        "money": 22920000,
+        "net": 1330000,
+        "closeSeconds": 19.5,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 11,
+        "stage": 1,
+        "sold": 21,
+        "visitors": 25,
+        "money": 26430000,
+        "net": 3510000,
+        "closeSeconds": 19.8,
+        "maxPathStall": 6.7
+      },
+      {
+        "day": 12,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 25,
+        "money": 28000000,
+        "net": 1570000,
+        "closeSeconds": 7.6,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 13,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 24,
+        "money": 30440000,
+        "net": 2440000,
+        "closeSeconds": 12.4,
+        "maxPathStall": 6.7
+      },
+      {
+        "day": 14,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 24,
+        "money": 32940000,
+        "net": 2500000,
+        "closeSeconds": 17.5,
+        "maxPathStall": 6.7
+      },
+      {
+        "day": 15,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 25,
+        "money": 34960000,
+        "net": 2020000,
+        "closeSeconds": 15.8,
+        "maxPathStall": 6.1
+      }
+    ],
+    "coverage": {
+      "specials": {
+        "musician": 439,
+        "band": 96
+      },
+      "states": {
+        "browse": 23855,
+        "try": 10422,
+        "checkout": 11424,
+        "leave": 16547,
+        "queue": 1845
+      },
+      "peak": 5,
+      "saveChecks": 20,
+      "orders": 41,
+      "claims": 2,
+      "expansions": 0
+    },
+    "findings": [],
+    "final": {
+      "day": 16,
+      "stage": 1,
+      "money": 34960000,
+      "sales": 268,
+      "missions": [
+        "s1-sales",
+        "s1-core"
+      ]
+    },
+    "mode": "organic",
+    "seed": 17,
+    "errors": []
+  },
+  {
+    "days": [
+      {
+        "day": 1,
+        "stage": 1,
+        "sold": 16,
+        "visitors": 25,
+        "money": 6130000,
+        "net": 1130000,
+        "closeSeconds": 9.3,
+        "maxPathStall": 6.7
+      },
+      {
+        "day": 2,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 7160000,
+        "net": 1030000,
+        "closeSeconds": 15.6,
+        "maxPathStall": 6.2
+      },
+      {
+        "day": 3,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 24,
+        "money": 8440000,
+        "net": 1280000,
+        "closeSeconds": 17.9,
+        "maxPathStall": 5.7
+      },
+      {
+        "day": 4,
+        "stage": 1,
+        "sold": 21,
+        "visitors": 25,
+        "money": 12260000,
+        "net": 3820000,
+        "closeSeconds": 18.7,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 5,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 24,
+        "money": 13090000,
+        "net": 830000,
+        "closeSeconds": 17.6,
+        "maxPathStall": 5.1
+      },
+      {
+        "day": 6,
+        "stage": 1,
+        "sold": 13,
+        "visitors": 25,
+        "money": 18320000,
+        "net": 5230000,
+        "closeSeconds": 11.5,
+        "maxPathStall": 9.1
+      },
+      {
+        "day": 7,
+        "stage": 1,
+        "sold": 21,
+        "visitors": 24,
+        "money": 18250000,
+        "net": -70000,
+        "closeSeconds": 17.2,
+        "maxPathStall": 6.4
+      },
+      {
+        "day": 8,
+        "stage": 1,
+        "sold": 15,
+        "visitors": 23,
+        "money": 19000000,
+        "net": 750000,
+        "closeSeconds": 13.6,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 9,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 25,
+        "money": 21170000,
+        "net": 2170000,
+        "closeSeconds": 15.8,
+        "maxPathStall": 3.7
+      },
+      {
+        "day": 10,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 24,
+        "money": 23170000,
+        "net": 2000000,
+        "closeSeconds": 9.5,
+        "maxPathStall": 7.2
+      },
+      {
+        "day": 11,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 25,
+        "money": 25760000,
+        "net": 2590000,
+        "closeSeconds": 8.6,
+        "maxPathStall": 9.2
+      },
+      {
+        "day": 12,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 24,
+        "money": 27570000,
+        "net": 1810000,
+        "closeSeconds": 12.4,
+        "maxPathStall": 5.7
+      },
+      {
+        "day": 13,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 26,
+        "money": 31310000,
+        "net": 3740000,
+        "closeSeconds": 18.1,
+        "maxPathStall": 6.7
+      },
+      {
+        "day": 14,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 32310000,
+        "net": 1000000,
+        "closeSeconds": 20.4,
+        "maxPathStall": 4.6
+      },
+      {
+        "day": 15,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 25,
+        "money": 34010000,
+        "net": 1700000,
+        "closeSeconds": 13.6,
+        "maxPathStall": 6.1
+      }
+    ],
+    "coverage": {
+      "specials": {
+        "musician": 423,
+        "band": 203
+      },
+      "states": {
+        "browse": 24316,
+        "try": 10387,
+        "checkout": 11103,
+        "leave": 16695,
+        "queue": 1505
+      },
+      "peak": 5,
+      "saveChecks": 20,
+      "orders": 40,
+      "claims": 2,
+      "expansions": 0
+    },
+    "findings": [],
+    "final": {
+      "day": 16,
+      "stage": 1,
+      "money": 34010000,
+      "sales": 263,
+      "missions": [
+        "s1-sales",
+        "s1-core"
+      ]
+    },
+    "mode": "organic",
+    "seed": 2026,
+    "errors": []
+  },
+  {
+    "days": [
+      {
+        "day": 1,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 24,
+        "money": 7540000,
+        "net": 2540000,
+        "closeSeconds": 8.33,
+        "maxPathStall": 5.5
+      },
+      {
+        "day": 2,
+        "stage": 1,
+        "sold": 14,
+        "visitors": 24,
+        "money": 5670000,
+        "net": -1870000,
+        "closeSeconds": 19.2,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 3,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 8800000,
+        "net": 3130000,
+        "closeSeconds": 17.2,
+        "maxPathStall": 5.97
+      },
+      {
+        "day": 4,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 23,
+        "money": 10740000,
+        "net": 1940000,
+        "closeSeconds": 12.83,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 5,
+        "stage": 1,
+        "sold": 17,
+        "visitors": 25,
+        "money": 12670000,
+        "net": 1930000,
+        "closeSeconds": 16.23,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 6,
+        "stage": 1,
+        "sold": 13,
+        "visitors": 23,
+        "money": 17820000,
+        "net": 5150000,
+        "closeSeconds": 5.4,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 7,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 25,
+        "money": 17670000,
+        "net": -150000,
+        "closeSeconds": 11.27,
+        "maxPathStall": 6.7
+      },
+      {
+        "day": 8,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 24,
+        "money": 20010000,
+        "net": 2340000,
+        "closeSeconds": 15.53,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 9,
+        "stage": 1,
+        "sold": 16,
+        "visitors": 25,
+        "money": 21390000,
+        "net": 1380000,
+        "closeSeconds": 16.23,
+        "maxPathStall": 5.97
+      },
+      {
+        "day": 10,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 24,
+        "money": 23660000,
+        "net": 2270000,
+        "closeSeconds": 22.03,
+        "maxPathStall": 5.97
+      },
+      {
+        "day": 11,
+        "stage": 1,
+        "sold": 23,
+        "visitors": 25,
+        "money": 27900000,
+        "net": 4240000,
+        "closeSeconds": 9.53,
+        "maxPathStall": 5.5
+      },
+      {
+        "day": 12,
+        "stage": 1,
+        "sold": 21,
+        "visitors": 26,
+        "money": 29780000,
+        "net": 1880000,
+        "closeSeconds": 18.17,
+        "maxPathStall": 7.37
+      },
+      {
+        "day": 13,
+        "stage": 1,
+        "sold": 19,
+        "visitors": 25,
+        "money": 31430000,
+        "net": 1650000,
+        "closeSeconds": 12.67,
+        "maxPathStall": 6.43
+      },
+      {
+        "day": 14,
+        "stage": 1,
+        "sold": 13,
+        "visitors": 24,
+        "money": 32380000,
+        "net": 950000,
+        "closeSeconds": 11.47,
+        "maxPathStall": 3.37
+      },
+      {
+        "day": 15,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 35000000,
+        "net": 2620000,
+        "closeSeconds": 18.83,
+        "maxPathStall": 5.5
+      }
+    ],
+    "coverage": {
+      "specials": {
+        "musician": 445,
+        "band": 612
+      },
+      "states": {
+        "browse": 72510,
+        "try": 31395,
+        "checkout": 33175,
+        "leave": 49918,
+        "queue": 4312
+      },
+      "peak": 5,
+      "saveChecks": 20,
+      "orders": 41,
+      "claims": 2,
+      "expansions": 0
+    },
+    "findings": [],
+    "final": {
+      "day": 16,
+      "stage": 1,
+      "money": 35000000,
+      "sales": 267,
+      "missions": [
+        "s1-sales",
+        "s1-core"
+      ]
+    },
+    "mode": "organic",
+    "seed": 731,
+    "errors": []
+  },
+  {
+    "days": [
+      {
+        "day": 1,
+        "stage": 1,
+        "sold": 14,
+        "visitors": 23,
+        "money": 987349000,
+        "net": -14121000,
+        "closeSeconds": 14.9,
+        "maxPathStall": 6.9
+      },
+      {
+        "day": 2,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 23,
+        "money": 990907000,
+        "net": 3558000,
+        "closeSeconds": 16,
+        "maxPathStall": 8.3
+      },
+      {
+        "day": 3,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 994266000,
+        "net": 3359000,
+        "closeSeconds": 19.8,
+        "maxPathStall": 8.2
+      },
+      {
+        "day": 4,
+        "stage": 2,
+        "sold": 28,
+        "visitors": 28,
+        "money": 971353700,
+        "net": -30646300,
+        "closeSeconds": 21.4,
+        "maxPathStall": 16.2
+      },
+      {
+        "day": 5,
+        "stage": 2,
+        "sold": 23,
+        "visitors": 27,
+        "money": 977399700,
+        "net": 6046000,
+        "closeSeconds": 21,
+        "maxPathStall": 16.7
+      },
+      {
+        "day": 6,
+        "stage": 2,
+        "sold": 27,
+        "visitors": 30,
+        "money": 984415500,
+        "net": 7015800,
+        "closeSeconds": 21.6,
+        "maxPathStall": 11.2
+      },
+      {
+        "day": 7,
+        "stage": 3,
+        "sold": 27,
+        "visitors": 31,
+        "money": 940354600,
+        "net": -64145400,
+        "closeSeconds": 16.5,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 8,
+        "stage": 3,
+        "sold": 28,
+        "visitors": 31,
+        "money": 948599600,
+        "net": 8245000,
+        "closeSeconds": 18.7,
+        "maxPathStall": 7.5
+      },
+      {
+        "day": 9,
+        "stage": 3,
+        "sold": 30,
+        "visitors": 32,
+        "money": 957785200,
+        "net": 9185600,
+        "closeSeconds": 18.1,
+        "maxPathStall": 9.7
+      },
+      {
+        "day": 10,
+        "stage": 4,
+        "sold": 34,
+        "visitors": 35,
+        "money": 994723500,
+        "net": -15276500,
+        "closeSeconds": 29,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 11,
+        "stage": 4,
+        "sold": 33,
+        "visitors": 34,
+        "money": 1006169500,
+        "net": 11446000,
+        "closeSeconds": 23.3,
+        "maxPathStall": 9.5
+      },
+      {
+        "day": 12,
+        "stage": 4,
+        "sold": 26,
+        "visitors": 34,
+        "money": 1015425500,
+        "net": 9256000,
+        "closeSeconds": 21,
+        "maxPathStall": 9.2
+      },
+      {
+        "day": 13,
+        "stage": 5,
+        "sold": 31,
+        "visitors": 38,
+        "money": 984162900,
+        "net": -37837100,
+        "closeSeconds": 24.6,
+        "maxPathStall": 9.5
+      },
+      {
+        "day": 14,
+        "stage": 5,
+        "sold": 32,
+        "visitors": 38,
+        "money": 994761900,
+        "net": 10599000,
+        "closeSeconds": 23.8,
+        "maxPathStall": 6.5
+      },
+      {
+        "day": 15,
+        "stage": 5,
+        "sold": 39,
+        "visitors": 36,
+        "money": 1008776700,
+        "net": 14014800,
+        "closeSeconds": 25,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 16,
+        "stage": 6,
+        "sold": 29,
+        "visitors": 38,
+        "money": 912183200,
+        "net": -127816800,
+        "closeSeconds": 32.3,
+        "maxPathStall": 10.8
+      },
+      {
+        "day": 17,
+        "stage": 6,
+        "sold": 34,
+        "visitors": 40,
+        "money": 932423200,
+        "net": 20240000,
+        "closeSeconds": 33.6,
+        "maxPathStall": 7.5
+      },
+      {
+        "day": 18,
+        "stage": 6,
+        "sold": 33,
+        "visitors": 41,
+        "money": 954292400,
+        "net": 21869200,
+        "closeSeconds": 31.1,
+        "maxPathStall": 7.9
+      }
+    ],
+    "coverage": {
+      "specials": {
+        "musician": 593,
+        "band": 319
+      },
+      "states": {
+        "browse": 63308,
+        "try": 9126,
+        "leave": 41976,
+        "checkout": 20387,
+        "queue": 2615
+      },
+      "peak": 12,
+      "saveChecks": 24,
+      "orders": 66,
+      "claims": 14,
+      "expansions": 5
+    },
+    "findings": [],
+    "final": {
+      "day": 19,
+      "stage": 6,
+      "money": 954292400,
+      "sales": 3304,
+      "missions": [
+        "s1-sales",
+        "s1-core",
+        "s2-sales",
+        "s2-core",
+        "s3-sales",
+        "s3-rack",
+        "s3-core",
+        "s4-sales",
+        "s4-core",
+        "s5-sales",
+        "s5-core",
+        "s6-sales",
+        "s6-drums",
+        "s6-core"
+      ]
+    },
+    "mode": "stages",
+    "seed": 17,
+    "errors": []
+  },
+  {
+    "days": [
+      {
+        "day": 1,
+        "stage": 1,
+        "sold": 25,
+        "visitors": 24,
+        "money": 990708000,
+        "net": -10762000,
+        "closeSeconds": 11.1,
+        "maxPathStall": 15.3
+      },
+      {
+        "day": 2,
+        "stage": 1,
+        "sold": 27,
+        "visitors": 24,
+        "money": 997014000,
+        "net": 6306000,
+        "closeSeconds": 16.1,
+        "maxPathStall": 6.9
+      },
+      {
+        "day": 3,
+        "stage": 1,
+        "sold": 24,
+        "visitors": 24,
+        "money": 1002031000,
+        "net": 5017000,
+        "closeSeconds": 15.6,
+        "maxPathStall": 13.8
+      },
+      {
+        "day": 4,
+        "stage": 2,
+        "sold": 25,
+        "visitors": 27,
+        "money": 964693600,
+        "net": -37306400,
+        "closeSeconds": 14.9,
+        "maxPathStall": 20.6
+      },
+      {
+        "day": 5,
+        "stage": 2,
+        "sold": 29,
+        "visitors": 28,
+        "money": 972234600,
+        "net": 7541000,
+        "closeSeconds": 18.7,
+        "maxPathStall": 47.3
+      },
+      {
+        "day": 6,
+        "stage": 2,
+        "sold": 28,
+        "visitors": 28,
+        "money": 979261000,
+        "net": 7026400,
+        "closeSeconds": 23.6,
+        "maxPathStall": 24.2
+      },
+      {
+        "day": 7,
+        "stage": 3,
+        "sold": 26,
+        "visitors": 31,
+        "money": 939759600,
+        "net": -64740400,
+        "closeSeconds": 20.6,
+        "maxPathStall": 4.8
+      },
+      {
+        "day": 8,
+        "stage": 3,
+        "sold": 26,
+        "visitors": 32,
+        "money": 950165600,
+        "net": 10406000,
+        "closeSeconds": 22,
+        "maxPathStall": 6.5
+      },
+      {
+        "day": 9,
+        "stage": 3,
+        "sold": 32,
+        "visitors": 31,
+        "money": 957808400,
+        "net": 7642800,
+        "closeSeconds": 19.6,
+        "maxPathStall": 4.8
+      },
+      {
+        "day": 10,
+        "stage": 4,
+        "sold": 25,
+        "visitors": 35,
+        "money": 989333800,
+        "net": -20666200,
+        "closeSeconds": 19.3,
+        "maxPathStall": 6.1
+      },
+      {
+        "day": 11,
+        "stage": 4,
+        "sold": 33,
+        "visitors": 36,
+        "money": 999392800,
+        "net": 10059000,
+        "closeSeconds": 18.1,
+        "maxPathStall": 9.5
+      },
+      {
+        "day": 12,
+        "stage": 4,
+        "sold": 30,
+        "visitors": 37,
+        "money": 1009923800,
+        "net": 10531000,
+        "closeSeconds": 19.3,
+        "maxPathStall": 6.5
+      },
+      {
+        "day": 13,
+        "stage": 5,
+        "sold": 34,
+        "visitors": 38,
+        "money": 991015100,
+        "net": -30984900,
+        "closeSeconds": 29.6,
+        "maxPathStall": 4.8
+      },
+      {
+        "day": 14,
+        "stage": 5,
+        "sold": 29,
+        "visitors": 36,
+        "money": 1002323100,
+        "net": 11308000,
+        "closeSeconds": 26.1,
+        "maxPathStall": 8
+      },
+      {
+        "day": 15,
+        "stage": 5,
+        "sold": 34,
+        "visitors": 36,
+        "money": 1013065300,
+        "net": 10742200,
+        "closeSeconds": 27.1,
+        "maxPathStall": 5.5
+      },
+      {
+        "day": 16,
+        "stage": 6,
+        "sold": 36,
+        "visitors": 42,
+        "money": 914046300,
+        "net": -125953700,
+        "closeSeconds": 27.9,
+        "maxPathStall": 7.4
+      },
+      {
+        "day": 17,
+        "stage": 6,
+        "sold": 36,
+        "visitors": 43,
+        "money": 942790300,
+        "net": 28744000,
+        "closeSeconds": 32.5,
+        "maxPathStall": 7.9
+      },
+      {
+        "day": 18,
+        "stage": 6,
+        "sold": 33,
+        "visitors": 40,
+        "money": 965311500,
+        "net": 22521200,
+        "closeSeconds": 28.8,
+        "maxPathStall": 7.5
+      }
+    ],
+    "coverage": {
+      "specials": {
+        "musician": 429,
+        "band": 673
+      },
+      "states": {
+        "browse": 64603,
+        "leave": 42919,
+        "try": 9244,
+        "checkout": 20818,
+        "queue": 3985
+      },
+      "peak": 12,
+      "saveChecks": 24,
+      "orders": 69,
+      "claims": 14,
+      "expansions": 5
+    },
+    "findings": [],
+    "final": {
+      "day": 19,
+      "stage": 6,
+      "money": 965311500,
+      "sales": 3332,
+      "missions": [
+        "s1-sales",
+        "s1-core",
+        "s2-sales",
+        "s2-core",
+        "s3-sales",
+        "s3-rack",
+        "s3-core",
+        "s4-sales",
+        "s4-core",
+        "s5-sales",
+        "s5-core",
+        "s6-sales",
+        "s6-drums",
+        "s6-core"
+      ]
+    },
+    "mode": "stages",
+    "seed": 2026,
+    "errors": []
+  },
+  {
+    "days": [
+      {
+        "day": 1,
+        "stage": 1,
+        "sold": 20,
+        "visitors": 23,
+        "money": 988288000,
+        "net": -13182000,
+        "closeSeconds": 15.57,
+        "maxPathStall": 9.43
+      },
+      {
+        "day": 2,
+        "stage": 1,
+        "sold": 27,
+        "visitors": 24,
+        "money": 994107000,
+        "net": 5819000,
+        "closeSeconds": 13,
+        "maxPathStall": 10.63
+      },
+      {
+        "day": 3,
+        "stage": 1,
+        "sold": 18,
+        "visitors": 24,
+        "money": 997921000,
+        "net": 3814000,
+        "closeSeconds": 11.27,
+        "maxPathStall": 9.9
+      },
+      {
+        "day": 4,
+        "stage": 2,
+        "sold": 25,
+        "visitors": 28,
+        "money": 967215700,
+        "net": -34784300,
+        "closeSeconds": 19.37,
+        "maxPathStall": 24.63
+      },
+      {
+        "day": 5,
+        "stage": 2,
+        "sold": 22,
+        "visitors": 27,
+        "money": 971594700,
+        "net": 4379000,
+        "closeSeconds": 16.07,
+        "maxPathStall": 8.47
+      },
+      {
+        "day": 6,
+        "stage": 2,
+        "sold": 28,
+        "visitors": 28,
+        "money": 978119700,
+        "net": 6525000,
+        "closeSeconds": 15.9,
+        "maxPathStall": 25.77
+      },
+      {
+        "day": 7,
+        "stage": 3,
+        "sold": 24,
+        "visitors": 30,
+        "money": 942570200,
+        "net": -61929800,
+        "closeSeconds": 16.5,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 8,
+        "stage": 3,
+        "sold": 29,
+        "visitors": 31,
+        "money": 950424200,
+        "net": 7854000,
+        "closeSeconds": 15.23,
+        "maxPathStall": 4.73
+      },
+      {
+        "day": 9,
+        "stage": 3,
+        "sold": 30,
+        "visitors": 32,
+        "money": 960955200,
+        "net": 10531000,
+        "closeSeconds": 17.77,
+        "maxPathStall": 6.07
+      },
+      {
+        "day": 10,
+        "stage": 4,
+        "sold": 30,
+        "visitors": 37,
+        "money": 989841700,
+        "net": -20158300,
+        "closeSeconds": 25.8,
+        "maxPathStall": 7.43
+      },
+      {
+        "day": 11,
+        "stage": 4,
+        "sold": 29,
+        "visitors": 35,
+        "money": 999995700,
+        "net": 10154000,
+        "closeSeconds": 20.6,
+        "maxPathStall": 3.37
+      },
+      {
+        "day": 12,
+        "stage": 4,
+        "sold": 34,
+        "visitors": 34,
+        "money": 1012345700,
+        "net": 12350000,
+        "closeSeconds": 18.47,
+        "maxPathStall": 5.4
+      },
+      {
+        "day": 13,
+        "stage": 5,
+        "sold": 36,
+        "visitors": 37,
+        "money": 992195400,
+        "net": -29804600,
+        "closeSeconds": 28.17,
+        "maxPathStall": 8.77
+      },
+      {
+        "day": 14,
+        "stage": 5,
+        "sold": 33,
+        "visitors": 36,
+        "money": 1004561400,
+        "net": 12366000,
+        "closeSeconds": 25.13,
+        "maxPathStall": 6.73
+      },
+      {
+        "day": 15,
+        "stage": 5,
+        "sold": 32,
+        "visitors": 37,
+        "money": 1014243200,
+        "net": 9681800,
+        "closeSeconds": 24.7,
+        "maxPathStall": 5.4
+      },
+      {
+        "day": 16,
+        "stage": 6,
+        "sold": 33,
+        "visitors": 42,
+        "money": 910946600,
+        "net": -129053400,
+        "closeSeconds": 40.63,
+        "maxPathStall": 6.73
+      },
+      {
+        "day": 17,
+        "stage": 6,
+        "sold": 34,
+        "visitors": 41,
+        "money": 928502600,
+        "net": 17556000,
+        "closeSeconds": 27.43,
+        "maxPathStall": 7.43
+      },
+      {
+        "day": 18,
+        "stage": 6,
+        "sold": 38,
+        "visitors": 42,
+        "money": 945879400,
+        "net": 17376800,
+        "closeSeconds": 26.27,
+        "maxPathStall": 8.5
+      }
+    ],
+    "coverage": {
+      "specials": {
+        "musician": 1093,
+        "band": 3800
+      },
+      "states": {
+        "browse": 190622,
+        "checkout": 62137,
+        "try": 27851,
+        "leave": 126445,
+        "queue": 10066
+      },
+      "peak": 12,
+      "saveChecks": 24,
+      "orders": 68,
+      "claims": 14,
+      "expansions": 5
+    },
+    "findings": [],
+    "final": {
+      "day": 19,
+      "stage": 6,
+      "money": 945879400,
+      "sales": 3322,
+      "missions": [
+        "s1-sales",
+        "s1-core",
+        "s2-sales",
+        "s2-core",
+        "s3-sales",
+        "s3-rack",
+        "s3-core",
+        "s4-sales",
+        "s4-core",
+        "s5-sales",
+        "s5-core",
+        "s6-sales",
+        "s6-drums",
+        "s6-core"
+      ]
+    },
+    "mode": "stages",
+    "seed": 731,
+    "errors": []
+  }
+]

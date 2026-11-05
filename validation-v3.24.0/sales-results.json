@@ -1,0 +1,84 @@
+{
+  "pass": true,
+  "before": {
+    "id": 76,
+    "item": {
+      "id": 1,
+      "base": 0,
+      "options": {
+        "color": "wine",
+        "wood": "alder",
+        "pickup": "standard",
+        "hardware": "chrome",
+        "finish": "satin",
+        "top": "none",
+        "bridge": "standard",
+        "inlay": "dots"
+      },
+      "cost": 346400,
+      "price": 457000,
+      "day": 1,
+      "madeLevel": 1,
+      "displayId": 15,
+      "displaySlot": 0
+    },
+    "baseStock": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "money": 989494200,
+    "revenue": 0,
+    "totalSold": 0,
+    "normalSold": 0
+  },
+  "sold": {
+    "cash": 989951200,
+    "revenue": 457000,
+    "sold": 1,
+    "normal": 1,
+    "id": 76
+  },
+  "vip": {
+    "day": 4,
+    "stage": 7,
+    "visits": 1,
+    "sales": 1,
+    "revenue": 6252000,
+    "profiles": [
+      4
+    ],
+    "seated": true,
+    "rested": true,
+    "employeeMoved": true,
+    "reloads": 5,
+    "seconds": 143.9
+  },
+  "errors": []
+}
