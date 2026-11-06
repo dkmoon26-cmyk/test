@@ -1,0 +1,19 @@
+{
+  "fixedCharacters": 662,
+  "fonts": [
+    {
+      "kind": "regular",
+      "before": 1398924,
+      "after": 61844,
+      "file": "noto-kr-regular-1b46e507e82c.woff2",
+      "glyphs": 674
+    },
+    {
+      "kind": "bold",
+      "before": 1481844,
+      "after": 63096,
+      "file": "noto-kr-bold-2b08b292f5d6.woff2",
+      "glyphs": 674
+    }
+  ]
+}

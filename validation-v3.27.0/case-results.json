@@ -1,0 +1,97 @@
+{
+  "pass": true,
+  "checks": [
+    "compact 12/0",
+    "custom filled visible 0",
+    "compact 12/1",
+    "custom filled visible 1",
+    "compact 12/2",
+    "custom filled visible 2",
+    "compact 12/3",
+    "custom filled visible 3",
+    "compact 15/0",
+    "VIP filled visible 0",
+    "compact 15/1",
+    "VIP filled visible 1",
+    "compact 15/2",
+    "VIP filled visible 2",
+    "compact 15/3",
+    "VIP filled visible 3",
+    "case narrower than regular rack",
+    "case below character height",
+    "saved placements unchanged"
+  ],
+  "sizes": [
+    {
+      "t": 0,
+      "name": "기타 진열대",
+      "rect": {
+        "x": 477.7904612433516,
+        "y": 231.7640517394716,
+        "w": 44.41907751329672,
+        "h": 47.20571976632663
+      }
+    },
+    {
+      "t": 1,
+      "name": "계산대",
+      "rect": {
+        "x": 400.6318518518519,
+        "y": 358.71195555555556,
+        "w": 59.18518518518517,
+        "h": 54.45037037037036
+      }
+    },
+    {
+      "t": 2,
+      "name": "앰프 전시대",
+      "rect": {
+        "x": 470.5628,
+        "y": 255.9768,
+        "w": 53.04,
+        "h": 53.04
+      }
+    },
+    {
+      "t": 8,
+      "name": "거래처 카탈로그",
+      "rect": {
+        "x": 482.5248815165877,
+        "y": 259,
+        "w": 34.95023696682465,
+        "h": 49
+      }
+    },
+    {
+      "t": 11,
+      "name": "커스텀 제작대",
+      "rect": {
+        "x": 654,
+        "y": 307,
+        "w": 100,
+        "h": 120
+      }
+    },
+    {
+      "t": 12,
+      "name": "커스텀 전용 진열대",
+      "rect": {
+        "x": 1011,
+        "y": 547.5,
+        "w": 32,
+        "h": 54
+      }
+    },
+    {
+      "t": 15,
+      "name": "명품 진열대",
+      "rect": {
+        "x": 960,
+        "y": 454,
+        "w": 32,
+        "h": 54
+      }
+    }
+  ],
+  "characterHeight": 61.6
+}

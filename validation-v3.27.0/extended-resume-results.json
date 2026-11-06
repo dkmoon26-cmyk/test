@@ -1,0 +1,653 @@
+[
+  {
+    "mode": "cold",
+    "rows": [
+      {
+        "id": 1,
+        "type": 0,
+        "name": "기타 진열대",
+        "sourceWidth": 801,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          2,
+          2,
+          797,
+          770
+        ],
+        "rect": {
+          "x": 477.7904612433516,
+          "y": 231.7640517394716,
+          "w": 44.41907751329672,
+          "h": 47.20571976632663
+        },
+        "alpha": 56846
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "name": "계산대",
+        "sourceWidth": 516,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          2,
+          518,
+          512,
+          512
+        ],
+        "rect": {
+          "x": 400.6318518518519,
+          "y": 358.71195555555556,
+          "w": 59.18518518518517,
+          "h": 54.45037037037036
+        },
+        "alpha": 63468
+      },
+      {
+        "id": 3,
+        "type": 16,
+        "name": "휴식 의자",
+        "sourceWidth": 1774,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          154,
+          62,
+          567,
+          770
+        ],
+        "rect": {
+          "x": 483.4318181818182,
+          "y": 296,
+          "w": 33.13636363636363,
+          "h": 45
+        },
+        "alpha": 64761
+      },
+      {
+        "id": 4,
+        "type": 15,
+        "name": "명품 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 960,
+          "y": 454,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 94374
+      },
+      {
+        "id": 5,
+        "type": 15,
+        "name": "명품 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 1096,
+          "y": 522,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 94374
+      },
+      {
+        "id": 6,
+        "type": 15,
+        "name": "명품 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 892,
+          "y": 488,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 94374
+      },
+      {
+        "id": 7,
+        "type": 13,
+        "name": "VIP 시연석",
+        "sourceWidth": 300,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          300,
+          360
+        ],
+        "rect": {
+          "x": 926,
+          "y": 579,
+          "w": 100,
+          "h": 120
+        },
+        "alpha": 16236
+      },
+      {
+        "id": 8,
+        "type": 14,
+        "name": "상담 테이블",
+        "sourceWidth": 300,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          300,
+          360
+        ],
+        "rect": {
+          "x": 824,
+          "y": 528,
+          "w": 100,
+          "h": 120
+        },
+        "alpha": 19388
+      },
+      {
+        "id": 9,
+        "type": 12,
+        "name": "커스텀 전용 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 1011,
+          "y": 547.5,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 86165
+      },
+      {
+        "id": 10,
+        "type": 12,
+        "name": "커스텀 전용 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 807,
+          "y": 513.5,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 86165
+      },
+      {
+        "id": 11,
+        "type": 12,
+        "name": "커스텀 전용 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 943,
+          "y": 581.5,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 86165
+      },
+      {
+        "id": 12,
+        "type": 11,
+        "name": "커스텀 제작대",
+        "sourceWidth": 300,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          300,
+          360
+        ],
+        "rect": {
+          "x": 654,
+          "y": 307,
+          "w": 100,
+          "h": 120
+        },
+        "alpha": 22174
+      },
+      {
+        "id": 13,
+        "type": 11,
+        "name": "커스텀 제작대",
+        "sourceWidth": 300,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          300,
+          360
+        ],
+        "rect": {
+          "x": 450,
+          "y": 477,
+          "w": 100,
+          "h": 120
+        },
+        "alpha": 22174
+      },
+      {
+        "id": 14,
+        "type": 11,
+        "name": "커스텀 제작대",
+        "sourceWidth": 300,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          300,
+          360
+        ],
+        "rect": {
+          "x": 314,
+          "y": 409,
+          "w": 100,
+          "h": 120
+        },
+        "alpha": 22174
+      },
+      {
+        "id": 15,
+        "type": 12,
+        "name": "커스텀 전용 진열대",
+        "sourceWidth": 320,
+        "sourceTag": "CANVAS",
+        "source": null,
+        "clip": [
+          0,
+          0,
+          320,
+          540
+        ],
+        "rect": {
+          "x": 127,
+          "y": 411.5,
+          "w": 32,
+          "h": 54
+        },
+        "alpha": 86165
+      }
+    ],
+    "stats": {
+      "assets/title-v1.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1024
+      },
+      "assets/checkout-v3130.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1024,
+        "height": 1536
+      },
+      "assets/furniture.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 516,
+        "height": 2064
+      },
+      "assets/furniture-back.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 516,
+        "height": 1548
+      },
+      "assets/empty-cabinet-v3.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/goods-v3.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1269,
+        "height": 890
+      },
+      "assets/empty-rack-v7.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 801,
+        "height": 1531
+      },
+      "assets/accessories-v370.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 682,
+        "height": 262
+      },
+      "assets/walk-everyday-a-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 992
+      },
+      "assets/walk-everyday-b-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1017
+      },
+      "assets/walk-regulars-a-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1024,
+        "height": 870
+      },
+      "assets/walk-regulars-b-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 997
+      },
+      "assets/walk-story-a-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1024,
+        "height": 886
+      },
+      "assets/walk-story-b-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1010
+      },
+      "assets/walk-special-a-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1024,
+        "height": 890
+      },
+      "assets/walk-special-b-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1020
+      },
+      "assets/walk-team-v3120.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/walk-drummer-v3120.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 2048,
+        "height": 755
+      },
+      "assets/instruments-0-v340.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1204,
+        "height": 1001
+      },
+      "assets/instruments-1-v340.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1262,
+        "height": 1006
+      },
+      "assets/instruments-2-v340.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1270,
+        "height": 987
+      },
+      "assets/acoustics-v3200.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1024,
+        "height": 1536
+      },
+      "assets/luxury-0-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 164,
+        "height": 700
+      },
+      "assets/luxury-1-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 160,
+        "height": 698
+      },
+      "assets/luxury-2-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 157,
+        "height": 698
+      },
+      "assets/luxury-3-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 197,
+        "height": 696
+      },
+      "assets/luxury-4-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 176,
+        "height": 697
+      },
+      "assets/luxury-5-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 168,
+        "height": 700
+      },
+      "assets/luxury-6-v3250.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 181,
+        "height": 699
+      },
+      "assets/drum-fixtures-v350.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/drum-product-v350.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1774,
+        "height": 887
+      },
+      "assets/decor-v3130.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/audition-v3130.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/vip-v3180.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1024
+      },
+      "assets/atelier-v3180.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1024
+      },
+      "assets/interior-v3180.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1536,
+        "height": 1024
+      },
+      "assets/wall-details-v3190.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/lounge-v3200.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/people-v3200.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 2172,
+        "height": 724
+      },
+      "assets/horizontal-v3200.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/premium-showcase-v3220.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/chairs-v3240.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1774,
+        "height": 887
+      },
+      "assets/greenery-0-v3250.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/greenery-1-v3250.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/greenery-2-v3250.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/bases-0-v3260.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1734,
+        "height": 1304
+      },
+      "assets/bases-1-v3260.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/bases-2-v3260.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/bases-3-v3260.webp": {
+        "state": "idle",
+        "starts": 0,
+        "width": 0,
+        "height": 0
+      },
+      "assets/parts-v3260.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 2200,
+        "height": 2196
+      },
+      "assets/motifs-v3260.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1985,
+        "height": 792
+      },
+      "assets/woods-v3260.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 2600,
+        "height": 1560
+      },
+      "assets/showcases-v3270.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 734,
+        "height": 1048
+      },
+      "assets/materials-v3230.webp": {
+        "state": "ready",
+        "starts": 1,
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    "money": 989359800,
+    "count": 15,
+    "customComposite": true,
+    "vipComposite": true,
+    "errors": []
+  }
+]

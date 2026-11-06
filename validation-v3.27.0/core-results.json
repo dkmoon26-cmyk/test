@@ -1,0 +1,172 @@
+{
+  "pass": true,
+  "checks": [
+    "catalog schema",
+    "luxury-only VIP",
+    "all new models and mission guitar craftable",
+    "bench level gate",
+    "two views 17",
+    "front rear artwork 17",
+    "live custom 17 color",
+    "live custom 17 wood",
+    "live custom 17 hardware",
+    "live custom 17 finish",
+    "live custom 17 pickup",
+    "valid quote 17",
+    "two views 18",
+    "front rear artwork 18",
+    "live custom 18 color",
+    "live custom 18 wood",
+    "live custom 18 hardware",
+    "live custom 18 finish",
+    "live custom 18 pickup",
+    "valid quote 18",
+    "two views 23",
+    "front rear artwork 23",
+    "live custom 23 color",
+    "live custom 23 wood",
+    "live custom 23 hardware",
+    "live custom 23 finish",
+    "live custom 23 pickup",
+    "valid quote 23",
+    "two views 29",
+    "front rear artwork 29",
+    "live custom 29 color",
+    "live custom 29 wood",
+    "live custom 29 hardware",
+    "live custom 29 finish",
+    "live custom 29 pickup",
+    "valid quote 29",
+    "two views 30",
+    "front rear artwork 30",
+    "live custom 30 color",
+    "live custom 30 wood",
+    "live custom 30 hardware",
+    "live custom 30 finish",
+    "live custom 30 pickup",
+    "valid quote 30",
+    "two views 31",
+    "front rear artwork 31",
+    "live custom 31 color",
+    "live custom 31 wood",
+    "live custom 31 hardware",
+    "live custom 31 finish",
+    "live custom 31 rosette",
+    "valid quote 31",
+    "two views 32",
+    "front rear artwork 32",
+    "live custom 32 color",
+    "live custom 32 wood",
+    "live custom 32 hardware",
+    "live custom 32 finish",
+    "live custom 32 pickup",
+    "valid quote 32",
+    "assign luxury",
+    "no duplicate order with allocated stock",
+    "luxury 30percent rush",
+    "rush order accepted",
+    "rush auto allocation one exact charge",
+    "luxury quantity2 rejected",
+    "ledger",
+    "wall editor",
+    "wall expanded first slot",
+    "wall move",
+    "wall move free",
+    "wall moved",
+    "wall recall"
+  ],
+  "images": [
+    {
+      "base": 17,
+      "name": "바이올렛 리미티드",
+      "front": {
+        "sum": 679126383,
+        "alpha": 26820
+      },
+      "back": {
+        "sum": 1387299964,
+        "alpha": 26793
+      }
+    },
+    {
+      "base": 18,
+      "name": "미드나잇 리미티드 5",
+      "front": {
+        "sum": 833781198,
+        "alpha": 22087
+      },
+      "back": {
+        "sum": 3915418817,
+        "alpha": 22357
+      }
+    },
+    {
+      "base": 23,
+      "name": "펄 리미티드",
+      "front": {
+        "sum": 3653115970,
+        "alpha": 25849
+      },
+      "back": {
+        "sum": 2313106509,
+        "alpha": 26204
+      }
+    },
+    {
+      "base": 29,
+      "name": "블랙 오키드",
+      "front": {
+        "sum": 511124643,
+        "alpha": 31418
+      },
+      "back": {
+        "sum": 2300421723,
+        "alpha": 31238
+      }
+    },
+    {
+      "base": 30,
+      "name": "오로라 버얼 6",
+      "front": {
+        "sum": 3006007707,
+        "alpha": 29408
+      },
+      "back": {
+        "sum": 2762079605,
+        "alpha": 28799
+      }
+    },
+    {
+      "base": 31,
+      "name": "로열 스완",
+      "front": {
+        "sum": 1693867571,
+        "alpha": 31613
+      },
+      "back": {
+        "sum": 2088302221,
+        "alpha": 31392
+      }
+    },
+    {
+      "base": 32,
+      "name": "레드 피닉스",
+      "front": {
+        "sum": 1247589856,
+        "alpha": 21503
+      },
+      "back": {
+        "sum": 3375044129,
+        "alpha": 21512
+      }
+    }
+  ],
+  "workshopRealTime": true,
+  "vip": {
+    "money": 1021494200,
+    "sales": 5,
+    "visits": 4,
+    "combined": 32000000
+  },
+  "errors": []
+}

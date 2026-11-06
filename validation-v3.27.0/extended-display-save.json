@@ -1,0 +1,960 @@
+{
+  "format": "little-tone-save",
+  "appVersion": "3.27.0",
+  "saveVersion": 32,
+  "state": {
+    "design": {
+      "wall": "original",
+      "floor": "original",
+      "vipFloor": "walnut",
+      "vipWall": "sage",
+      "wallItems": [],
+      "floorTiles": {},
+      "wallTiles": {},
+      "wallStock": {}
+    },
+    "vip": {
+      "zone": {
+        "x": 15,
+        "y": 1,
+        "w": 8,
+        "h": 8,
+        "doorSide": "left",
+        "doorAt": 4
+      },
+      "visitedDay": 1,
+      "nextProfile": 3,
+      "lastProfile": 2,
+      "guest": null,
+      "visits": 3,
+      "sales": 3,
+      "revenue": 11700000,
+      "lastResult": "은채 · 시더 그랜드 어쿠스틱 구매 360만 원",
+      "hired": true,
+      "normalSales": 3,
+      "normalRevenue": 11700000,
+      "dailyDay": 4,
+      "dailyCount": 0,
+      "nextVisitAt": 10
+    },
+    "custom": {
+      "benchLevel": 3,
+      "nextId": 5,
+      "crafted": 4,
+      "sold": 1,
+      "totalCost": 7087200,
+      "totalRevenue": 457000,
+      "normalSold": 1,
+      "normalRevenue": 457000,
+      "vipSold": 0,
+      "vipRevenue": 0,
+      "levels": {
+        "12": 3,
+        "13": 2,
+        "14": 1
+      },
+      "ready": {
+        "12": 5,
+        "13": 3,
+        "14": 2
+      },
+      "jobs": [],
+      "items": [
+        {
+          "id": 2,
+          "base": 1,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickup": "standard",
+            "hardware": "chrome",
+            "finish": "satin",
+            "top": "walnutTop",
+            "bridge": "standard",
+            "knobs": "standard",
+            "inlay": "dots"
+          },
+          "cost": 1358400,
+          "price": 1793000,
+          "day": 1,
+          "madeLevel": 2,
+          "pricingVersion": 29,
+          "displayId": null,
+          "displaySlot": null
+        },
+        {
+          "id": 3,
+          "base": 15,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickup": "standard",
+            "hardware": "chrome",
+            "finish": "satin",
+            "top": "quilt",
+            "bridge": "standard",
+            "inlay": "dots"
+          },
+          "cost": 4736000,
+          "price": 6252000,
+          "day": 1,
+          "madeLevel": 3,
+          "pricingVersion": 29,
+          "displayId": null,
+          "displaySlot": null
+        },
+        {
+          "id": 4,
+          "base": 0,
+          "options": {
+            "color": "wine",
+            "wood": "alder",
+            "pickup": "standard",
+            "hardware": "chrome",
+            "finish": "gloss",
+            "design26": {
+              "v": 1,
+              "front": [
+                {
+                  "id": "moon",
+                  "x": 0.22,
+                  "y": 0.86,
+                  "scale": 0.2,
+                  "rotation": 0,
+                  "color": "white",
+                  "material": "paint"
+                },
+                {
+                  "id": "moon",
+                  "x": 0.22,
+                  "y": 0.86,
+                  "scale": 0.2,
+                  "rotation": 0,
+                  "color": "white",
+                  "material": "paint"
+                },
+                {
+                  "id": "moon",
+                  "x": 0,
+                  "y": 0.8,
+                  "scale": 1.2,
+                  "rotation": -20,
+                  "color": "white",
+                  "material": "paint"
+                }
+              ],
+              "back": [
+                {
+                  "id": "moon",
+                  "x": 0.22,
+                  "y": 0.86,
+                  "scale": 0.2,
+                  "rotation": 0,
+                  "color": "white",
+                  "material": "paint"
+                },
+                {
+                  "id": "moon",
+                  "x": 0.22,
+                  "y": 0.86,
+                  "scale": 0.2,
+                  "rotation": 0,
+                  "color": "white",
+                  "material": "paint"
+                },
+                {
+                  "id": "moon",
+                  "x": 0.22,
+                  "y": 0.86,
+                  "scale": 0.2,
+                  "rotation": 0,
+                  "color": "white",
+                  "material": "paint"
+                }
+              ],
+              "woodGrade": "standard",
+              "topGrade": "none",
+              "backWood": "none",
+              "binding": "none",
+              "knobMaterial": "metal",
+              "inlayMaterial": "standard",
+              "bodyWood": "alder",
+              "neckWood": "maple",
+              "fretWood": "maple",
+              "bodyColor": "wine",
+              "neckColor": "violet",
+              "headColor": "wine",
+              "paint": "solid",
+              "color2": "black",
+              "coat": "standard",
+              "metal": "silver",
+              "pickupShape": "single",
+              "pickupSpec": "standard",
+              "bridge": "fixed",
+              "bridgeGrade": "standard",
+              "guard": "none",
+              "guardColor": "white",
+              "knob": "metal",
+              "knobCount": "1",
+              "tuner": "vintage",
+              "tunerGrade": "standard",
+              "rosette": "simple",
+              "acousticBridge": "rosewood",
+              "saddle": "standard",
+              "acousticPickup": "none",
+              "inlay": "dot",
+              "finish": "gloss",
+              "engraving": "none"
+            }
+          },
+          "cost": 646400,
+          "price": 853000,
+          "day": 4,
+          "madeLevel": 3,
+          "pricingVersion": 30,
+          "displayId": 15,
+          "displaySlot": 0
+        }
+      ],
+      "progressDay": 4
+    },
+    "calendar": {
+      "seed": 3315451981,
+      "day": 5,
+      "event": "none",
+      "weather": "sun",
+      "next": {
+        "day": 6,
+        "event": "none",
+        "weather": "rain"
+      }
+    },
+    "saveVersion": 32,
+    "ending": {
+      "day": 0,
+      "viewed": false,
+      "continued": false,
+      "records": null
+    },
+    "shopName": "작은 선율",
+    "named": true,
+    "opened": false,
+    "phase": "prepare",
+    "stage": 6,
+    "dayRent": 125000,
+    "settlement": null,
+    "specialDone": false,
+    "posterRoll": {
+      "day": 0,
+      "won": false
+    },
+    "guests": [],
+    "introducedTiers": [],
+    "pendingIntroductions": [],
+    "expansionNotice": null,
+    "customerBook": {
+      "actor-12": {
+        "key": "actor-12",
+        "actor": 12,
+        "name": "드러머 리온",
+        "visits": 7,
+        "purchases": 3,
+        "completedRequests": 0,
+        "spent": 1020000,
+        "satisfaction": 5.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "drums",
+        "preferredTier": 5
+      },
+      "actor-1": {
+        "key": "actor-1",
+        "actor": 1,
+        "name": "서연",
+        "visits": 15,
+        "purchases": 7,
+        "completedRequests": 0,
+        "spent": 2380000,
+        "satisfaction": 8,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "bass",
+        "preferredTier": 0
+      },
+      "actor-2": {
+        "key": "actor-2",
+        "actor": 2,
+        "name": "도윤",
+        "visits": 10,
+        "purchases": 4,
+        "completedRequests": 0,
+        "spent": 1360000,
+        "satisfaction": 5.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "acoustic",
+        "preferredTier": 0
+      },
+      "actor-3": {
+        "key": "actor-3",
+        "actor": 3,
+        "name": "유진",
+        "visits": 19,
+        "purchases": 4,
+        "completedRequests": 0,
+        "spent": 1360000,
+        "satisfaction": 5.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "effect",
+        "preferredTier": 0
+      },
+      "actor-8": {
+        "key": "actor-8",
+        "actor": 8,
+        "name": "뮤지션 루카",
+        "visits": 6,
+        "purchases": 3,
+        "completedRequests": 0,
+        "spent": 1020000,
+        "satisfaction": 5.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "electric",
+        "preferredTier": 5
+      },
+      "actor-5": {
+        "key": "actor-5",
+        "actor": 5,
+        "name": "인디 연주자 나래",
+        "visits": 5,
+        "purchases": 2,
+        "completedRequests": 0,
+        "spent": 680000,
+        "satisfaction": 3,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "electric",
+        "preferredTier": 2
+      },
+      "actor-0": {
+        "key": "actor-0",
+        "actor": 0,
+        "name": "지우",
+        "visits": 14,
+        "purchases": 7,
+        "completedRequests": 0,
+        "spent": 2380000,
+        "satisfaction": 8,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "electric",
+        "preferredTier": 0
+      },
+      "actor-11": {
+        "key": "actor-11",
+        "actor": 11,
+        "name": "베이시스트 서진",
+        "visits": 6,
+        "purchases": 3,
+        "completedRequests": 0,
+        "spent": 1020000,
+        "satisfaction": 5.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "bass",
+        "preferredTier": 4
+      },
+      "actor-7": {
+        "key": "actor-7",
+        "actor": 7,
+        "name": "수집가 선영",
+        "visits": 5,
+        "purchases": 4,
+        "completedRequests": 0,
+        "spent": 1477000,
+        "satisfaction": 10,
+        "regular": false,
+        "affinityDay": 4,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 0,
+        "stockoutStreak": 0,
+        "lastVisitDay": 4,
+        "favoriteFamily": "electric",
+        "preferredTier": 4
+      },
+      "actor-6": {
+        "key": "actor-6",
+        "actor": 6,
+        "name": "세션 연주자 현우",
+        "visits": 4,
+        "purchases": 1,
+        "completedRequests": 0,
+        "spent": 340000,
+        "satisfaction": 0.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "bass",
+        "preferredTier": 3
+      },
+      "actor-9": {
+        "key": "actor-9",
+        "actor": 9,
+        "name": "입문자 하나",
+        "visits": 2,
+        "purchases": 1,
+        "completedRequests": 0,
+        "spent": 340000,
+        "satisfaction": 2.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 1,
+        "lastVisitDay": 4,
+        "favoriteFamily": "acoustic",
+        "preferredTier": 0
+      },
+      "actor-10": {
+        "key": "actor-10",
+        "actor": 10,
+        "name": "페달 수집가 태오",
+        "visits": 3,
+        "purchases": 1,
+        "completedRequests": 0,
+        "spent": 340000,
+        "satisfaction": 0.5,
+        "regular": false,
+        "affinityDay": 2,
+        "affinityGain": 2.5,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "effect",
+        "preferredTier": 0
+      },
+      "actor-4": {
+        "key": "actor-4",
+        "actor": 4,
+        "name": "밴드부원 도하",
+        "visits": 4,
+        "purchases": 0,
+        "completedRequests": 0,
+        "spent": 0,
+        "satisfaction": 0,
+        "regular": false,
+        "affinityDay": 3,
+        "affinityGain": 0,
+        "lastStockoutDay": 4,
+        "stockoutStreak": 2,
+        "lastVisitDay": 4,
+        "favoriteFamily": "electric",
+        "preferredTier": 1
+      }
+    },
+    "hanaStory": {
+      "phase": "locked",
+      "startedDay": 0,
+      "deliveredDay": 0,
+      "completedDay": 0
+    },
+    "repathGuests": false,
+    "pendingOrders": [],
+    "tutorial": {
+      "active": false,
+      "step": 0,
+      "purchased": false,
+      "startDay": 1,
+      "completed": false
+    },
+    "staffHired": 0,
+    "cashierHired": 0,
+    "featureNotices": [],
+    "newFeatures": [],
+    "staffPolicy": {
+      "enabled": false,
+      "reserve": 0,
+      "products": [
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 5,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": true,
+          "quantity": 1,
+          "at": null
+        },
+        {
+          "enabled": false,
+          "quantity": 1,
+          "at": 0
+        },
+        {
+          "enabled": false,
+          "quantity": 1,
+          "at": 0
+        },
+        {
+          "enabled": false,
+          "quantity": 1,
+          "at": 0
+        },
+        {
+          "enabled": false,
+          "quantity": 1,
+          "at": 0
+        }
+      ]
+    },
+    "showcase": null,
+    "drummerIntroduced": true,
+    "furnitureRevenue": 0,
+    "ledgerStart": 989359800,
+    "audio": {
+      "music": 0.22,
+      "effects": 0.6,
+      "muted": false
+    },
+    "customerSequence": 100,
+    "money": 989359800,
+    "day": 5,
+    "time": 0,
+    "revenue": 0,
+    "sold": 0,
+    "visitors": 0,
+    "totalSales": 2943,
+    "totalRevenue": 25417000,
+    "expenses": 0,
+    "rep": 16.6,
+    "reputationDaily": {
+      "day": 5,
+      "gained": 0
+    },
+    "missionRevenue": 0,
+    "missionStats": {
+      "sales": [
+        140,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        101,
+        101,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        101,
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bestDay": 100,
+      "legacyImported": false
+    },
+    "claimedMissions": [
+      "s1-sales",
+      "s1-core",
+      "s2-sales",
+      "s2-core",
+      "s3-sales",
+      "s3-rack",
+      "s3-core",
+      "s4-sales",
+      "s4-core",
+      "s5-sales",
+      "s5-core",
+      "s6-sales",
+      "s6-core",
+      "s6-drums"
+    ],
+    "pendingMissionGuests": [],
+    "introducedMissionGuests": [
+      9,
+      10,
+      11
+    ],
+    "stock": [
+      0,
+      39,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      38,
+      39,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      39,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "furniture": [
+      {
+        "id": 1,
+        "t": 0,
+        "x": 2,
+        "y": 2,
+        "p": 0,
+        "p2": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 2,
+        "t": 1,
+        "x": 5,
+        "y": 7,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 3,
+        "t": 16,
+        "x": 4,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 4,
+        "t": 15,
+        "x": 15,
+        "y": 2,
+        "p": null,
+        "rot": false,
+        "dir": 0,
+        "vipSlots": [
+          17
+        ],
+        "vipModel": null
+      },
+      {
+        "id": 5,
+        "t": 15,
+        "x": 19,
+        "y": 2,
+        "p": null,
+        "rot": false,
+        "dir": 0,
+        "vipSlots": [
+          null
+        ],
+        "vipModel": null
+      },
+      {
+        "id": 6,
+        "t": 15,
+        "x": 15,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0,
+        "vipSlots": [
+          null
+        ],
+        "vipModel": null
+      },
+      {
+        "id": 7,
+        "t": 13,
+        "x": 21,
+        "y": 7,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 8,
+        "t": 14,
+        "x": 18,
+        "y": 7,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 9,
+        "t": 12,
+        "x": 19,
+        "y": 4,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 10,
+        "t": 12,
+        "x": 15,
+        "y": 6,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 11,
+        "t": 12,
+        "x": 19,
+        "y": 6,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 12,
+        "t": 11,
+        "x": 9,
+        "y": 3,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 13,
+        "t": 11,
+        "x": 11,
+        "y": 11,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 14,
+        "t": 11,
+        "x": 7,
+        "y": 11,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      },
+      {
+        "id": 15,
+        "t": 12,
+        "x": 2,
+        "y": 13,
+        "p": null,
+        "rot": false,
+        "dir": 0
+      }
+    ],
+    "nextId": 16,
+    "entrances": [
+      {
+        "side": "bottom",
+        "at": 8
+      }
+    ]
+  }
+}

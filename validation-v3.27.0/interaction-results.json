@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "checks": [
+    "empty custom glass click",
+    "empty VIP glass opens display menu",
+    "mobile actual max scale slider",
+    "automatic rear preview",
+    "motif visible 0",
+    "pickup above motif",
+    "pickguard above motif",
+    "motif visible 2",
+    "soundhole excluded"
+  ]
+}

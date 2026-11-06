@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "scenarios": [
+    {
+      "mode": "http",
+      "headChanged": true,
+      "neckChanged": true,
+      "head": "blue",
+      "neck": "violet",
+      "pixelReadErrors": [],
+      "errors": []
+    },
+    {
+      "mode": "pixel-blocked",
+      "headChanged": true,
+      "neckChanged": true,
+      "head": "blue",
+      "neck": "violet",
+      "pixelReadErrors": [
+        {
+          "name": "SecurityError",
+          "message": "Simulated unavailable canvas pixel read"
+        },
+        {
+          "name": "SecurityError",
+          "message": "Simulated unavailable canvas pixel read"
+        },
+        {
+          "name": "SecurityError",
+          "message": "Simulated unavailable canvas pixel read"
+        },
+        {
+          "name": "SecurityError",
+          "message": "Simulated unavailable canvas pixel read"
+        },
+        {
+          "name": "SecurityError",
+          "message": "Simulated unavailable canvas pixel read"
+        },
+        {
+          "name": "SecurityError",
+          "message": "Simulated unavailable canvas pixel read"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "checks": [
+    "normal order",
+    "normal waits",
+    "pending order expedited",
+    "expedite one base charge and one30percent fee",
+    "auto plan one luxury",
+    "auto order empty retained model",
+    "normal delivery auto fill",
+    "allocated stock prevents extra auto order",
+    "one luxury is sufficient",
+    "preferred90percent",
+    "fallback25percent conditional",
+    "nonpreferred25percent",
+    "remaining budget respected"
+  ],
+  "preferred": 9026,
+  "other": 244,
+  "onlyOther": 2526,
+  "samplesPerCase": 10000,
+  "expediteCost": 13000000
+}
