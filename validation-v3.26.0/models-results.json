@@ -1,0 +1,242 @@
+[
+  {
+    "base": 0,
+    "color": "wine",
+    "expected": "#9c293d",
+    "mean": [
+      122,
+      60,
+      69
+    ]
+  },
+  {
+    "base": 1,
+    "color": "forest",
+    "expected": "#35664c",
+    "mean": [
+      75,
+      95,
+      80
+    ]
+  },
+  {
+    "base": 2,
+    "color": "natural",
+    "expected": null,
+    "mean": [
+      179,
+      108,
+      41
+    ]
+  },
+  {
+    "base": 9,
+    "color": "blue",
+    "expected": "#2d467b",
+    "mean": [
+      69,
+      78,
+      101
+    ]
+  },
+  {
+    "base": 10,
+    "color": "gold",
+    "expected": "#b89a50",
+    "mean": [
+      139,
+      123,
+      86
+    ]
+  },
+  {
+    "base": 11,
+    "color": "black",
+    "expected": "#27282c",
+    "mean": [
+      63,
+      61,
+      62
+    ]
+  },
+  {
+    "base": 12,
+    "color": "natural",
+    "expected": null,
+    "mean": [
+      167,
+      119,
+      71
+    ]
+  },
+  {
+    "base": 13,
+    "color": "wine",
+    "expected": "#9c293d",
+    "mean": [
+      118,
+      62,
+      69
+    ]
+  },
+  {
+    "base": 14,
+    "color": "white",
+    "expected": "#f2eee4",
+    "mean": [
+      178,
+      173,
+      165
+    ]
+  },
+  {
+    "base": 15,
+    "color": "forest",
+    "expected": "#35664c",
+    "mean": [
+      66,
+      87,
+      73
+    ]
+  },
+  {
+    "base": 16,
+    "color": "black",
+    "expected": "#27282c",
+    "mean": [
+      51,
+      50,
+      51
+    ]
+  },
+  {
+    "base": 17,
+    "color": "violet",
+    "expected": "#785098",
+    "mean": [
+      103,
+      82,
+      114
+    ]
+  },
+  {
+    "base": 18,
+    "color": "blue",
+    "expected": "#2d467b",
+    "mean": [
+      75,
+      84,
+      105
+    ]
+  },
+  {
+    "base": 21,
+    "color": "forest",
+    "expected": "#35664c",
+    "mean": [
+      43,
+      81,
+      61
+    ]
+  },
+  {
+    "base": 22,
+    "color": "orange",
+    "expected": "#d47b32",
+    "mean": [
+      140,
+      98,
+      63
+    ]
+  },
+  {
+    "base": 23,
+    "color": "white",
+    "expected": "#f2eee4",
+    "mean": [
+      187,
+      182,
+      175
+    ]
+  },
+  {
+    "base": 24,
+    "color": "natural",
+    "expected": null,
+    "mean": [
+      158,
+      96,
+      37
+    ]
+  },
+  {
+    "base": 25,
+    "color": "natural",
+    "expected": null,
+    "mean": [
+      168,
+      102,
+      39
+    ]
+  },
+  {
+    "base": 27,
+    "color": "natural",
+    "expected": null,
+    "mean": [
+      155,
+      94,
+      36
+    ]
+  },
+  {
+    "base": 28,
+    "color": "blue",
+    "expected": "#2d467b",
+    "mean": [
+      41,
+      56,
+      93
+    ]
+  },
+  {
+    "base": 29,
+    "color": "black",
+    "expected": "#27282c",
+    "mean": [
+      64,
+      62,
+      62
+    ]
+  },
+  {
+    "base": 30,
+    "color": "teal",
+    "expected": "#2c918d",
+    "mean": [
+      75,
+      126,
+      121
+    ]
+  },
+  {
+    "base": 31,
+    "color": "white",
+    "expected": "#f2eee4",
+    "mean": [
+      197,
+      190,
+      181
+    ]
+  },
+  {
+    "base": 32,
+    "color": "wine",
+    "expected": "#9c293d",
+    "mean": [
+      120,
+      32,
+      47
+    ]
+  }
+]

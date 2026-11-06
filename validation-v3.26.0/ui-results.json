@@ -1,0 +1,967 @@
+{
+  "pass": true,
+  "wallActualClickMoveReload": true,
+  "props": [
+    {
+      "id": 16,
+      "t": 17,
+      "x": 3,
+      "y": 3,
+      "p": null,
+      "p2": null,
+      "items": [],
+      "rot": false,
+      "dir": 0,
+      "rect": {
+        "x": 487.688679245283,
+        "y": 279,
+        "w": 24.62264150943396,
+        "h": 27
+      }
+    },
+    {
+      "id": 17,
+      "t": 18,
+      "x": 4,
+      "y": 3,
+      "p": null,
+      "p2": null,
+      "items": [],
+      "rot": false,
+      "dir": 0,
+      "rect": {
+        "x": 513.5551724137931,
+        "y": 274,
+        "w": 40.889655172413796,
+        "h": 49
+      }
+    },
+    {
+      "id": 18,
+      "t": 19,
+      "x": 5,
+      "y": 3,
+      "p": null,
+      "p2": null,
+      "items": [],
+      "rot": false,
+      "dir": 0,
+      "rect": {
+        "x": 548.3530751708428,
+        "y": 290,
+        "w": 39.29384965831435,
+        "h": 50
+      }
+    }
+  ],
+  "behavior": {
+    "affinity": 0.09999999999999964,
+    "uniqueStaffPositions": 20,
+    "positions": [
+      [
+        {
+          "x": 2,
+          "y": 1,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 1,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 1,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 1,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 1.9195015528100074,
+          "y": 0.9195015528100076,
+          "state": "returning",
+          "targetId": null,
+          "facing": 7,
+          "path": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0.15696167101418868,
+          "y": 0.8430383289858112,
+          "state": "returning",
+          "targetId": null,
+          "facing": 6,
+          "path": [
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "idle",
+          "facing": 0,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "둘러보는 중",
+          "targetId": null,
+          "facing": 0,
+          "path": [
+            {
+              "x": -0.5,
+              "y": 3.5
+            },
+            {
+              "x": 1,
+              "y": 5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": -0.21111031831332797,
+          "y": 3.2111103183133336,
+          "state": "returning",
+          "targetId": null,
+          "facing": 6,
+          "path": [
+            {
+              "x": -0.5,
+              "y": 3.5
+            },
+            {
+              "x": 1,
+              "y": 5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 0.818878493822517,
+          "y": 4.818878493822516,
+          "state": "returning",
+          "targetId": null,
+          "facing": 7,
+          "path": [
+            {
+              "x": -0.5,
+              "y": 3.5
+            },
+            {
+              "x": 1,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 0.15900233432205788,
+          "y": 2.840997665677936,
+          "state": "returning",
+          "targetId": null,
+          "facing": 4,
+          "path": [
+            {
+              "x": 1,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 0.8153262862958609,
+          "y": 0.1846737137041391,
+          "state": "returning",
+          "targetId": null,
+          "facing": 4,
+          "path": [
+            {
+              "x": 1.5,
+              "y": -0.5
+            },
+            {
+              "x": 2,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1.1556862329334223,
+          "y": 1.8443137670665777,
+          "state": "returning",
+          "targetId": null,
+          "facing": 4,
+          "path": [
+            {
+              "x": 1.25,
+              "y": 1.75
+            },
+            {
+              "x": 1,
+              "y": 1.5
+            },
+            {
+              "x": 2,
+              "y": 0.5
+            },
+            {
+              "x": 3.25,
+              "y": 1.75
+            },
+            {
+              "x": 3,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 2.1999326793165848,
+          "y": 0.6999326793165849,
+          "state": "returning",
+          "targetId": null,
+          "facing": 5,
+          "path": [
+            {
+              "x": 3.25,
+              "y": 1.75
+            },
+            {
+              "x": 3,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 2.603578248942155,
+          "y": 1.3964217510578452,
+          "state": "returning",
+          "targetId": null,
+          "facing": 4,
+          "path": [
+            {
+              "x": 2.75,
+              "y": 1.25
+            },
+            {
+              "x": 2,
+              "y": 0.5
+            },
+            {
+              "x": 0.75,
+              "y": 1.75
+            },
+            {
+              "x": 1,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1.2021416443329707,
+          "y": 1.2978583556670293,
+          "state": "returning",
+          "targetId": null,
+          "facing": 6,
+          "path": [
+            {
+              "x": 0.75,
+              "y": 1.75
+            },
+            {
+              "x": 1,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2,
+          "y": 0,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 2.080498447189992,
+          "y": 0.08049844718999243,
+          "state": "returning",
+          "targetId": null,
+          "facing": 5,
+          "path": [
+            {
+              "x": 3.5,
+              "y": 1.5
+            },
+            {
+              "x": 3,
+              "y": 2
+            }
+          ]
+        },
+        {
+          "x": 0.5804577457216005,
+          "y": 2.4195422542784013,
+          "state": "returning",
+          "targetId": null,
+          "facing": 6,
+          "path": [
+            {
+              "x": 0.5,
+              "y": 2.5
+            },
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "returning",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "state": "대기",
+          "targetId": null,
+          "facing": 5,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": -0.3667965512467465,
+          "y": 1.6332034487532534,
+          "state": "returning",
+          "targetId": null,
+          "facing": 7,
+          "path": [
+            {
+              "x": -0.5,
+              "y": 1.5
+            },
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ],
+      [
+        {
+          "x": 3,
+          "y": 2,
+          "state": "대기",
+          "targetId": null,
+          "facing": 6,
+          "path": []
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "state": "대기",
+          "targetId": null,
+          "facing": 4,
+          "path": []
+        }
+      ]
+    ]
+  },
+  "layouts": [
+    {
+      "w": 320,
+      "h": 568,
+      "tab": "inventory",
+      "fit": {
+        "x": 17,
+        "y": 88,
+        "w": 286,
+        "h": 468,
+        "overflow": false
+      }
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "tab": "cashier",
+      "fit": {
+        "x": 17,
+        "y": 88,
+        "w": 286,
+        "h": 461,
+        "overflow": false
+      }
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "tab": "vip",
+      "fit": {
+        "x": 17,
+        "y": 88,
+        "w": 286,
+        "h": 376.546875,
+        "overflow": false
+      }
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "tab": "inventory",
+      "fit": {
+        "x": 17,
+        "y": 88,
+        "w": 356,
+        "h": 636.9375,
+        "overflow": false
+      }
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "tab": "cashier",
+      "fit": {
+        "x": 17,
+        "y": 88,
+        "w": 356,
+        "h": 422,
+        "overflow": false
+      }
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "tab": "vip",
+      "fit": {
+        "x": 17,
+        "y": 88,
+        "w": 356,
+        "h": 376.546875,
+        "overflow": false
+      }
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "tab": "inventory",
+      "fit": {
+        "x": 152,
+        "y": 72,
+        "w": 540,
+        "h": 310,
+        "overflow": false
+      }
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "tab": "cashier",
+      "fit": {
+        "x": 152,
+        "y": 72,
+        "w": 540,
+        "h": 310,
+        "overflow": false
+      }
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "tab": "vip",
+      "fit": {
+        "x": 152,
+        "y": 72,
+        "w": 540,
+        "h": 310,
+        "overflow": false
+      }
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "tab": "inventory",
+      "fit": {
+        "x": 450,
+        "y": 88,
+        "w": 540,
+        "h": 657,
+        "overflow": false
+      }
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "tab": "cashier",
+      "fit": {
+        "x": 450,
+        "y": 88,
+        "w": 540,
+        "h": 445,
+        "overflow": false
+      }
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "tab": "vip",
+      "fit": {
+        "x": 450,
+        "y": 88,
+        "w": 540,
+        "h": 384.546875,
+        "overflow": false
+      }
+    }
+  ],
+  "errors": []
+}

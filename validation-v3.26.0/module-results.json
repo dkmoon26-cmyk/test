@@ -1,0 +1,45 @@
+{
+  "pass": true,
+  "checks": 3832,
+  "fieldCases": 2799,
+  "models": 24,
+  "production": {
+    "days": [
+      {
+        "day": 5,
+        "money": 968061400,
+        "jobs": [
+          {
+            "id": 5,
+            "remaining": 1
+          },
+          {
+            "id": 6,
+            "remaining": 2
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "money": 967896400,
+        "jobs": [
+          {
+            "id": 6,
+            "remaining": 1
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "money": 967731400,
+        "jobs": []
+      }
+    ],
+    "jobIds": [
+      4,
+      5,
+      6
+    ],
+    "checks": 3876
+  }
+}
