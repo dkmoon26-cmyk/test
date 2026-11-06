@@ -1,0 +1,6 @@
+// Shared initialization is run after all game/catalogue definitions exist.
+greeneryAtlas25=Greenery25.map(a=>runtimeImage(a.key));
+// The existing menu opens the same atomic order transaction used by instrument cards.
+$('customDisplayBody').addEventListener('click',e=>{const b=e.target.closest('[data-vip-order25],[data-vip-rush25]');if(!b||b.disabled)return;const rush=b.dataset.vipRush25!==undefined;orderProduct(+(rush?b.dataset.vipRush25:b.dataset.vipOrder25),rush,false,1);});
+canvas.addEventListener('click',e=>{if(designEditor?.moving&&designEditor.kind==='art'){if(designQuote().valid)commitDesign();e.preventDefault();e.stopImmediatePropagation();return;}if(wasDragged||editing!==null||designEditor||vipEditor||entranceEditor!==null||S.phase!=='prepare'||largeMenuOpen())return;const item=hitWall25(e);if(!item)return;e.preventDefault();e.stopImmediatePropagation();selected=null;hideFurnitureQuick();openCatalogDetail('art:'+item.type,'art:'+item.wall+':'+item.slot);},true);
+document.addEventListener('pointermove',e=>{if(designEditor?.kind==='art'&&designEditor.moving&&e.target===canvas&&!designStroke){const key=designTargetAt(e);designEditor.keys=key?[key]:[];updateDesignBar();invalidateDesign();}},true);

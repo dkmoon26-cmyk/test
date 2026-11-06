@@ -1,0 +1,25 @@
+/* Warm ivory surfaces with readable text across all sheets. */
+:root{--ink:#352e25;--muted:#6b6254;--cream:#fff8e8;--line:#b8a177;--green:#355c48;--green-dark:#294a39;--paper:#fffcf4}
+body,button,input,select,textarea{color:#352e25}
+dialog,.sheet,.hud{color:#352e25;background-color:#fff8e8;border-color:#b8a177}
+dialog>header,.staff-header,.atelier-header,.sheet-head{background:#f0e2bf;border-bottom-color:#c5b18b}
+dialog h2,dialog h3,.item h3,.catalog-card b,.employee-card b,.employee-card h3{color:#352e25}
+.sub,.muted,small,.item-info p,.catalog-facts dt,.empty-note,.staff-shared small,.employee-card small{color:#6b6254}
+.item,.operation-card,.employee-card,.catalog-card,.staff-shared{background:#fffcf4;border:1px solid #c5b18b}
+.staff-shared,.employee-payroll{background:#efefdc}
+button{border-width:1px;border-color:#b8a177;box-shadow:none}
+button.primary,.primary,button[aria-pressed="true"],.filter-bar button.active{background:#355c48;color:#fffdf6;border-color:#355c48}
+button.secondary,.employee-tabs button:not([aria-pressed="true"]),.filter-bar button:not([aria-pressed="true"]){background:#fff9e9;color:#352e25}
+button:disabled,button.primary:disabled{opacity:1;background:#d8ddcf;color:#65695c;border-color:#b7beaa;box-shadow:none}
+.employee-tabs button,.filter-bar button,.atelier-actions button{min-height:34px;font-size:13px;border-radius:9px}
+.tabs button,.sheet-nav button{border-width:1px;min-height:40px}
+.tabs button.active,.sheet-nav button.active{background:#e4d4ac;color:#352e25}
+.single-order25{font-size:13px;color:#6b6254;justify-content:center;padding:5px 9px}
+#assetStatus{color:#352e25;line-height:1.65}
+.catalog-facts dd,.product-cost{color:#352e25}
+#customDisplayBody select{max-width:100%;width:100%;min-height:38px}
+#customDisplayBody .atelier-actions{display:flex;flex-wrap:wrap;gap:6px}
+#customDisplayBody .atelier-actions button{flex:1;min-width:120px}
+@media(max-width:480px){dialog p,.employee-card p{font-size:14px;line-height:1.5}dialog small{font-size:12px;line-height:1.45}}
+dialog button:not(.catalog-card){border-style:solid;border-radius:9px}
+.atelier-header>button,[data-model-turn],#designEditBar button:not(.primary){appearance:none;background:#fff9e9;color:#352e25;border:1px solid #b8a177;border-radius:9px;min-height:34px;padding:7px 11px}

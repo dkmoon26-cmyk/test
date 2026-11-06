@@ -1,0 +1,126 @@
+{
+  "pass": true,
+  "checks": [
+    "upgrade bench",
+    "upgrade bench",
+    "upgrade bench",
+    "start3day 29",
+    "one base and exact craft debit 29",
+    "ledger",
+    "start3day 30",
+    "one base and exact craft debit 30",
+    "ledger",
+    "start3day 31",
+    "one base and exact craft debit 31",
+    "ledger",
+    "open",
+    "mid day restore",
+    "settled",
+    "ledger",
+    "next day",
+    "open",
+    "mid day restore",
+    "settled",
+    "ledger",
+    "next day",
+    "open",
+    "mid day restore",
+    "settled",
+    "ledger",
+    "next day",
+    "new crafted item released 4",
+    "new crafted item released 5",
+    "new crafted item released 6",
+    "phoenix start",
+    "open",
+    "mid day restore",
+    "settled",
+    "ledger",
+    "next day",
+    "phoenix completed",
+    "new custom displayed in VIP",
+    "new completed item reload",
+    "new display saved"
+  ],
+  "days": [
+    {
+      "day": 4,
+      "money": 963946200,
+      "jobs": [
+        {
+          "id": 4,
+          "remaining": 2
+        },
+        {
+          "id": 5,
+          "remaining": 2
+        },
+        {
+          "id": 6,
+          "remaining": 2
+        }
+      ],
+      "crafted": 3,
+      "sold": 1
+    },
+    {
+      "day": 5,
+      "money": 963781200,
+      "jobs": [
+        {
+          "id": 4,
+          "remaining": 1
+        },
+        {
+          "id": 5,
+          "remaining": 1
+        },
+        {
+          "id": 6,
+          "remaining": 1
+        }
+      ],
+      "crafted": 3,
+      "sold": 1
+    },
+    {
+      "day": 6,
+      "money": 963616200,
+      "jobs": [
+        {
+          "id": 4,
+          "remaining": 0
+        },
+        {
+          "id": 5,
+          "remaining": 0
+        },
+        {
+          "id": 6,
+          "remaining": 0
+        }
+      ],
+      "crafted": 3,
+      "sold": 1
+    },
+    {
+      "day": 7,
+      "money": 961011200,
+      "jobs": [
+        {
+          "id": 7,
+          "remaining": 0
+        }
+      ],
+      "crafted": 6,
+      "sold": 1
+    }
+  ],
+  "newItemIds": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "errors": []
+}

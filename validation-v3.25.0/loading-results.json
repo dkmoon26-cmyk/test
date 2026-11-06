@@ -1,0 +1,493 @@
+{
+  "pass": true,
+  "summary": {
+    "titleReductionPercent": 83.88137608706417,
+    "firstStoreReductionPercent": 67.50762921756767,
+    "oldTitleBytes": 17489998,
+    "newTitleBytes": 2819147,
+    "oldFirstBytes": 17489998,
+    "newFirstBytes": 5682915
+  },
+  "reports": [
+    {
+      "name": "old",
+      "title": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:8902/old/index.html",
+            "bytes": 26907
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/style-e56b0279b70a.css",
+            "bytes": 117541
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/boot-75e32368ce9b.js",
+            "bytes": 6431
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/premium-showcase-v3220-aefe7b18f3e1.webp",
+            "bytes": 169482
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/furniture-back-e534b6506e33.webp",
+            "bytes": 412408
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/furniture-d160e4b8bc72.webp",
+            "bytes": 428526
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/noto-kr-regular.woff",
+            "bytes": 1398924
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/noto-kr-bold.woff",
+            "bytes": 1481844
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/goods-v3-4f332ed23aab.webp",
+            "bytes": 337352
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/empty-cabinet-v3-21e9e5f114e1.webp",
+            "bytes": 266882
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/title-v1-6dd158a061b6.webp",
+            "bytes": 480684
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/empty-rack-v7-72b7e8124350.webp",
+            "bytes": 245168
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/instruments-0-v340-76938297645a.webp",
+            "bytes": 353730
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/instruments-1-v340-6150d2118a3e.webp",
+            "bytes": 388338
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/instruments-2-v340-70ef6fdb738c.webp",
+            "bytes": 362166
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/drum-fixtures-v350-f0cb9b33edec.webp",
+            "bytes": 476468
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/drum-product-v350-ba9fa2bedda7.webp",
+            "bytes": 361754
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/accessories-v370-6e421341ee01.webp",
+            "bytes": 191004
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-everyday-a-v3120-01de2b6d6bf1.webp",
+            "bytes": 424962
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-everyday-b-v3120-261a72d7eec5.webp",
+            "bytes": 439230
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-regulars-a-v3120-ea82ae2ef2c4.webp",
+            "bytes": 303770
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-regulars-b-v3120-cf4d3049ceab.webp",
+            "bytes": 462006
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-story-a-v3120-0e766144609e.webp",
+            "bytes": 338742
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-story-b-v3120-f5cb829bb27f.webp",
+            "bytes": 382530
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-special-a-v3120-c8285d0d99d5.webp",
+            "bytes": 315958
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-special-b-v3120-77d3225194fc.webp",
+            "bytes": 414572
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-team-v3120-8cbc8872bbdc.webp",
+            "bytes": 635104
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-drummer-v3120-0eedadf26ade.webp",
+            "bytes": 307480
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/decor-v3130-081efcce9a1c.webp",
+            "bytes": 343140
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/checkout-v3130-4e35c8b9a81c.webp",
+            "bytes": 222392
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/audition-v3130-b3c122779665.webp",
+            "bytes": 273642
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/vip-v3180-24079dc85ab0.webp",
+            "bytes": 595488
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/atelier-v3180-ef8eadf04a15.webp",
+            "bytes": 441484
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/interior-v3180-57e5c32a0863.webp",
+            "bytes": 284924
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/wall-details-v3190-df994cbeb69c.webp",
+            "bytes": 324114
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/acoustics-v3200-eee20c1b399a.webp",
+            "bytes": 276428
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/people-v3200-2dd07d4aae91.webp",
+            "bytes": 670218
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/lounge-v3200-343dd21133c5.webp",
+            "bytes": 486156
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/horizontal-v3200-234dc2c3c9be.webp",
+            "bytes": 588704
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/materials-v3230-8b17c419e92a.webp",
+            "bytes": 298016
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/app-411ca8276e28.js",
+            "bytes": 754363
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/props-v3230-70ac976db454.webp",
+            "bytes": 400966
+          }
+        ],
+        "bytes": 17489998
+      },
+      "first": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:8902/old/index.html",
+            "bytes": 26907
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/style-e56b0279b70a.css",
+            "bytes": 117541
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/boot-75e32368ce9b.js",
+            "bytes": 6431
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/premium-showcase-v3220-aefe7b18f3e1.webp",
+            "bytes": 169482
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/furniture-back-e534b6506e33.webp",
+            "bytes": 412408
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/furniture-d160e4b8bc72.webp",
+            "bytes": 428526
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/noto-kr-regular.woff",
+            "bytes": 1398924
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/noto-kr-bold.woff",
+            "bytes": 1481844
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/goods-v3-4f332ed23aab.webp",
+            "bytes": 337352
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/empty-cabinet-v3-21e9e5f114e1.webp",
+            "bytes": 266882
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/title-v1-6dd158a061b6.webp",
+            "bytes": 480684
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/empty-rack-v7-72b7e8124350.webp",
+            "bytes": 245168
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/instruments-0-v340-76938297645a.webp",
+            "bytes": 353730
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/instruments-1-v340-6150d2118a3e.webp",
+            "bytes": 388338
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/instruments-2-v340-70ef6fdb738c.webp",
+            "bytes": 362166
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/drum-fixtures-v350-f0cb9b33edec.webp",
+            "bytes": 476468
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/drum-product-v350-ba9fa2bedda7.webp",
+            "bytes": 361754
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/accessories-v370-6e421341ee01.webp",
+            "bytes": 191004
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-everyday-a-v3120-01de2b6d6bf1.webp",
+            "bytes": 424962
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-everyday-b-v3120-261a72d7eec5.webp",
+            "bytes": 439230
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-regulars-a-v3120-ea82ae2ef2c4.webp",
+            "bytes": 303770
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-regulars-b-v3120-cf4d3049ceab.webp",
+            "bytes": 462006
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-story-a-v3120-0e766144609e.webp",
+            "bytes": 338742
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-story-b-v3120-f5cb829bb27f.webp",
+            "bytes": 382530
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-special-a-v3120-c8285d0d99d5.webp",
+            "bytes": 315958
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-special-b-v3120-77d3225194fc.webp",
+            "bytes": 414572
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-team-v3120-8cbc8872bbdc.webp",
+            "bytes": 635104
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/walk-drummer-v3120-0eedadf26ade.webp",
+            "bytes": 307480
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/decor-v3130-081efcce9a1c.webp",
+            "bytes": 343140
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/checkout-v3130-4e35c8b9a81c.webp",
+            "bytes": 222392
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/audition-v3130-b3c122779665.webp",
+            "bytes": 273642
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/vip-v3180-24079dc85ab0.webp",
+            "bytes": 595488
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/atelier-v3180-ef8eadf04a15.webp",
+            "bytes": 441484
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/interior-v3180-57e5c32a0863.webp",
+            "bytes": 284924
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/wall-details-v3190-df994cbeb69c.webp",
+            "bytes": 324114
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/acoustics-v3200-eee20c1b399a.webp",
+            "bytes": 276428
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/people-v3200-2dd07d4aae91.webp",
+            "bytes": 670218
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/lounge-v3200-343dd21133c5.webp",
+            "bytes": 486156
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/horizontal-v3200-234dc2c3c9be.webp",
+            "bytes": 588704
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/materials-v3230-8b17c419e92a.webp",
+            "bytes": 298016
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/app-411ca8276e28.js",
+            "bytes": 754363
+          },
+          {
+            "url": "http://127.0.0.1:8902/old/assets/props-v3230-70ac976db454.webp",
+            "bytes": 400966
+          }
+        ],
+        "bytes": 17489998
+      },
+      "errors": []
+    },
+    {
+      "name": "new",
+      "title": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:8902/new/index.html",
+            "bytes": 27926
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/style-8e10dd89f9bd.css",
+            "bytes": 122585
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/title-v1-6dd158a061b6.webp",
+            "bytes": 480684
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/noto-kr-regular-957bc4171fea.woff2",
+            "bytes": 60056
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/noto-kr-bold-5e0e17193ac5.woff2",
+            "bytes": 61348
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/boot-39fa0cd98a96.js",
+            "bytes": 6509
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/app-21e957c84f6b.js",
+            "bytes": 880373
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/title-v1-6dd158a061b6.webp",
+            "bytes": 480684
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/materials-v3230-8b17c419e92a.webp",
+            "bytes": 298016
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/props-v3230-70ac976db454.webp",
+            "bytes": 400966
+          }
+        ],
+        "bytes": 2819147
+      },
+      "first": {
+        "resources": [
+          {
+            "url": "http://127.0.0.1:8902/new/index.html",
+            "bytes": 27926
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/style-8e10dd89f9bd.css",
+            "bytes": 122585
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/title-v1-6dd158a061b6.webp",
+            "bytes": 480684
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/noto-kr-regular-957bc4171fea.woff2",
+            "bytes": 60056
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/noto-kr-bold-5e0e17193ac5.woff2",
+            "bytes": 61348
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/boot-39fa0cd98a96.js",
+            "bytes": 6509
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/app-21e957c84f6b.js",
+            "bytes": 880373
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/title-v1-6dd158a061b6.webp",
+            "bytes": 480684
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/materials-v3230-8b17c419e92a.webp",
+            "bytes": 298016
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/props-v3230-70ac976db454.webp",
+            "bytes": 400966
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/checkout-v3130-4e35c8b9a81c.webp",
+            "bytes": 222392
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/furniture-d160e4b8bc72.webp",
+            "bytes": 428526
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/furniture-back-e534b6506e33.webp",
+            "bytes": 412408
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/goods-v3-4f332ed23aab.webp",
+            "bytes": 337352
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/empty-rack-v7-72b7e8124350.webp",
+            "bytes": 245168
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/walk-everyday-a-v3120-01de2b6d6bf1.webp",
+            "bytes": 424962
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/walk-everyday-b-v3120-261a72d7eec5.webp",
+            "bytes": 439230
+          },
+          {
+            "url": "http://127.0.0.1:8902/new/assets/instruments-0-v340-76938297645a.webp",
+            "bytes": 353730
+          }
+        ],
+        "bytes": 5682915,
+        "deferredRetry": {
+          "stage": 7,
+          "preservesOnFailure": true
+        }
+      },
+      "errors": []
+    }
+  ]
+}

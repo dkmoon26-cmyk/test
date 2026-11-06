@@ -1,0 +1,114 @@
+{
+  "luxury": [
+    [
+      {
+        "file": "luxury-0-0.webp",
+        "w": 164,
+        "h": 353
+      },
+      {
+        "file": "luxury-0-1.webp",
+        "w": 160,
+        "h": 350
+      },
+      {
+        "file": "luxury-0-2.webp",
+        "w": 157,
+        "h": 349
+      },
+      {
+        "file": "luxury-0-3.webp",
+        "w": 197,
+        "h": 348
+      },
+      {
+        "file": "luxury-0-4.webp",
+        "w": 176,
+        "h": 349
+      },
+      {
+        "file": "luxury-0-5.webp",
+        "w": 166,
+        "h": 350
+      },
+      {
+        "file": "luxury-0-6.webp",
+        "w": 178,
+        "h": 350
+      }
+    ],
+    [
+      {
+        "file": "luxury-1-0.webp",
+        "w": 162,
+        "h": 347
+      },
+      {
+        "file": "luxury-1-1.webp",
+        "w": 156,
+        "h": 348
+      },
+      {
+        "file": "luxury-1-2.webp",
+        "w": 156,
+        "h": 349
+      },
+      {
+        "file": "luxury-1-3.webp",
+        "w": 195,
+        "h": 348
+      },
+      {
+        "file": "luxury-1-4.webp",
+        "w": 176,
+        "h": 348
+      },
+      {
+        "file": "luxury-1-5.webp",
+        "w": 168,
+        "h": 350
+      },
+      {
+        "file": "luxury-1-6.webp",
+        "w": 181,
+        "h": 349
+      }
+    ]
+  ],
+  "greenery": [
+    [
+      {
+        "file": "greenery-0-0.webp",
+        "w": 290,
+        "h": 318
+      },
+      {
+        "file": "greenery-0-1.webp",
+        "w": 363,
+        "h": 435
+      },
+      {
+        "file": "greenery-0-2.webp",
+        "w": 345,
+        "h": 439
+      }
+    ],
+    [
+      {
+        "file": "greenery-1-0.webp",
+        "w": 276,
+        "h": 333
+      },
+      {
+        "file": "greenery-1-1.webp",
+        "w": 362,
+        "h": 443
+      },
+      {
+        "file": "greenery-1-2.webp",
+        "w": 336,
+        "h": 433
+      }
+    ]
+  ]
+}
