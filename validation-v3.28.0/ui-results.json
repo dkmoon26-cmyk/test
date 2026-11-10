@@ -1,0 +1,4091 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 320,
+      "height": 720,
+      "name": "shop",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "business",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "employees",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "staffManagement",
+          "x": 17,
+          "y": 88,
+          "w": 286,
+          "h": 564.390625,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "missions",
+      "dialogs": [
+        {
+          "id": "missionDialog",
+          "x": 17,
+          "y": 88,
+          "w": 286,
+          "h": 445.1875,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "instruments",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "effects",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "supplies",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "decor",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "craft",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "visitors",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "relationships",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "vips",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "settings",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "saves",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 320,
+          "h": 618,
+          "cw": 318,
+          "sw": 318,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "saveManager",
+          "x": 17,
+          "y": 88,
+          "w": 286,
+          "h": 415.28125,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        318,
+        318
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "detail",
+      "dialogs": [
+        {
+          "id": "catalogDetail",
+          "x": 17,
+          "y": 139.03125,
+          "w": 286,
+          "h": 441.9375,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "workshop",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 26.078125,
+          "w": 286,
+          "h": 667.84375,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "parts",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 26.078125,
+          "w": 286,
+          "h": 667.84375,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "motifs",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 26.078125,
+          "w": 286,
+          "h": 667.84375,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 199.46875,
+          "y": 12,
+          "w": 73.53125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "settlement",
+      "dialogs": [
+        {
+          "id": "settlement",
+          "x": 17,
+          "y": 119.265625,
+          "w": 286,
+          "h": 481.46875,
+          "cw": 284,
+          "sw": 284,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 102.03125,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 196.0625,
+          "y": 12,
+          "w": 76.9375,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 320,
+      "account": {
+        "r": {
+          "day": 5,
+          "income": 16873000,
+          "expenses": 825000,
+          "net": 16048000,
+          "rent": 125000,
+          "wage": 40000
+        },
+        "money": 1005407800,
+        "ledger": 1005407800,
+        "shown": "+1,604.8만 원",
+        "expected": "+1,604.8만 원",
+        "order": [
+          {
+            "class": "settlement-row",
+            "y": 373.640625
+          },
+          {
+            "class": "settlement-row",
+            "y": 415.640625
+          },
+          {
+            "class": "settlement-row total",
+            "y": 221.859375
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 720,
+      "name": "long-name",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 100.84375,
+          "h": 66
+        },
+        ".wallet": {
+          "x": 196.0625,
+          "y": 12,
+          "w": 76.9375,
+          "h": 36
+        },
+        "#settings": {
+          "x": 278,
+          "y": 12,
+          "w": 30,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 214,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "shop",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "business",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "employees",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "staffManagement",
+          "x": 17,
+          "y": 88,
+          "w": 356,
+          "h": 525.390625,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "missions",
+      "dialogs": [
+        {
+          "id": "missionDialog",
+          "x": 17,
+          "y": 88,
+          "w": 356,
+          "h": 403.59375,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "instruments",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "effects",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "supplies",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "decor",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "craft",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "visitors",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "relationships",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "vips",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "settings",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "saves",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 390,
+          "h": 742,
+          "cw": 388,
+          "sw": 388,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "saveManager",
+          "x": 17,
+          "y": 88,
+          "w": 356,
+          "h": 415.28125,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        388,
+        388
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "detail",
+      "dialogs": [
+        {
+          "id": "catalogDetail",
+          "x": 17,
+          "y": 201.03125,
+          "w": 356,
+          "h": 441.9375,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "workshop",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 29.796875,
+          "w": 356,
+          "h": 784.40625,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "parts",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 29.796875,
+          "w": 356,
+          "h": 784.40625,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "motifs",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 29.796875,
+          "w": 356,
+          "h": 784.40625,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 111.5,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 252.953125,
+          "y": 12,
+          "w": 84.046875,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "settlement",
+      "dialogs": [
+        {
+          "id": "settlement",
+          "x": 17,
+          "y": 201.953125,
+          "w": 356,
+          "h": 440.078125,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 112.84375,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 248.96875,
+          "y": 12,
+          "w": 88.03125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "account": {
+        "r": {
+          "day": 5,
+          "income": 16873000,
+          "expenses": 825000,
+          "net": 16048000,
+          "rent": 125000,
+          "wage": 40000
+        },
+        "money": 1005407800,
+        "ledger": 1005407800,
+        "shown": "+1,604.8만 원",
+        "expected": "+1,604.8만 원",
+        "order": [
+          {
+            "class": "settlement-row",
+            "y": 414.9375
+          },
+          {
+            "class": "settlement-row",
+            "y": 456.9375
+          },
+          {
+            "class": "settlement-row total",
+            "y": 304.546875
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "settlement-profit",
+      "dialogs": [
+        {
+          "id": "settlement",
+          "x": 17,
+          "y": 201.953125,
+          "w": 356,
+          "h": 440.078125,
+          "cw": 354,
+          "sw": 354,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 112.84375,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 248.96875,
+          "y": 12,
+          "w": 88.03125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "long-name",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 137.09375,
+          "h": 68
+        },
+        ".wallet": {
+          "x": 248.96875,
+          "y": 12,
+          "w": 88.03125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 344,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 284,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "shop",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "business",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "employees",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "staffManagement",
+          "x": 114,
+          "y": 88,
+          "w": 540,
+          "h": 563,
+          "cw": 538,
+          "sw": 538,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "missions",
+      "dialogs": [
+        {
+          "id": "missionDialog",
+          "x": 114,
+          "y": 88,
+          "w": 540,
+          "h": 411.59375,
+          "cw": 538,
+          "sw": 538,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "instruments",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "effects",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "supplies",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "decor",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "craft",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "visitors",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "relationships",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "vips",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "settings",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "saves",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 0,
+          "y": 102,
+          "w": 736,
+          "h": 922,
+          "cw": 734,
+          "sw": 734,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "saveManager",
+          "x": 114,
+          "y": 88,
+          "w": 540,
+          "h": 415.28125,
+          "cw": 538,
+          "sw": 538,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        734,
+        734
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "detail",
+      "dialogs": [
+        {
+          "id": "catalogDetail",
+          "x": 204,
+          "y": 291.03125,
+          "w": 360,
+          "h": 441.9375,
+          "cw": 358,
+          "sw": 358,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "workshop",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 150.890625,
+          "w": 734,
+          "h": 722.21875,
+          "cw": 732,
+          "sw": 732,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "parts",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 122.96875,
+          "w": 734,
+          "h": 778.046875,
+          "cw": 732,
+          "sw": 732,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "motifs",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 17,
+          "y": 166.96875,
+          "w": 734,
+          "h": 690.046875,
+          "cw": 732,
+          "sw": 732,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 622.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "settlement",
+      "dialogs": [
+        {
+          "id": "settlement",
+          "x": 199,
+          "y": 291.953125,
+          "w": 370,
+          "h": 440.078125,
+          "cw": 368,
+          "sw": 368,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 129.0625,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 617.890625,
+          "y": 12,
+          "w": 97.109375,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 768,
+      "account": {
+        "r": {
+          "day": 5,
+          "income": 16873000,
+          "expenses": 825000,
+          "net": 16048000,
+          "rent": 125000,
+          "wage": 40000
+        },
+        "money": 1005407800,
+        "ledger": 1005407800,
+        "shown": "+1,604.8만 원",
+        "expected": "+1,604.8만 원",
+        "order": [
+          {
+            "class": "settlement-row",
+            "y": 504.9375
+          },
+          {
+            "class": "settlement-row",
+            "y": 546.9375
+          },
+          {
+            "class": "settlement-row total",
+            "y": 394.546875
+          }
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "long-name",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 12,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 617.890625,
+          "y": 12,
+          "w": 97.109375,
+          "h": 36
+        },
+        "#settings": {
+          "x": 722,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 662,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "shop",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1292.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "business",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "employees",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "staffManagement",
+          "x": 450,
+          "y": 88,
+          "w": 540,
+          "h": 563,
+          "cw": 538,
+          "sw": 538,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "missions",
+      "dialogs": [
+        {
+          "id": "missionDialog",
+          "x": 450,
+          "y": 88,
+          "w": 540,
+          "h": 411.59375,
+          "cw": 538,
+          "sw": 538,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "instruments",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "effects",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "supplies",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "decor",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "craft",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "visitors",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "relationships",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "vips",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "settings",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "saves",
+      "dialogs": [
+        {
+          "id": "management",
+          "x": 958,
+          "y": 88,
+          "w": 466,
+          "h": 800,
+          "cw": 464,
+          "sw": 464,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        },
+        {
+          "id": "saveManager",
+          "x": 450,
+          "y": 88,
+          "w": 540,
+          "h": 415.28125,
+          "cw": 538,
+          "sw": 538,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        464,
+        464
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 826.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 926,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 866,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "detail",
+      "dialogs": [
+        {
+          "id": "catalogDetail",
+          "x": 540,
+          "y": 229.03125,
+          "w": 360,
+          "h": 441.9375,
+          "cw": 358,
+          "sw": 358,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1292.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "workshop",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 160,
+          "y": 43.140625,
+          "w": 1120,
+          "h": 813.703125,
+          "cw": 1118,
+          "sw": 1118,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1292.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "parts",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 160,
+          "y": 43.140625,
+          "w": 1120,
+          "h": 813.703125,
+          "cw": 1118,
+          "sw": 1118,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1292.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "motifs",
+      "dialogs": [
+        {
+          "id": "workshopDialog",
+          "x": 160,
+          "y": 43.140625,
+          "w": 1120,
+          "h": 813.703125,
+          "cw": 1118,
+          "sw": 1118,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1292.421875,
+          "y": 12,
+          "w": 92.578125,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "settlement",
+      "dialogs": [
+        {
+          "id": "settlement",
+          "x": 535,
+          "y": 229.953125,
+          "w": 370,
+          "h": 440.078125,
+          "cw": 368,
+          "sw": 368,
+          "bg": "rgb(238, 242, 233)",
+          "font": "\"Little Tone UI\", sans-serif"
+        }
+      ],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 129.0625,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1287.890625,
+          "y": 12,
+          "w": 97.109375,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "account": {
+        "r": {
+          "day": 5,
+          "income": 16873000,
+          "expenses": 825000,
+          "net": 16048000,
+          "rent": 125000,
+          "wage": 40000
+        },
+        "money": 1005407800,
+        "ledger": 1005407800,
+        "shown": "+1,604.8만 원",
+        "expected": "+1,604.8만 원",
+        "order": [
+          {
+            "class": "settlement-row",
+            "y": 442.9375
+          },
+          {
+            "class": "settlement-row",
+            "y": 484.9375
+          },
+          {
+            "class": "settlement-row total",
+            "y": 332.546875
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "long-name",
+      "dialogs": [],
+      "panel": [
+        0,
+        0
+      ],
+      "fontLoaded": true,
+      "hud": {
+        ".shop-badge": {
+          "x": 14,
+          "y": 12,
+          "w": 127.578125,
+          "h": 72.5
+        },
+        ".wallet": {
+          "x": 1287.890625,
+          "y": 12,
+          "w": 97.109375,
+          "h": 36
+        },
+        "#settings": {
+          "x": 1392,
+          "y": 12,
+          "w": 34,
+          "h": 34
+        },
+        "#timeControlAnchor": {
+          "x": 1332,
+          "y": 53,
+          "w": 94,
+          "h": 34
+        }
+      }
+    }
+  ],
+  "failures": []
+}

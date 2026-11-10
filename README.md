@@ -1,13 +1,9 @@
-# 작은 선율 v3.27.0
+# 작은 선율 · v3.28.0
 
-**[일반 게임 ZIP 다운로드](https://github.com/dkmoon26-cmyk/test/raw/refs/heads/downloads/little-tone-v3.27.0/little-tone-v3.27.0-web.zip)**
+[게임 다운로드 · 전체 소스와 이미지 포함](https://github.com/dkmoon26-cmyk/test/raw/refs/heads/downloads/little-tone-v3.28.0/little-tone-v3.28.0-web.zip)
 
-VIP는 아치형 전체 유리·금색·월넛·버건디, 커스텀은 각진 전체 유리·검정·원목·초록으로 새로 제작했습니다. 낮은 가로 받침에 악기를 세워 전시하고, 일반 진열대·계산대·앰프·캐릭터와 같은 배율로 크기를 맞췄습니다. 기존 배치 칸 수·좌표·방향·가격은 유지합니다.
+사용자가 업로드한 v3.27.0 UI팩에 **회녹색 + Wanted Sans**를 전체 적용했습니다. 상단 정보, 메뉴, 주문·정산, 직원·미션·손님·VIP·설정·저장, 꾸미기와 커스텀 제작창을 통일했습니다.
 
-헤드·뒷넥 색상이 즉시 반영되도록 보완하고, 뒷넥 색상 선택 시 자동으로 뒷면을 보여줍니다. 문양은 바디 전체에서 움직이고4~180%까지 키울 수 있습니다. 바디 밖·사운드홀을 제외하고 픽업·픽가드·현 등 부품 뒤로 가려집니다.
+압축을 모두 풀어 사용하세요. **업데이트 전 저장을 파일로 백업하세요.** 기존 저장 스키마와 업로드 파일의 게임 규칙을 유지합니다.
 
-옵션·제작3,876검사, 확대 문양312검사, 실제 클릭·모바일 조작·색상 실패 조건·진열·판매·저장·첫 이어하기와 후반135영업일을 검증했습니다. 검사 범위와 한계는 보고서에 기록합니다.
-
-압축을 모두 풀어 파일을 함께 사용하세요. 실행 소스와 사용 이미지, 변경 모듈 원본을 포함합니다. **업데이트 전 저장을 파일로 백업하세요.**
-
-[패치 내용](./PATCH-v3.27.0.md) · [실제 비율 비교](./ui-v3.27.0-scale-comparison.png) · [게임 화면](./ui-v3.27.0-shop-desktop.png) · [검사 결과](./VALIDATION-v3.27.0.json) · [새 원화](./validation-v3.27.0/source-art) · [SHA-256](./SHA256SUMS)
+[패치 내용](./PATCH-v3.28.0.md) · [검사 결과](./VALIDATION-v3.28.0.json) · [모바일 화면](./validation-v3.28.0/ui-390-instruments.png) · [제작창](./validation-v3.28.0/ui-390-workshop.png) · [정산창](./validation-v3.28.0/ui-390-settlement-profit.png) · [PC 화면](./validation-v3.28.0/ui-1440-instruments.png) · [SHA-256](./SHA256SUMS)

@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "version": "3.28.0",
+  "schema": 32,
+  "base": "user-uploaded little-tone-v3_27_0-web-uipack.zip",
+  "files": 99,
+  "zipBytes": 20450810,
+  "sha256": "debbfdea81f9709360adc1d5e4faaa073d6cc383d485228dad4f4190c6e37c07",
+  "originalArtworkUnchanged": 55,
+  "htmlReferences": 4,
+  "manifestVerified": true,
+  "zipCRC": true,
+  "fonts": [
+    {
+      "file": "little-tone-ui-extra-2284f734b4a3.woff2",
+      "bytes": 1202528
+    },
+    {
+      "file": "little-tone-ui-ui-bd7bf36d627c.woff2",
+      "bytes": 89264
+    }
+  ]
+}

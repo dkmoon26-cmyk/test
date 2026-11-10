@@ -1,0 +1,70 @@
+{
+  "version": "3.28.0",
+  "base": "사용자가 업로드한 little-tone-v3_27_0-web-uipack.zip",
+  "pass": true,
+  "ui": {
+    "palette": "회녹색",
+    "font": "Wanted Sans Variable (배포 서브셋 Little Tone UI, SIL OFL 1.1)",
+    "viewports": [
+      "320×720",
+      "390×844",
+      "768×1024",
+      "1440×900"
+    ],
+    "functionalLayouts": 81,
+    "secondaryDialogLayouts": 66,
+    "verified": [
+      "상단 정보·긴 가게 이름·큰 금액·버튼 겹침",
+      "운영·직원·미션·악기·이펙터·소모품·꾸미기·제작·손님·단골·VIP·설정·저장 관리",
+      "단일 행 하위 메뉴와 실제 메뉴 이동",
+      "수량 3개 입력→주문: 실제 잔고 차감과 재고 증가",
+      "커스텀 색상 변경·부품·문양 탭",
+      "실제 정산과 기존 수지/새 이익 표시·정산 저장 복원",
+      "다음 날 진행·저장 내보내기와 가져오기"
+    ]
+  },
+  "regression": {
+    "coreChecks": 73,
+    "orderChecks": 13,
+    "actualVIPPurchasesWithMidVisitReload": 2,
+    "startupFaultLayouts": 18,
+    "fullTutorialViewports": 2,
+    "pinchZoomCases": 4,
+    "economyScenario": "후반 실제 게임 45영업일, seed17",
+    "economyDays": 45,
+    "economyFindings": [
+      []
+    ],
+    "economyErrors": [
+      []
+    ]
+  },
+  "package": {
+    "pass": true,
+    "version": "3.28.0",
+    "schema": 32,
+    "base": "user-uploaded little-tone-v3_27_0-web-uipack.zip",
+    "files": 99,
+    "zipBytes": 20450810,
+    "sha256": "debbfdea81f9709360adc1d5e4faaa073d6cc383d485228dad4f4190c6e37c07",
+    "originalArtworkUnchanged": 55,
+    "htmlReferences": 4,
+    "manifestVerified": true,
+    "zipCRC": true,
+    "fonts": [
+      {
+        "file": "little-tone-ui-extra-2284f734b4a3.woff2",
+        "bytes": 1202528
+      },
+      {
+        "file": "little-tone-ui-ui-bd7bf36d627c.woff2",
+        "bytes": 89264
+      }
+    ]
+  },
+  "limits": [
+    "Chromium의 관리자 정책이 file:// 탐색을 차단하여 로컬 파일 직접 실행은 이번 환경에서 검증하지 못했습니다. 실제 실행 검사는 HTTP 정적 서버에서 수행했습니다.",
+    "자동 검사 및 확인한 화면 범위의 결과이며 모든 기기와 모든 저장 상태의 무결함을 보증하지 않습니다.",
+    "45일 후반 시뮬은 단일 시드이며 전 단계 경제 균형을 새로 조정하거나 장기 균형 전체를 검증한 작업은 아닙니다."
+  ]
+}

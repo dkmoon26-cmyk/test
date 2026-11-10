@@ -1,0 +1,575 @@
+[
+  {
+    "mode": "normal",
+    "width": 1025,
+    "height": 672,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "normal",
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "normal",
+    "width": 390,
+    "height": 844,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 134,
+      "w": 366,
+      "h": 141,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "cross",
+    "width": 1025,
+    "height": 672,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "cross",
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "cross",
+    "width": 390,
+    "height": 844,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 134,
+      "w": 366,
+      "h": 141,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "denied",
+    "width": 1025,
+    "height": 672,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "denied",
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "denied",
+    "width": 390,
+    "height": 844,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 134,
+      "w": 366,
+      "h": 141,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "missing",
+    "width": 1025,
+    "height": 672,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "missing",
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "missing",
+    "width": 390,
+    "height": 844,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 134,
+      "w": 366,
+      "h": 141,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "missingAll",
+    "width": 1025,
+    "height": 672,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "missingAll",
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "missingAll",
+    "width": 390,
+    "height": 844,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 134,
+      "w": 366,
+      "h": 141,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "mode": "failure",
+    "width": 1025,
+    "height": 672,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [
+      "Optional shop artwork unavailable: planter InvalidStateError",
+      "Optional shop artwork unavailable: lamp InvalidStateError",
+      "Optional shop artwork unavailable: door InvalidStateError",
+      "Optional shop artwork unavailable: sign InvalidStateError"
+    ],
+    "errors": []
+  },
+  {
+    "mode": "failure",
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 126,
+      "w": 390,
+      "h": 120,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [
+      "Optional shop artwork unavailable: planter InvalidStateError",
+      "Optional shop artwork unavailable: lamp InvalidStateError",
+      "Optional shop artwork unavailable: door InvalidStateError",
+      "Optional shop artwork unavailable: sign InvalidStateError"
+    ],
+    "errors": []
+  },
+  {
+    "mode": "failure",
+    "width": 390,
+    "height": 844,
+    "before": {
+      "phase": "prepare",
+      "tutorial": true,
+      "step": 0,
+      "design": {
+        "wall": "original",
+        "floor": "original",
+        "vipFloor": "walnut",
+        "vipWall": "sage",
+        "wallItems": []
+      }
+    },
+    "rect": {
+      "x": 12,
+      "y": 134,
+      "w": 366,
+      "h": 141,
+      "parent": "tutorialHome"
+    },
+    "after": {
+      "phase": "prepare",
+      "step": 1,
+      "money": 4500000
+    },
+    "warnings": [
+      "Optional shop artwork unavailable: planter InvalidStateError",
+      "Optional shop artwork unavailable: lamp InvalidStateError",
+      "Optional shop artwork unavailable: door InvalidStateError",
+      "Optional shop artwork unavailable: sign InvalidStateError"
+    ],
+    "errors": []
+  }
+]
